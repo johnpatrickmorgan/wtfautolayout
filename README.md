@@ -1,7 +1,9 @@
-<p align="center">
+<div align="center">
 	<img width="120" src="http://www.wtfautolayout.com/images/wtf-logo.svg"></img>
-</p>
-# WTF Auto Layout?
+</div>
+
+WTF Auto Layout?
+================
 
 ![Swift](https://img.shields.io/badge/Swift-3.1-green.svg?style=flat) ![Vapor](https://img.shields.io/badge/Vapor-2.0-green.svg?style=flat)
 
