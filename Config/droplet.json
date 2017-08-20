@@ -1,0 +1,45 @@
+{
+    "//": "The type of server to use for handling requests.",
+    "//": "engine: Vapor's blazing fast Engine HTTP server.",
+    "server": "engine",
+
+    "//": "The type of client to use for requesting data from other services.",
+    "//": "engine: Vapor's blazing fast Engine HTTP client.",
+    "//": "foundation: A wrapper around Foundation's URLSession.",
+    "client": "engine",
+
+    "//": "The type of console to use for displaying information and prompting input.",
+    "//": "terminal: Vapor's default terminal console.",
+    "console": "terminal",
+
+    "//": "The type of logger to use for recording logs, warnings, errors, etc.",
+    "//": "console: Vapor's default logger sends logs directly to the chosen console.",
+    "log": "console",
+
+    "//": "The type of hasher to use for hashing messages.",
+    "//": "crypto: Vapor's default hasher powered by OpenSSL (configure in crypto.json)",
+    "//": "bcrypt: Performant BCrypt hashing implementation (configure in bcrypt.json)",
+    "hash": "crypto",
+
+    "//": "The type of cipher to use for encrypting and decrypting messages.",
+    "//": "crypto: Vapor's default cipher powered by OpenSSL (configure in crypto.json)",
+    "cipher": "crypto",
+
+    "//": "The type of view renderer that drop.view will use",
+    "//": "leaf: Pure Swift templating language created for Vapor.",
+    "//": "static: Simply return the view at the supplied path",
+    "view": "leaf",
+
+    "//": "Choose which middleware are enabled (and in which order).",
+    "//": "error: Catches errors thrown in your application and returns a nice response.",
+    "//": "date: Adds the 'Date' header to HTTP requests.",
+    "//": "file: Catches 404 errors and checks for files in the Public/ folder",
+    "middleware": [
+        "error",
+        "date",
+        "file"
+    ],
+
+    "//": "Choose which commands this application can run",
+    "commands": []
+}

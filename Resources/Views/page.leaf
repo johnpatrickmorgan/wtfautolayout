@@ -1,0 +1,42 @@
+#extend("base")
+
+#export("body") {
+
+#import("definitions")
+
+<!-- Navbar -->
+
+<div class="w3-top">
+    <div class="w3-bar w3-theme-dark w3-left-align w3-large">
+<a href="/" class="tab w3-bar-item w3-button #equal(page, "home") {w3-theme-l1} #equal(page, "output") {w3-theme-l1} #equal(page, "error") {w3-theme-l1} {w3-theme-l1} w3-hover-dark-grey">Home</a>
+        <a href="/about" class="tab w3-bar-item w3-button #equal(page, "about") {w3-theme-l1} w3-hover-dark-grey">About</a>
+
+    </div>
+</div>
+
+<div style="height:20px;"></div>
+
+<!-- Main content -->
+
+<div class="w3-main main">
+    <div class="w3-content w3-container w3-padding-32">
+        #import("content")
+    </div>
+</div>
+
+<!-- Footer -->
+
+<div style="height:64px;"></div>
+
+<footer>
+    <div class="w3-bar w3-theme-l1 w3-small w3-hide-small">
+        <div class="w3-bar-item w3-left" style="color:white">Built using <a href="https://swift.org/">Swift</a>, <a href="https://vapor.codes">Vapor</a>, <a href="https://github.com/johnpatrickmorgan/Sparse">Sparse</a> and <a href="https://www.w3schools.com/w3css/">W3.CSS</a>
+        </div>
+    </div>
+    <div class="w3-bar w3-theme-dark w3-small">
+        <div class="w3-bar-item w3-left">View source on <a href="https://www.github.com/johnpatrickmorgan/wtfautolayout" target="_blank">GitHub</a>
+        </div>
+        <a href="https://www.github.com/johnpatrickmorgan" class="w3-bar-item w3-hover-opacity w3-small w3-right" target="_blank">johnpatrickmorgan</a>
+    </div>
+</footer>
+}

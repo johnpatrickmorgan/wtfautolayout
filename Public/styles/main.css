@@ -1,0 +1,200 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+.initial {
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 160%;
+    font-weight: 200;
+    line-height: 1.1;
+}
+
+h2 strong {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
+}
+
+p a {
+    font-weight: 400;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #777777;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    font-size: 90%;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.mono {
+    font-family: 'Fira Mono', sans-serif;
+}
+
+.main {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.description {
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    flex-grow: 6;
+    width: 320px;
+}
+
+.about {
+    max-width: 800px;
+    margin: auto;
+}
+
+.tab {
+    font-weight: 400;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 0.4s, height 0.4s, -webkit-transform 0.4s;
+    -moz-transition: width 0.4s, height 0.4s, -moz-transform 0.4s;
+    -o-transition: width 0.4s, height 0.4s, -o-transform 0.4s;
+    -ms-transition: width 0.4s, height 0.4s, -ms-transform 0.4s;
+    transition: width 0.4s, height 0.4s, transform 0.4s;
+}
+
+.logo:hover {
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.bumf {
+    font-size: 12px;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    max-height: 150px;
+}
+
+.star-button {
+    border-width: 0px;
+    overflow: hidden;
+}
+
+.alert {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.row {
+    background: #FF00FF;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.pictorial {
+    flex-grow: 2;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+}
+
+.diagram-line {
+    stroke: #000000;
+    stroke-linecap: square;
+    stroke-width: 3px;
+}
+
+.initial {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.suffix {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pictorial {
+    min-width: 320px;
+}
+
+.relationship {
+    font-size: 300%;
+    font-weight: 600;
+}
+
+.constant,
+.multiplier {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.tooltip {
+    position: absolute;
+    left: 0;
+    top: 65px;
+    z-index: 12;
+    text-align: left;
+    background-color: #f4f9ff;
+}

@@ -1,0 +1,8 @@
+<!-- Hero -->
+
+<div class="hero flex-container w3-padding-16">
+  <img class="logo w3-padding-small" width="80" src="images/wtf-logo.svg" alt="WTF Auto Layout logo"/>
+  <div class="w3-padding-small">
+    <h2>Why The Failure,<br /><strong>Auto Layout</strong>?</h2>
+  </div>
+</div>

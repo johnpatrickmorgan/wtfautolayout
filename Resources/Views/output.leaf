@@ -1,0 +1,99 @@
+#extend("page")
+
+#export("definitions") {
+
+<!-- SVG Definitions -->
+
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+          <path d="M6,0 L6,6 L0,3 z" fill="#()000" />
+      </marker>
+      <marker id="arrowEnd" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+          <path d="M0,0 L0,6 L6,3 z" fill="#()000" />
+      </marker>
+      <rect id="diagram-background" class="diagram-outline" style="stroke-width:1;stroke:rgb(0,0,0);" width="100%" height="100%" />
+      <polyline id="leading" class="diagram-line" points="0,0 0,50" style="stroke-width: 12%;"/>
+      <polyline id="trailing" class="diagram-line" points="50,50 50,0" style="stroke-width: 12%;"/>
+      <polyline id="top" class="diagram-line" points="0,0 50,0" style="stroke-width: 12%;"/>
+      <polyline id="bottom" class="diagram-line" points="50,50 0,50" style="stroke-width: 12%;"/>
+      <polyline id="leadingMargin" class="diagram-line" points="5,0 5,50" style="stroke-width: 12%;"/>
+      <polyline id="trailingMargin" class="diagram-line" points="45,50 45,0" style="stroke-width: 12%;"/>
+      <polyline id="topMargin" class="diagram-line" points="0,5 50,5" style="stroke-width: 12%;"/>
+      <polyline id="bottomMargin" class="diagram-line" points="50,45 0,45" style="stroke-width: 12%;"/>
+      <polyline id="baseline" class="diagram-line" points="0,46 50,46" style="stroke-width: 8%;stroke-dasharray:2,6;"/>
+      <polyline id="centerY" class="diagram-line" points="0,25 50,25" style="stroke-width: 12%;"/>
+      <polyline id="centerX" class="diagram-line" points="25,50 25,0" style="stroke-width: 12%;"/>
+      <polyline id="width" class="diagram-line" points="15,25 35,25" style="stroke-width: 12%;" marker-start="url(#()arrowStart)" marker-end="url(#()arrowEnd)"/>
+      <polyline id="height" class="diagram-line" points="25,35 25,15" style="stroke-width: 12%;" marker-start="url(#()arrowStart)" marker-end="url(#()arrowEnd)"/>
+    </defs>
+</svg>
+}
+
+#export("content") {
+
+<!-- Constraints -->
+
+#loop(constraints, "constraint") {
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-hover-white w3-border">
+    <div class="pictorial w3-dark-grey w3-container" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#()diagram-background" style="fill:#(constraint.first.instance.color)" x="0" y="0" />
+                <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">#(constraint.first.instance.initial)</text>
+                    <use xlink:href="#()#(constraint.first.attribute)" x="0" y="0" />
+                <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white">#(constraint.first.instance.suffix)</text>
+                <use xlink:href="#()#(constraint.first.attribute)" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                <strong>#(constraint.first.instance.name)#(constraint.first.instance.suffix)</strong>.#(constraint.first.attribute)<br />
+                    #(constraint.first.instance.class)<br />
+#if(constraint.first.instance.identifier) { <em>#(constraint.first.instance.identifier)</em><br /> }
+                    #(constraint.first.instance.address)
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                #(constraint.relation)
+            </div>
+#if(constraint.second) {
+            <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#()diagram-background" style="fill:#(constraint.second.instance.color)" x="0" y="0" />
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">#(constraint.second.instance.initial)</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white">#(constraint.second.instance.suffix)</text>
+                    <use xlink:href="#()#(constraint.second.attribute)" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>#(constraint.second.instance.name)#(constraint.second.instance.suffix)</strong>.#(constraint.second.attribute)<br />
+                        #(constraint.second.instance.class)<br />
+#if(constraint.second.instance.identifier) { <em>#(constraint.second.instance.identifier)</em><br /> }
+                    #(constraint.second.instance.address)
+                </div>
+            </div>
+}
+#if(constraint.multiplier) {
+            <div class="multiplier w3-padding-small w3-cell w3-cell-middle">
+                #(constraint.multiplier)
+            </div>
+}
+#if(constraint.constant) {
+            <div class="constant w3-padding-small w3-cell w3-cell-middle">
+                #(constraint.constant.prefix)#(constraint.constant.value)
+            </div>
+}
+        </div>
+    </div>
+
+    <div class="description w3-section w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        #(constraint.description)<sup>#(constraint.footnote.marker)</sup>
+    </div>
+</div>
+}
+#loop(footnotes, "footnote") {
+<p class="footnotes"><sup>#(footnote.marker)</sup> #(footnote.text)</p>
+}
+#if(permalink) {
+<a href="?constraintlog=#(permalink)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
+}
+}

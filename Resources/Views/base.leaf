@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WTF Auto Layout?</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
+
+    <!-- App Icons -->
+    <link rel="apple-touch-icon" href="/images/Icon_120x120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/Icon_180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/Icon_152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/images/Icon_167x167.png">
+
+    <!-- OG/Twitter Metadata -->
+	<meta property="og:type" content="website" />
+    <meta property="og:title" content="WTF Auto Layout?">
+    <meta property="og:description" content="Make sense of cryptic Auto Layout error logs.">
+    <meta property="og:image" content="/images/Card.png">
+    <meta property="og:url" content="https://www.wtfautolayout.com">
+    <meta property="og:site_name" content="WTF Auto Layout?">
+    <meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@jpmmusic" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-78016335-2', 'auto');
+      ga('send', 'pageview', '#(page)');
+
+    </script>
+    #import("head")
+</head>
+<body class="w3-theme-l5">
+    #import("body")
+</body>
+</html>
