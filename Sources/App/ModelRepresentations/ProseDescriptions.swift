@@ -79,7 +79,7 @@ extension Constant {
         
         let positivePrefix = includePositivePrefix ? "plus" : nil
         let prefix: String? = value == 0.0 ? nil : value > 0.0 ? positivePrefix : "minus"
-        let number = format(number: value)
+        let number = format(number: abs(value))
         
         return [prefix, number].flatMap { $0 }.joined(separator: " ")
     }
