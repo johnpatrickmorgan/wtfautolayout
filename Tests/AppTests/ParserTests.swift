@@ -21,7 +21,8 @@ class ParserTests: XCTestCase {
             ParserTests.custom4,
             ParserTests.custom5,
             ParserTests.custom6,
-            ParserTests.custom7
+            ParserTests.custom7,
+            ParserTests.custom8
         ]
         
         for input in inputs {

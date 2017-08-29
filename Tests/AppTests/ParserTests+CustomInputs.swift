@@ -74,4 +74,11 @@ extension ParserTests {
         "\"<NSLayoutConstraint:0x697d40 'UIView-Encapsulated-Layout-Height' UITableViewCell:0x7fd39b20.height == 80>\"",
         ")"
         ].joined(separator: "\n")
+    
+    /// https://github.com/johnpatrickmorgan/wtfautolayout/issues/1
+    static let custom8 = [
+        "(",
+        "\"<NSLayoutConstraint:0x17468b860 progress background.height == 5   (active, names: progress background:0x1089a5290 )>\"",
+        ")"
+        ].joined(separator: "\n")
 }
