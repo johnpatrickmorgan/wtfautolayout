@@ -2,18 +2,18 @@ import Foundation
 
 extension Constraint {
     
-    func proseDescription(annotations: [Instance: Annotation]) -> String {
+    func htmlDescription(annotations: [Instance: Annotation]) -> String {
         
-        let one = first.proseDescription(annotation: annotations[first.layoutItem])
-        let two = second?.proseDescription(annotation: second.flatMap { annotations[$0.layoutItem] })
+        let one = first.htmlDescription(annotation: annotations[first.layoutItem])
+        let two = second?.htmlDescription(annotation: second.flatMap { annotations[$0.layoutItem] })
         let hideMultiplicand = multiplier.value == 1.0
-        let multiplicand = hideMultiplicand ? nil : multiplier.proseDescription()
+        let multiplicand = hideMultiplicand ? nil : multiplier.htmlDescription()
         let hideSummand = constant.value == 0.0 && second != nil
-        let summand = hideSummand ? nil : constant.proseDescription(includePositivePrefix: second != nil)
+        let summand = hideSummand ? nil : constant.htmlDescription(includePositivePrefix: second != nil)
         
         return [
             one,
-            relation.proseDescription(),
+            relation.htmlDescription(),
             two,
             multiplicand,
             summand
@@ -23,15 +23,15 @@ extension Constraint {
 
 extension LayoutItemAttribute {
     
-    func proseDescription(annotation: Annotation? = nil) -> String {
+    func htmlDescription(annotation: Annotation? = nil) -> String {
         
-        return "\(layoutItem.prettyName)\(annotation?.uniquingSuffix ?? "")'s \(attribute.proseDescription())"
+        return "<code>\(layoutItem.prettyName)\(annotation?.uniquingSuffix ?? "")</code>'s \(attribute.htmlDescription())"
     }
 }
 
 extension Attribute {
     
-    func proseDescription() -> String {
+    func htmlDescription() -> String {
         
         switch self {
         case .leading:          return "leading edge"
@@ -53,7 +53,7 @@ extension Attribute {
 
 extension Constraint.Relation {
     
-    func proseDescription() -> String {
+    func htmlDescription() -> String {
         switch self {
         case .equal:
             return "should equal"
@@ -67,7 +67,7 @@ extension Constraint.Relation {
 
 extension Multiplier {
     
-    func proseDescription() -> String {
+    func htmlDescription() -> String {
         
         return "multiplied by \(format(number: value))"
     }
@@ -75,7 +75,7 @@ extension Multiplier {
 
 extension Constant {
     
-    func proseDescription(includePositivePrefix: Bool = false) -> String {
+    func htmlDescription(includePositivePrefix: Bool = false) -> String {
         
         let positivePrefix = includePositivePrefix ? "plus" : nil
         let prefix: String? = value == 0.0 ? nil : value > 0.0 ? positivePrefix : "minus"

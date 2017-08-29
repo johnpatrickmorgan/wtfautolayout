@@ -54,7 +54,7 @@ extension Constraint: NodeRepresentable {
             "relation": try relation.makeNode(in: context),
             "constant": hideConstant ? .null : try constant.makeNode(in: context, includePositivePrefix: second != nil),
             "multiplier": try multiplier.makeNode(in: context),
-            "description": .string(proseDescription(annotations: annotations)),
+            "description": .bytes(htmlDescription(annotations: annotations).bytes),
             "footnote": try footnote?.makeNode(in: context) ?? .null
         ]
         
