@@ -7,13 +7,13 @@
     <!-- About -->
       <div class="about">
           <div class="bumf w3-panel w3-margin w3-padding w3-white w3-text-blue-gray w3-border-blue-gray w3-border w3-hide-small">
-            <code class="mono">
+            <div class="mono">
               Unable to simultaneously satisfy constraints. Probably at least one of the constraints in the following list is one you don't want. Try this: (1) look at each constraint and try to figure out which you don't expect; (2) find the code that added the unwanted constraint or constraints and fix it. (Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints)<br />
               (<br />
               &emsp;&emsp;"&lt;NSAutoresizingMaskLayoutConstraint:0x1f5b3d10 h=--& v=--& V:[UIView:0x1f5a2f70(460)]&gt;",<br />
               &emsp;&emsp;"&lt;NSLayoutConstraint:0x1f5a3c80 V:[UIView:0x1f5a31b0]-(385)-|   (Names: '|':UIView:0x1f5a3120 )&gt;",<br />
               )<br />
-            </code>
+            </div>
           </div>
           <p>
             <em>Auto Layout</em> on iOS and macOS is awesome. But when it goes wrong, the error logs are a pain to decipher.

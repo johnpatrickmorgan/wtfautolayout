@@ -39,6 +39,17 @@ p a {
     font-weight: 400;
 }
 
+code {
+    font-family: 'Fira Mono', sans-serif;
+    font-size: 90%;
+    background: #F6F6F6;
+    border-style: solid;
+    border-color: #EEE;
+    border-width: 1px;
+    padding: 2px;
+    font-weight: 300;
+}
+
 span {
     display: inline-block;
     vertical-align: middle;
