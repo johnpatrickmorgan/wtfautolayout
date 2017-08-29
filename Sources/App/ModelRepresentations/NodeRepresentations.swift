@@ -173,7 +173,7 @@ extension Footnote: NodeRepresentable {
         
         return [
             "marker": .string(marker),
-            "text": .string(text)
+            "text": .bytes(htmlText.bytes)
         ]
     }
 }
