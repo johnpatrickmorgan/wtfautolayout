@@ -100,7 +100,8 @@ extension Instance: NodeRepresentable {
     
     func makeObject(in context: Context?, annotation: Annotation? = nil) throws -> [String: Node] {
         
-        let initial = String(prettyName.characters.prefix(1))
+        let firstAlphanumeric = prettyName.unicodeScalars.first { CharacterSet.alphanumerics.contains($0) }
+        let initial = firstAlphanumeric.map { String($0).uppercased() } ?? ""
         return [
             "address": .string(address),
             "class": .string(className),
