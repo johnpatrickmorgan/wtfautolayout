@@ -18,7 +18,7 @@ extension ConstraintsParser {
         .map(flatten)
         .map { (Instance(className: $0, address: $1, identifier: $3), $2) }
     
-    static let partialInstance = instance.map({ PartialInstance.instance($0) }).otherwise(partialInstanceName)
+    static let partialInstance = instance.map({ PartialInstance.instance($0) }).otherwise(partialInstanceIdentifier)
 }
 
 private extension ConstraintsParser {
@@ -28,7 +28,7 @@ private extension ConstraintsParser {
     static let identifier = many(characterNot("'"), boundedBy: sqm).asString()
     static let fileLocation = string("@").skipThen(many(character(condition: isClassNameCharacter), untilSkipping: character("#")).asString()).then(integer)
 
-    static let partialInstanceName = many(characterNot(in: " []|()\n<>\""), untilSkipping: dotAttribute.withoutConsuming()).asString()
+    static let partialInstanceIdentifier = many(characterNot(in: "[]|()\n<>\""), untilSkipping: dotAttribute.withoutConsuming()).asString()
         .map { PartialInstance.identifier($0) }
     
     static let classOrName = many(anyCharacter(), untilSkipping: colon).asString()

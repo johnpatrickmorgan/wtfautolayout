@@ -54,7 +54,7 @@ extension Constraint: NodeRepresentable {
             "relation": try relation.makeNode(in: context),
             "constant": hideConstant ? .null : try constant.makeNode(in: context, includePositivePrefix: second != nil),
             "multiplier": try multiplier.makeNode(in: context),
-            "description": .string(proseDescription(annotations: annotations)),
+            "description": .bytes(htmlDescription(annotations: annotations).bytes),
             "footnote": try footnote?.makeNode(in: context) ?? .null
         ]
         
@@ -100,7 +100,8 @@ extension Instance: NodeRepresentable {
     
     func makeObject(in context: Context?, annotation: Annotation? = nil) throws -> [String: Node] {
         
-        let initial = String(prettyName.characters.prefix(1))
+        let firstAlphanumeric = prettyName.unicodeScalars.first { CharacterSet.alphanumerics.contains($0) }
+        let initial = firstAlphanumeric.map { String($0).uppercased() } ?? ""
         return [
             "address": .string(address),
             "class": .string(className),
@@ -172,7 +173,7 @@ extension Footnote: NodeRepresentable {
         
         return [
             "marker": .string(marker),
-            "text": .string(text)
+            "text": .bytes(htmlText.bytes)
         ]
     }
 }
