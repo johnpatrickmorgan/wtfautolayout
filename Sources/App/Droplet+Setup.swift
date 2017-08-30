@@ -8,7 +8,7 @@ extension Droplet {
         get { req in
             
             if let input = req.data["constraintlog"]?.string {
-                return try outputView(for: input)
+                return try outputView(for: input, includePermalink: false)
             }
 
             let showExample = req.data["example"]?.bool ?? false
@@ -37,12 +37,12 @@ extension Droplet {
             return try self.view.make("about", context)
         }
 
-        func outputView(for input: String) throws -> View {
+        func outputView(for input: String, includePermalink: Bool = true) throws -> View {
             
             do {
                 let constraints = try ConstraintsParser.parse(log: input)
                 let group = ConstraintGroup(constraints, raw: input)
-                var node = try group.makeNode(in: nil)
+                var node = try group.makeNode(in: nil, includePermalink: includePermalink)
                 node["page"] = "output"
                 
                 return try self.view.make("output", node)
