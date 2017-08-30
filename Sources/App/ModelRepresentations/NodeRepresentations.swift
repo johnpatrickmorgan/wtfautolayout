@@ -8,6 +8,11 @@ extension ConstraintGroup: NodeRepresentable {
     
     func makeNode(in context: Context?) throws -> Node {
         
+        return try makeNode(in: context, includePermalink: true)
+    }
+    
+    func makeNode(in context: Context?, includePermalink: Bool) throws -> Node {
+        
         let layoutItemNodes = try layoutItems.map { item in
             try item.makeNode(in: context, annotation: annotations[item])
         }
@@ -18,10 +23,20 @@ extension ConstraintGroup: NodeRepresentable {
             try footnote.makeNode(in: context)
         }
         
-        let trimmed = raw.trim(characters: ["(", ")", "\n"])
-            .components(separatedBy: .newlines).map({ $0.trim(characters: [" "]) }).joined(separator: "\n")
-            .addingPercentEncoding(withAllowedCharacters: .alphanumerics)
-        let permalink = (trimmed?.characters.count ?? 0) < maximumPermalinkLength ? trimmed : nil
+        let permalink: String?
+        
+        if includePermalink {
+            let trimmed = raw
+                .trim(characters: Array("()\n\r\r\n".characters))
+                .components(separatedBy: .newlines)
+                .map({ $0.trim(characters: [" "]) })
+                .filter { !$0.isEmpty }
+                .joined(separator: "\n")
+                .addingPercentEncoding(withAllowedCharacters: .alphanumerics)
+            permalink = (trimmed?.characters.count ?? 0) < maximumPermalinkLength ? trimmed : nil
+        } else {
+            permalink = nil
+        }
         
         return .object([
             "layoutItems": .array(layoutItemNodes),
