@@ -35,7 +35,7 @@
 <!-- Constraints -->
 
 #loop(constraints, "constraint") {
-<div class="row flex-container w3-white w3-hover-shadow w3-section w3-hover-white w3-border">
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
     <div class="pictorial w3-dark-grey w3-container" style="margin:auto;">
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
@@ -85,7 +85,7 @@
         </div>
     </div>
 
-    <div class="description w3-section w3-padding-small w3-mobile w3-cell w3-cell-middle">
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
         #(constraint.description)<sup>#(constraint.footnote.marker)</sup>
     </div>
 </div>

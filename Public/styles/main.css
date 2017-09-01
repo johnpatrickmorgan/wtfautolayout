@@ -88,10 +88,9 @@ footer {
 
 .description {
     font-weight: 300;
-    line-height: 1.2;
-    margin-top: 0;
-    margin: 0;
-    padding: 0;
+    line-height: 1.4;
+    margin: 8px;
+    padding: 0px;
     flex-grow: 6;
     width: 320px;
 }
