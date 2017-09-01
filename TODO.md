@@ -10,4 +10,3 @@ TODO
 - Show info tooltip about constraint on hover
 - Easier permalink copying
 - Improve output layout on Firefox
-- Multiple examples
