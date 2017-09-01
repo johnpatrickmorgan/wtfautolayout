@@ -81,4 +81,17 @@ extension ParserTests {
         "\"<NSLayoutConstraint:0x17468b860 progress background.height == 5   (active, names: progress background:0x1089a5290 )>\"",
         ")"
         ].joined(separator: "\n")
+    
+    /// https://github.com/johnpatrickmorgan/wtfautolayout/issues/2
+    static let custom9 = [
+        "(",
+        "\"<NSAutoresizingMaskLayoutConstraint:0x181af7c0 AWPProductOnMapView:0x4dbb090.height == 234>\",",
+        "\"<NSLayoutConstraint:0x181cef70 UIImageView:0x4db3270.width == UIImageView:0x4db3270.height * 0.384615>\",",
+        "\"<NSLayoutConstraint:0x181d2d20 UIImageView:0x4db3270.width == 85>\",",
+        "\"<NSLayoutConstraint:0x4dc7b00 UIView:0x4db5710.bottom == UIImageView:0x4db3270.bottom + 25>\",",
+        "\"<NSLayoutConstraint:0x4dc7bd0 UIImageView:0x4db3270.top == UIView:0x4db5710.top + 2>\",",
+        "\"<NSLayoutConstraint:0x4dc85a0 AWPProductOnMapView:0x4dbb090.bottom == UIView:0x4db5710.bottom>\",",
+        "\"<NSLayoutConstraint:0x4dc8630 UIView:0x4db5710.top == AWPProductOnMapView:0x4dbb090.top>\"",
+        ")"
+        ].joined(separator: "\n")
 }
