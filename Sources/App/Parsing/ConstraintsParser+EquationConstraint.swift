@@ -7,12 +7,12 @@ import Sparse
 extension ConstraintsParser {
     
     static let equationConstraint = layoutItemAttribute.thenSkip(wss).then(relation)
-        .thenSkip(wss).then(multiplier).then(optional(layoutItemAttribute))
-        .thenSkip(wss).then(constant).then(optionalInfo)
-        .map { try AnonymousConstraint(first: $0.0.0.0.0,
-                                       relation: $0.0.0.0.1,
-                                       multiplier: $0.0.0.1,
-                                       second: $0.0.1,
+        .thenSkip(wss).then(preMultiplier).then(optional(layoutItemAttribute))
+        .thenSkip(wss).then(postMultiplier).then(constant).then(optionalInfo)
+        .map { try AnonymousConstraint(first: $0.0.0.0.0.0,
+                                       relation: $0.0.0.0.0.1,
+                                       multiplier: $0.0.0.0.1 ?? $0.0.1 ?? Multiplier(),
+                                       second: $0.0.0.1,
                                        constant: $0.1,
                                        names: $1) }
 }
@@ -21,6 +21,6 @@ private extension ConstraintsParser {
     
     static let layoutItemAttribute = partialInstance.then(dotAttribute)
     static let constant = number.map(Constant.init).otherwise(pure(Constant()))
-    static let multiplier = number.thenSkip(string("*"))
-        .map(Multiplier.init).otherwise(pure(Multiplier()))
+    static let preMultiplier = optional(number.thenSkip(string("*")).map(Multiplier.init))
+    static let postMultiplier = optional(string("*").skipThen(wss).skipThen(number).map(Multiplier.init))
 }
