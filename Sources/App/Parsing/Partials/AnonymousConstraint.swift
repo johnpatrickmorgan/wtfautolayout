@@ -25,7 +25,7 @@ extension AnonymousConstraint {
     }
     
     
-    init(axis: Attribute.Axis, partialInstance1: PartialInstance, comparison: (relation: Constraint.Relation, amount: Double), partialInstance2: PartialInstance, names: [String:Instance]) throws {
+    init(axis: Attribute.Axis, partialInstance2: PartialInstance, comparison: (relation: Constraint.Relation, amount: Double), partialInstance1: PartialInstance, names: [String:Instance]) throws {
         
         let instance1 = try partialInstance1.getInstance(names: names)
         let instance2 = try partialInstance2.getInstance(names: names)
@@ -33,11 +33,11 @@ extension AnonymousConstraint {
         let pinpoints: (Attribute.PinPoint, Attribute.PinPoint) = {
             switch (partialInstance1, partialInstance2) {
             case (.superview, _):
-                return (.start, .start)
-            case (_, .superview):
                 return (.end, .end)
+            case (_, .superview):
+                return (.start, .start)
             default:
-                return (.end, .start)
+                return (.start, .end)
             }
         }()
         
