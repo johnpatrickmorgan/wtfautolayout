@@ -28,25 +28,13 @@ extension Instance {
     
     var prettyTypeName: String {
         
-        let simpleTypes = [
-            "LayoutMarginsGuide",
-            "LayoutGuide",
-            "Label",
-            "Button",
-            "Slider",
-            "ImageView",
-            "Cell",
-            "TextField",
-            "Switch",
-            "Picker",
-            "Window",
-            "SegmentedControl",
-            "TableView",
-            "CollectionView",
-            "View"
-        ]
+        let prefixToTrim = "UI"
         
-        return simpleTypes.first(where: { className.hasSuffix($0) }) ?? shortClassName
+        guard shortClassName.hasPrefix(prefixToTrim) else {
+            return shortClassName
+        }
+        
+        return shortClassName.substring(from: prefixToTrim.endIndex)
     }
     
     var prettyName: String {
