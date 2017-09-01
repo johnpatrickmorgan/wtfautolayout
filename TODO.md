@@ -11,4 +11,3 @@ TODO
 - Easier permalink copying
 - Improve output layout on Firefox
 - Multiple examples
-- Check for introductory text in error log
