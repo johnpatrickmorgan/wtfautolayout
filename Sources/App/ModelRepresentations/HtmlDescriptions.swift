@@ -69,7 +69,7 @@ extension Multiplier {
     
     func htmlDescription() -> String {
         
-        return "multiplied by \(format(number: value))"
+        return "multiplied by \(format(number: value, maximumFractionDigits: 3))"
     }
 }
 

@@ -149,7 +149,7 @@ extension Multiplier: NodeRepresentable {
     
     func makeNode(in context: Context?) throws -> Node {
         
-        return value == 1.0 ? .null : .string("* \(format(number: value))")
+        return value == 1.0 ? .null : .string("* \(format(number: value, maximumFractionDigits: 3))")
     }
 }
 
