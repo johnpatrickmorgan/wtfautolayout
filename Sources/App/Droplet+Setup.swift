@@ -40,8 +40,7 @@ extension Droplet {
         func outputView(for input: String, includePermalink: Bool = true) throws -> View {
             
             do {
-                let constraints = try ConstraintsParser.parse(log: input.trimmingLogAffixes())
-                let group = ConstraintGroup(constraints, raw: input)
+                let group = try ConstraintsParser.parse(log: input)
                 var node = try group.makeNode(in: nil, includePermalink: includePermalink)
                 node["page"] = "output"
                 
@@ -76,36 +75,5 @@ extension Droplet {
                 throw Abort.badRequest
             }
         }
-    }
-}
-
-fileprivate extension String {
-    
-    func trimmingLogAffixes() -> String {
-        
-        return self.trimmingLogSuffix().trimmingLogPrefix()
-    }
-    
-    func trimmingLogPrefix() -> String {
-        
-        let prefixEnd1 = "(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints)"
-        let prefixEnd2 = "(2) find the code that added the unwanted constraint or constraints and fix it."
-        
-        guard let range = range(of: prefixEnd1) ?? range(of: prefixEnd2) else {
-            return self
-        }
-        
-        return substring(from: range.upperBound)
-    }
-    
-    func trimmingLogSuffix() -> String {
-        
-        let suffixStart = "Will attempt to recover by breaking constraint"
-        
-        guard let range = range(of: suffixStart) else {
-            return self
-        }
-        
-        return substring(to: range.lowerBound)
     }
 }
