@@ -39,7 +39,7 @@ fileprivate extension String {
     
     func trimmingLogPrefix() -> String {
         
-        let prefixEnd1 = "(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints)"
+        let prefixEnd1 = "refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints)"
         let prefixEnd2 = "(2) find the code that added the unwanted constraint or constraints and fix it."
         
         guard let range = range(of: prefixEnd1) ?? range(of: prefixEnd2) else {
