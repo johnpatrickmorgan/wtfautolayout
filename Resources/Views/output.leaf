@@ -36,7 +36,7 @@
 
 #loop(constraints, "constraint") {
 <div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
-    <div class="pictorial w3-dark-grey w3-container" style="margin:auto;">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
