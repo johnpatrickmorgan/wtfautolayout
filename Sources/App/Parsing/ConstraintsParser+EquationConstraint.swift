@@ -22,5 +22,7 @@ private extension ConstraintsParser {
     static let layoutItemAttribute = partialInstance.then(dotAttribute)
     static let constant = number.map(Constant.init).otherwise(pure(Constant()))
     static let preMultiplier = optional(number.thenSkip(string("*")).map(Multiplier.init))
+        .named("prefixed multiplier")
     static let postMultiplier = optional(string("*").skipThen(wss).skipThen(number).map(Multiplier.init))
+        .named("postfixed multiplier")
 }

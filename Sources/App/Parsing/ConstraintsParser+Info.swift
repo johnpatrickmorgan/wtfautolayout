@@ -16,11 +16,14 @@ extension ConstraintsParser {
     static let names = string("names:").otherwise(string("Names:")).thenSkip(wss)
     static let key = many(characterNot(in: CharacterSet(charactersIn: ":' "))).asString()
     static let quotableKey = optional(character("'")).skipThen(key).thenSkip(optional(character("'")))
+        .named("key")
     static let keyValuePair = infoInstance.map { ($0.className, $0) }.otherwise((quotableKey.thenSkip(character(":")).then(infoInstance)))
+        .named("key value pair")
     static let commaSeparator = string(", ")
     static let keyValuePairs = many(keyValuePair, separator: commaSeparator).map { Dictionary($0) }
     static let namesDictionary = names.skipThen(wss).skipThen(keyValuePairs).thenSkip(wss)
     static let emptyInfo = character("(").skipThen(active).thenSkip(character(")")).map { _ in return [String: Instance]() }
     static let nonEmptyInfo = character("(").skipThen(optional(active.then(commaSeparator))).skipThen(namesDictionary).thenSkip(wss).thenSkip(character(")"))
     static let info = wss.skipThen(nonEmptyInfo.otherwise(emptyInfo))
+        .named("info")
 }

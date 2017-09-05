@@ -25,7 +25,8 @@ private extension ConstraintsParser {
     static let vflAxis = hAxis.otherwise(vAxis).thenSkip(colon)
     static let vflRelation = optional(relation).map { $0 ?? .equal }
     static let vflExtent = character("(").skipThen(vflRelation).then(number).thenSkip(character(")"))
-    static let vflIdentifier = many(characterNot(in: "[]|()")).asString()
+    static let vflIdentifierCharacter = characterNot(in: "[]|()")
+    static let vflIdentifier = many(identifierCharacter.and(vflIdentifierCharacter)).asString()
     static let vflEntity = instance.map({ PartialInstance.instance($0) }).otherwise(vflIdentifier.map({ PartialInstance.identifier($0) }))
     static let vflBoundedEntity = character("[").skipThen(vflEntity).thenSkip(character("]")).otherwise(string("|").map({ _ in PartialInstance.superview }))
     static let vflDirection = optional(string("(LTR)").otherwise(string("(RTL)")))
