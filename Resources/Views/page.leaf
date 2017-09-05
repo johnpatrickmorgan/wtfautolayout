@@ -8,7 +8,7 @@
 
 <div class="w3-top">
     <div class="w3-bar w3-theme-dark w3-left-align w3-large">
-<a href="/" class="tab w3-bar-item w3-button #equal(page, "home") {w3-theme-l1} #equal(page, "output") {w3-theme-l1} #equal(page, "error") {w3-theme-l1} {w3-theme-l1} w3-hover-dark-grey">Home</a>
+        <a href="/" class="tab w3-bar-item w3-button #equal(page, "home") {w3-theme-l1} #equal(page, "output") {w3-theme-l1} #equal(page, "error") {w3-theme-l1} w3-hover-dark-grey">Home</a>
         <a href="/about" class="tab w3-bar-item w3-button #equal(page, "about") {w3-theme-l1} w3-hover-dark-grey">About</a>
 
     </div>
