@@ -39,7 +39,7 @@ extension Instance {
     
     var prettyName: String {
         
-        return prettyTypeName
+        return identifier ?? prettyTypeName
     }
 }
 

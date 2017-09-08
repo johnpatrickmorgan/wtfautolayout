@@ -49,7 +49,6 @@
                 <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
                 <strong>#(constraint.first.instance.name)#(constraint.first.instance.suffix)</strong>.#(constraint.first.attribute)<br />
                     #(constraint.first.instance.class)<br />
-#if(constraint.first.instance.identifier) { <em>#(constraint.first.instance.identifier)</em><br /> }
                     #(constraint.first.instance.address)
                 </div>
             </div>
@@ -67,7 +66,6 @@
                 <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
                     <strong>#(constraint.second.instance.name)#(constraint.second.instance.suffix)</strong>.#(constraint.second.attribute)<br />
                         #(constraint.second.instance.class)<br />
-#if(constraint.second.instance.identifier) { <em>#(constraint.second.instance.identifier)</em><br /> }
                     #(constraint.second.instance.address)
                 </div>
             </div>
