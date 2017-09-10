@@ -28,7 +28,7 @@ class ParserTests: XCTestCase {
         
         for input in inputs {
             shouldNotThrow {
-                try ConstraintsParser.parse(log: input)
+                try ConstraintsParser.parse(input: input)
             }
         }
     }
@@ -44,7 +44,7 @@ class ParserTests: XCTestCase {
         
         for input in inputs {
             shouldNotThrow {
-                try ConstraintsParser.parse(log: input)
+                try ConstraintsParser.parse(input: input)
             }
         }
     }

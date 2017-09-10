@@ -39,8 +39,10 @@ extension Droplet {
 
         func outputView(for input: String, includePermalink: Bool = true) throws -> View {
             
+            let trimmedInput = input.trimmingLogAffixes().trimmingCharacters(in: .newlines)
+            
             do {
-                let group = try ConstraintsParser.parse(log: input)
+                let group = try ConstraintsParser.parse(input: trimmedInput)
                 var node = try group.makeNode(in: nil, includePermalink: includePermalink)
                 node["page"] = "output"
                 
@@ -49,24 +51,24 @@ extension Droplet {
             } catch let error as UnexpectedInputError {
                 
                 let context: Node = [
-                    "prefill": .string(input),
+                    "prefill": .string(trimmedInput),
                     "error": .string("\(error)"),
                     "page": "error"
                 ]
                 
-                log.error(["UNEXPECTED INPUT ERROR:", input, "\(error)"].joined(separator: "\n"))
+                log.error(["UNEXPECTED INPUT ERROR:", trimmedInput, "\(error)"].joined(separator: "\n"))
                 
                 return try self.view.make("input", context)
                 
             } catch let error as InvalidConstraintError {
             
                 let context: Node = [
-                    "prefill": .string(input),
+                    "prefill": .string(trimmedInput),
                     "error": .string("\(error)"),
                     "page": "error"
                 ]
                 
-                log.error(["INVALID CONSTRAINT ERROR:", input, "\(error)"].joined(separator: "\n"))
+                log.error(["INVALID CONSTRAINT ERROR:", trimmedInput, "\(error)"].joined(separator: "\n"))
                 
                 return try self.view.make("input", context)
                 
