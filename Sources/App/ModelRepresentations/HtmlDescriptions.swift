@@ -48,8 +48,8 @@ extension Attribute {
         case .bottomMargin:         return "bottom margin"
         case .centerXWithinMargins: return "horizontal center (within its margins)"
         case .centerYWithinMargins: return "vertical center (within its margins)"
-        case .firstBaseline:        return "baseline of first line of text"
-        case .lastBaseline:         return "baseline of last line of text"
+        case .firstBaseline:        return "first line of text's baseline"
+        case .lastBaseline:         return "last line of text's baseline"
         }
     }
 }
