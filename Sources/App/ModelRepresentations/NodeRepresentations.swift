@@ -133,7 +133,10 @@ extension Attribute: NodeRepresentable {
     
     func makeNode(in context: Context?) throws -> Node {
         
-        return .string(rawValue)
+        return [
+            "name": .string(rawValue),
+            "includesMargin":  .bool(includesMargin)
+        ]
     }
 }
 

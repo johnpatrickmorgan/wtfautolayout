@@ -34,19 +34,22 @@ extension Attribute {
     func htmlDescription() -> String {
         
         switch self {
-        case .leading:          return "leading edge"
-        case .trailing:         return "trailing edge"
-        case .top:              return "top edge"
-        case .bottom:           return "bottom edge"
-        case .centerX:          return "horizontal center"
-        case .centerY:          return "vertical center"
-        case .width:            return "width"
-        case .height:           return "height"
-        case .leadingMargin:    return "leading margin"
-        case .trailingMargin:   return "trailing margin"
-        case .topMargin:        return "top margin"
-        case .bottomMargin:     return "bottom margin"
-        case .baseline:         return "text baseline"
+        case .leading:              return "leading edge"
+        case .trailing:             return "trailing edge"
+        case .top:                  return "top edge"
+        case .bottom:               return "bottom edge"
+        case .centerX:              return "horizontal center"
+        case .centerY:              return "vertical center"
+        case .width:                return "width"
+        case .height:               return "height"
+        case .leadingMargin:        return "leading margin"
+        case .trailingMargin:       return "trailing margin"
+        case .topMargin:            return "top margin"
+        case .bottomMargin:         return "bottom margin"
+        case .centerXWithinMargins: return "horizontal center (within its margins)"
+        case .centerYWithinMargins: return "vertical center (within its margins)"
+        case .firstBaseline:        return "baseline of first line of text"
+        case .lastBaseline:         return "baseline of last line of text"
         }
     }
 }
