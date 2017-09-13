@@ -21,9 +21,23 @@ class ParserTests: XCTestCase {
             ParserTests.custom4,
             ParserTests.custom5,
             ParserTests.custom6,
-            ParserTests.custom7,
-            ParserTests.custom8,
-            ParserTests.custom9
+            ParserTests.custom7
+        ]
+        
+        for input in inputs {
+            shouldNotThrow {
+                try ConstraintsParser.parse(input: input)
+            }
+        }
+    }
+    
+    func testGitHubIssues() {
+        
+        let inputs = [
+            ParserTests.issue1,
+            ParserTests.issue2,
+            ParserTests.issue4,
+            ParserTests.issue5
         ]
         
         for input in inputs {

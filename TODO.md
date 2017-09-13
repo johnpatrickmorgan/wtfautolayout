@@ -10,3 +10,4 @@ TODO
 - Show info tooltip about constraint on hover
 - Easier permalink copying
 - Improve output layout on Firefox
+- Support RTL (right-to-left)

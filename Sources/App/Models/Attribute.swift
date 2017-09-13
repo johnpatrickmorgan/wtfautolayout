@@ -68,6 +68,18 @@ enum Attribute: String {
             return ["minY"]
         case .bottom:
             return ["maxY"]
+        case .leadingMargin:
+            return ["leftMargin", "minXMargin"]
+        case .trailingMargin:
+            return ["rightMargin", "maxXMargin"]
+        case .centerXWithinMargins:
+            return ["midXWithinMargins"]
+        case .centerYWithinMargins:
+            return ["midYWithinMargins"]
+        case .topMargin:
+            return ["minYMargin"]
+        case .bottomMargin:
+            return ["maxYMargin"]
         case .lastBaseline:
             return ["baseline"]
         default:
