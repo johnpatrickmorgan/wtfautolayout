@@ -8,7 +8,7 @@
     <div class="w3-container">
         <form action="/" class="w3-container" method="post">
             <label class="w3-label">Paste your constraint error log here:</label>
-            <textarea class="mono w3-input w3-border w3-round w3-hover-light-gray" rows="10" name="constraintlog" required="required" placeholder="Paste your constraint error logs: just the part surrounded by ( and )" autofocus>#(prefill)</textarea>
+            <textarea class="mono w3-input w3-border w3-round w3-hover-light-gray" wrap="off" rows="10" name="constraintlog" required="required" placeholder="Paste your constraint error logs: just the part surrounded by ( and )" autofocus>#(prefill)</textarea>
             <a href="/?example=true" class="w3-button w3-round-large w3-green w3-margin-top">Example</a>
             <button class="w3-button w3-right w3-round-large w3-blue w3-margin-top">Go!</button>
         </form>
