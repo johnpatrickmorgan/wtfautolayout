@@ -25,7 +25,8 @@ extension LayoutItemAttribute {
     
     func htmlDescription(annotation: Annotation? = nil) -> String {
         
-        return "<code>\(layoutItem.prettyName)\(annotation?.uniquingSuffix ?? "")</code>'s \(attribute.htmlDescription())"
+        let underlineColor = annotation?.color ?? .defaultColor
+        return "<code style=\"box-shadow: 0px -1px 0px \(underlineColor.hex) inset; padding-bottom: 1px;\">\(layoutItem.prettyName)\(annotation?.uniquingSuffix ?? "")</code>'s \(attribute.htmlDescription())"
     }
 }
 

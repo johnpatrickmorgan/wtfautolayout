@@ -2,7 +2,7 @@ import Foundation
 import Vapor
 import Core
 
-let maximumPermalinkLength = 2000
+private let maximumPermalinkLength = 2000
 
 extension ConstraintGroup: NodeRepresentable {
     
@@ -26,13 +26,7 @@ extension ConstraintGroup: NodeRepresentable {
         let permalink: String?
         
         if includePermalink {
-            let trimmed = raw
-                .trim(characters: Array("()\n\r\r\n".characters))
-                .components(separatedBy: .newlines)
-                .map({ $0.trim(characters: [" "]) })
-                .filter { !$0.isEmpty }
-                .joined(separator: "\n")
-                .addingPercentEncoding(withAllowedCharacters: .alphanumerics)
+            let trimmed = raw.addingPercentEncoding(withAllowedCharacters: .alphanumerics)
             permalink = (trimmed?.characters.count ?? 0) < maximumPermalinkLength ? trimmed : nil
         } else {
             permalink = nil
@@ -121,8 +115,8 @@ extension Instance: NodeRepresentable {
             "address": .string(address),
             "class": .string(className),
             "name": .string(prettyName),
-            "suffix": annotation?.uniquingSuffix.map { .string($0) } ?? .null,
-            "color": try (annotation?.color ?? .turquoiseColor()).makeNode(in: context),
+            "suffix": annotation.map { .string($0.uniquingSuffix) } ?? .null,
+            "color": try (annotation?.color ?? .defaultColor).makeNode(in: context),
             "initial": .string(initial),
             "identifier": identifier.map { .string($0) } ?? .null
         ]

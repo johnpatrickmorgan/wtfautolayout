@@ -1,6 +1,7 @@
 import Foundation
+import Random
 
-typealias Annotation = (color: Color, uniquingSuffix: String?)
+typealias Annotation = (color: Color, uniquingSuffix: String)
 
 struct ConstraintGroup {
     
@@ -9,7 +10,7 @@ struct ConstraintGroup {
     let constraints: [Constraint]
     let annotations: [Instance : Annotation]
     
-    private static func annotations(for layoutItems: [Instance]) -> [Instance : Annotation] {
+    private static func annotations(for layoutItems: [Instance], seed: Int) -> [Instance : Annotation] {
         
         let names = layoutItems.map { $0.prettyName }
         
@@ -24,11 +25,12 @@ struct ConstraintGroup {
         
         var annotations = [Instance : Annotation]()
         for (i, item) in layoutItems.enumerated() {
+            // Adding a seed value ensures the color scheme can differ per input while
+            // remaining deterministic.
+            let color = Color.flatColor(index: i + abs(seed))
             
             let requiresUniquing = (counts[item.prettyName] ?? 0) > 1
-            let uniquingSuffix: String? = requiresUniquing ? uniquingSuffixes[i] :
-                nil
-            let color = Color.flatColor(index: i)
+            let uniquingSuffix = requiresUniquing ? uniquingSuffixes[i] : ""
             
             annotations[item] = (color: color, uniquingSuffix: uniquingSuffix)
         }
@@ -41,7 +43,7 @@ struct ConstraintGroup {
         self.raw = raw
         self.constraints = constraints
         self.layoutItems = Array(Set(constraints.flatMap { $0.layoutItems }))
-        self.annotations = ConstraintGroup.annotations(for: layoutItems)
+        self.annotations = ConstraintGroup.annotations(for: layoutItems, seed: raw.hash)
     }
 }
 

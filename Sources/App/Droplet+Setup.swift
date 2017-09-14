@@ -39,7 +39,10 @@ extension Droplet {
 
         func outputView(for input: String, includePermalink: Bool = true) throws -> View {
             
-            let trimmedInput = input.trimmingLogAffixes().trimmingCharacters(in: .newlines)
+            let trimmedInput = input
+                .trimmingLogAffixes()
+                .removingBlankLines()
+                .trimmingCharacters(in: .whitespaces)
             
             do {
                 let group = try ConstraintsParser.parse(input: trimmedInput)
