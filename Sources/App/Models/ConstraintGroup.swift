@@ -6,7 +6,6 @@ typealias Annotation = (color: Color, uniquingSuffix: String)
 struct ConstraintGroup {
     
     let raw: String
-    let layoutItems: [Instance]
     let constraints: [Constraint]
     let annotations: [Instance : Annotation]
     
@@ -42,7 +41,7 @@ struct ConstraintGroup {
         
         self.raw = raw
         self.constraints = constraints
-        self.layoutItems = Array(Set(constraints.flatMap { $0.layoutItems }))
+        let layoutItems = constraints.flatMap { $0.layoutItems }.uniqueElements
         self.annotations = ConstraintGroup.annotations(for: layoutItems, seed: raw.hash)
     }
 }

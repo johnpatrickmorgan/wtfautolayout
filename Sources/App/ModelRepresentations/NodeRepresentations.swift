@@ -13,9 +13,6 @@ extension ConstraintGroup: NodeRepresentable {
     
     func makeNode(in context: Context?, includePermalink: Bool) throws -> Node {
         
-        let layoutItemNodes = try layoutItems.map { item in
-            try item.makeNode(in: context, annotation: annotations[item])
-        }
         let constraintNodes = try constraints.map { item in
             try item.makeNode(in: context, annotations: annotations)
         }
@@ -33,7 +30,6 @@ extension ConstraintGroup: NodeRepresentable {
         }
         
         return .object([
-            "layoutItems": .array(layoutItemNodes),
             "constraints": .array(constraintNodes),
             "permalink": permalink.map { .string($0) } ?? .null,
             "footnotes": .array(footnoteNodes)
