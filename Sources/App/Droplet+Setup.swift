@@ -51,27 +51,15 @@ extension Droplet {
                 
                 return try self.view.make("output", node)
                 
-            } catch let error as UnexpectedInputError {
+            } catch let error as ParsingError {
                 
                 let context: Node = [
                     "prefill": .string(trimmedInput),
-                    "error": .string("\(error)"),
+                    "error": .string(error.parsingErrorDescription),
                     "page": "error"
                 ]
                 
-                log.error(["UNEXPECTED INPUT ERROR:", trimmedInput, "\(error)"].joined(separator: "\n"))
-                
-                return try self.view.make("input", context)
-                
-            } catch let error as InvalidConstraintError {
-            
-                let context: Node = [
-                    "prefill": .string(trimmedInput),
-                    "error": .string("\(error)"),
-                    "page": "error"
-                ]
-                
-                log.error(["INVALID CONSTRAINT ERROR:", trimmedInput, "\(error)"].joined(separator: "\n"))
+                log.error(["PARSING ERROR:", trimmedInput, error.parsingErrorDescription].joined(separator: "\n"))
                 
                 return try self.view.make("input", context)
                 

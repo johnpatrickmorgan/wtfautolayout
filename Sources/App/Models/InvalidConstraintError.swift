@@ -9,6 +9,6 @@ struct InvalidConstraintError: Error, CustomStringConvertible {
     }
     
     var description: String {
-        return "Invalid Constraint: \(message)."
+        return "INVALID CONSTRAINT:\n\(message)."
     }
 }
