@@ -1,0 +1,637 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "50"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">TextField<\/code>'s height should equal 50.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fa67503ae00",
+          "className" : "UITextField",
+          "color" : "rgb(243,156,18)",
+          "initial" : "T",
+          "name" : "TextField",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60000346c9b0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">TextField<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67503ae00",
+          "className" : "UITextField",
+          "color" : "rgb(243,156,18)",
+          "initial" : "T",
+          "name" : "TextField",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60000346d720",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350cab0",
+          "className" : "UIView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">TextField<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa67350cab0",
+          "className" : "UIView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60000346d7c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa67503ae00",
+          "className" : "UITextField",
+          "color" : "rgb(243,156,18)",
+          "initial" : "T",
+          "name" : "TextField",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom margin should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : true,
+          "name" : "bottomMargin"
+        },
+        "instance" : {
+          "address" : "0x7fa67350b050",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60000346dbd0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c480",
+          "className" : "UIStackView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "2"
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top margin.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c480",
+          "className" : "UIStackView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "2"
+        }
+      },
+      "identity" : {
+        "address" : "0x60000346dc20",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : true,
+          "name" : "topMargin"
+        },
+        "instance" : {
+          "address" : "0x7fa67350b050",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">ImageView<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s vertical center.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerY"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c880",
+          "className" : "UIImageView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x600003459680",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-alignment",
+        "initial" : "U",
+        "name" : "UISV-alignment"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerY"
+        },
+        "instance" : {
+          "address" : "0x7fa67350cab0",
+          "className" : "UIView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">UISV-alignment-spanner<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c680",
+          "className" : "UIStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "1"
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x60000345ac10",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-canvas-connection",
+        "initial" : "U",
+        "name" : "UISV-canvas-connection"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x60000284c1e0",
+          "className" : "_UILayoutSpacer",
+          "color" : "rgb(192,57,43)",
+          "identifier" : "UISV-alignment-spanner",
+          "initial" : "U",
+          "name" : "UISV-alignment-spanner",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">ImageView<\/code>'s vertical center.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerY"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c680",
+          "className" : "UIStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "1"
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x60000345a440",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-canvas-connection",
+        "initial" : "U",
+        "name" : "UISV-canvas-connection"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerY"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c880",
+          "className" : "UIImageView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c480",
+          "className" : "UIStackView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "2"
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x600003458320",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-canvas-connection",
+        "initial" : "U",
+        "name" : "UISV-canvas-connection"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c680",
+          "className" : "UIStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "1"
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">E-posta adresini mi unutt...<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c480",
+          "className" : "UIStackView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "2"
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x6000034757c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-canvas-connection",
+        "initial" : "U",
+        "name" : "UISV-canvas-connection"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa67350bf50",
+          "className" : "UIButton",
+          "color" : "rgb(25,181,254)",
+          "identifier" : "E-posta adresini mi unutt...",
+          "initial" : "E",
+          "name" : "E-posta adresini mi unutt...",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">E-posta adresini mi unutt...<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350bf50",
+          "className" : "UIButton",
+          "color" : "rgb(25,181,254)",
+          "identifier" : "E-posta adresini mi unutt...",
+          "initial" : "E",
+          "name" : "E-posta adresini mi unutt...",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x6000033499e0",
+        "className" : "_UISystemBaselineConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-spacing",
+        "initial" : "U",
+        "name" : "UISV-spacing"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa67350c680",
+          "className" : "UIStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : "1"
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">UISV-alignment-spanner<\/code>'s top edge should be at most <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x60000284c1e0",
+          "className" : "_UILayoutSpacer",
+          "color" : "rgb(192,57,43)",
+          "identifier" : "UISV-alignment-spanner",
+          "initial" : "U",
+          "name" : "UISV-alignment-spanner",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x6000034679d0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-spanning-boundary",
+        "initial" : "U",
+        "name" : "UISV-spanning-boundary"
+      },
+      "relation" : "<=",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350cab0",
+          "className" : "UIView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa67350b050",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60000346ddb0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-bottomMargin-guide-constraint",
+        "initial" : "U",
+        "name" : "UIView-bottomMargin-guide-constraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x600002e401c0",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "66"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 66.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fa67350b050",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x60000346d590",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Height",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Height"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x600002e401c0",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60000346dd10",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-topMargin-guide-constraint",
+        "initial" : "U",
+        "name" : "UIView-topMargin-guide-constraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa67350b050",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    },
+    {
+      "marker" : "‡",
+      "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+    }
+  ]
+}
