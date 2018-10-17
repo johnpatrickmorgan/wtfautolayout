@@ -34,7 +34,8 @@ class ParserTests: SnapshotTestCase {
             Input.issue1,
             Input.issue2,
             Input.issue4,
-            Input.issue5
+            Input.issue5,
+            Input.issue10
         ]
         
         for input in inputs {

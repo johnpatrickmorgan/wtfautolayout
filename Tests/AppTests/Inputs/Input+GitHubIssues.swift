@@ -50,4 +50,25 @@ extension Input {
         "<NSLayoutConstraint:0x174281400 _UILayoutSpacer:0x1743a0620.trailing >= UIImageView:0x123d8e1f0.trailing>"
         )
         """
+    
+    /// https://github.com/johnpatrickmorgan/wtfautolayout/issues/10
+    static let issue10 = """
+    (
+        "<NSLayoutConstraint:0x60000346c9b0 UITextField:0x7fa67503ae00.height == 50   (active)>",
+        "<NSLayoutConstraint:0x60000346d720 V:|-(0)-[UITextField:0x7fa67503ae00]   (active, names: '|':UIView:0x7fa67350cab0 )>",
+        "<NSLayoutConstraint:0x60000346d7c0 V:[UITextField:0x7fa67503ae00]-(0)-|   (active, names: '|':UIView:0x7fa67350cab0 )>",
+        "<NSLayoutConstraint:0x60000346dbd0 UITableViewCellContentView:0x7fa67350b050.bottomMargin == UIStackView:0x7fa67350c480.bottom   (active)>",
+        "<NSLayoutConstraint:0x60000346dc20 UIStackView:0x7fa67350c480.top == UITableViewCellContentView:0x7fa67350b050.topMargin   (active)>",
+        "<NSLayoutConstraint:0x600003459680 'UISV-alignment' UIImageView:0x7fa67350c880.centerY == UIView:0x7fa67350cab0.centerY   (active)>",
+        "<NSLayoutConstraint:0x60000345ac10 'UISV-canvas-connection' UIStackView:0x7fa67350c680.top == _UILayoutSpacer:0x60000284c1e0'UISV-alignment-spanner'.top   (active)>",
+        "<NSLayoutConstraint:0x60000345a440 'UISV-canvas-connection' UIStackView:0x7fa67350c680.centerY == UIImageView:0x7fa67350c880.centerY   (active)>",
+        "<NSLayoutConstraint:0x600003458320 'UISV-canvas-connection' UIStackView:0x7fa67350c480.top == UIStackView:0x7fa67350c680.top   (active)>",
+        "<NSLayoutConstraint:0x6000034757c0 'UISV-canvas-connection' V:[UIButton:0x7fa67350bf50'E-posta adresini mi unutt...']-(0)-|   (active, names: '|':UIStackView:0x7fa67350c480 )>",
+        "<_UISystemBaselineConstraint:0x6000033499e0 'UISV-spacing' V:[UIStackView:0x7fa67350c680]-(NSLayoutAnchorConstraintSpace(8))-[UIButton:0x7fa67350bf50'E-posta adresini mi unutt...']   (active)>",
+        "<NSLayoutConstraint:0x6000034679d0 'UISV-spanning-boundary' _UILayoutSpacer:0x60000284c1e0'UISV-alignment-spanner'.top <= UIView:0x7fa67350cab0.top   (active)>",
+        "<NSLayoutConstraint:0x60000346ddb0 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x600002e401c0'UIViewLayoutMarginsGuide']-(8)-|   (active, names: '|':UITableViewCellContentView:0x7fa67350b050 )>",
+        "<NSLayoutConstraint:0x60000346d590 'UIView-Encapsulated-Layout-Height' UITableViewCellContentView:0x7fa67350b050.height == 66   (active)>",
+        "<NSLayoutConstraint:0x60000346dd10 'UIView-topMargin-guide-constraint' V:|-(8)-[UILayoutGuide:0x600002e401c0'UIViewLayoutMarginsGuide']   (active, names: '|':UITableViewCellContentView:0x7fa67350b050 )>"
+    )
+    """
 }
