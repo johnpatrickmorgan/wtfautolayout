@@ -1,3 +1,5 @@
+#if(error) { #set("pageName") {error} } else { #set("pageName") {home} }
+
 #set("content") {
     #embed("hero")
 

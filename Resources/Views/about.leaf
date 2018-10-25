@@ -1,3 +1,5 @@
+#set("pageName") {about}
+
 #set("content") {
 
 #embed("hero")

@@ -1,3 +1,5 @@
+#set("pageName") {output}
+
 #set("definitions") {
 
 <!-- SVG Definitions -->

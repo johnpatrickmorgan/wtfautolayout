@@ -41,8 +41,8 @@ struct ConstraintGroup {
         
         self.raw = raw
         self.constraints = constraints
-        let layoutItems = constraints.flatMap { $0.layoutItems }.uniqueElements
-        self.annotations = ConstraintGroup.annotations(for: layoutItems, seed: raw.hash)
+        let layoutItems = Set(constraints.flatMap { $0.layoutItems })
+        self.annotations = ConstraintGroup.annotations(for: Array(layoutItems), seed: raw.hash)
     }
 }
 
