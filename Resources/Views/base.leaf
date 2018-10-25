@@ -44,9 +44,9 @@
       ga('send', 'pageview', '#(page)');
 
     </script>
-    #import("head")
+    #get(head)
 </head>
 <body class="w3-theme-l5">
-    #import("body")
+    #get(body)
 </body>
 </html>

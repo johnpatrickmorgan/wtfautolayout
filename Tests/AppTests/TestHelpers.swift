@@ -1,7 +1,7 @@
 import XCTest
 import Foundation
 
-@discardableResult func shouldNotThrow<O>(message: String = "", file: StaticString = #file, line: UInt = #line, _ closure: (Void) throws -> O) -> O? {
+@discardableResult func shouldNotThrow<O>(message: String = "", file: StaticString = #file, line: UInt = #line, _ closure: () throws -> O) -> O? {
     
     do {
         return try closure()
@@ -11,7 +11,7 @@ import Foundation
     }
 }
 
-@discardableResult func shouldThrow<O>(message: String = "", file: StaticString = #file, line: UInt = #line, _ closure: (Void) throws -> O) -> Error? {
+@discardableResult func shouldThrow<O>(message: String = "", file: StaticString = #file, line: UInt = #line, _ closure: () throws -> O) -> Error? {
     
     do {
         let output = try closure()

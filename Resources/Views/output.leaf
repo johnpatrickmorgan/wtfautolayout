@@ -1,16 +1,14 @@
-#extend("page")
-
-#export("definitions") {
+#set("definitions") {
 
 <!-- SVG Definitions -->
 
 <svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
       <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
-          <path d="M6,0 L6,6 L0,3 z" fill="#()000" />
+<path d="M6,0 L6,6 L0,3 z" fill="#get("#")000" />
       </marker>
       <marker id="arrowEnd" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
-          <path d="M0,0 L0,6 L6,3 z" fill="#()000" />
+          <path d="M0,0 L0,6 L6,3 z" fill="#get("#")000" />
       </marker>
       <rect id="diagram-background" style="stroke-width:1;stroke:rgb(0,0,0);" width="100%" height="100%" />
       <rect id="margin-rect" style="stroke-width:1;stroke-dasharray:1,2;stroke:rgb(0,0,0);fill-opacity:0" width="80%" height="80%" />
@@ -28,33 +26,33 @@
       <polyline id="centerX" class="diagram-line" points="25,50 25,0" style="stroke-width: 12%;"/>
       <polyline id="centerYWithinMargins" class="diagram-line" points="0,25 50,25" style="stroke-width: 12%;"/>
       <polyline id="centerXWithinMargins" class="diagram-line" points="25,50 25,0" style="stroke-width: 12%;"/>
-      <polyline id="width" class="diagram-line" points="15,25 35,25" style="stroke-width: 12%;" marker-start="url(#()arrowStart)" marker-end="url(#()arrowEnd)"/>
-      <polyline id="height" class="diagram-line" points="25,35 25,15" style="stroke-width: 12%;" marker-start="url(#()arrowStart)" marker-end="url(#()arrowEnd)"/>
+      <polyline id="width" class="diagram-line" points="15,25 35,25" style="stroke-width: 12%;" marker-start="url(#get("#")arrowStart)" marker-end="url(#get("#")arrowEnd)"/>
+      <polyline id="height" class="diagram-line" points="25,35 25,15" style="stroke-width: 12%;" marker-start="url(#get("#")arrowStart)" marker-end="url(#get("#")arrowEnd)"/>
     </defs>
 </svg>
 }
 
-#export("content") {
+#set("content") {
 
 <!-- Constraints -->
 
-#loop(constraints, "constraint") {
+#for(constraint in constraints) {
 <div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
     <div class="pictorial w3-dark-grey" style="margin:auto;">
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#()diagram-background" style="fill:#(constraint.first.instance.color)" x="0" y="0" />
+                    <use xlink:href="#get("#")diagram-background" style="fill:#(constraint.first.instance.color)" x="0" y="0" />
 #if(constraint.first.attribute.includesMargin) {
-                    <use xlink:href="#()margin-rect" x="5" y="5" />
+                    <use xlink:href="#get("#")margin-rect" x="5" y="5" />
 }
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">#(constraint.first.instance.initial)</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white">#(constraint.first.instance.suffix)</text>
-                    <use xlink:href="#()#(constraint.first.attribute.name)" x="0" y="0" />
+                    <use xlink:href="#get("#")#(constraint.first.attribute.name)" x="0" y="0" />
                 </svg>
                 <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
                     <strong>#(constraint.first.instance.name)#(constraint.first.instance.suffix)</strong>.#(constraint.first.attribute.name)<br />
-                    #(constraint.first.instance.class)<br />
+                    #(constraint.first.instance.className)<br />
                     #(constraint.first.instance.address)
                 </div>
             </div>
@@ -64,17 +62,17 @@
 #if(constraint.second) {
             <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#()diagram-background" style="fill:#(constraint.second.instance.color)" x="0" y="0" />
+                    <use xlink:href="#get("#")diagram-background" style="fill:#(constraint.second.instance.color)" x="0" y="0" />
 #if(constraint.second.attribute.includesMargin) {
-                    <use xlink:href="#()margin-rect" x="5" y="5" />
+                    <use xlink:href="#get("#")margin-rect" x="5" y="5" />
 }
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">#(constraint.second.instance.initial)</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white">#(constraint.second.instance.suffix)</text>
-                    <use xlink:href="#()#(constraint.second.attribute.name)" x="0" y="0" />
+                    <use xlink:href="#get("#")#(constraint.second.attribute.name)" x="0" y="0" />
                 </svg>
                 <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
                     <strong>#(constraint.second.instance.name)#(constraint.second.instance.suffix)</strong>.#(constraint.second.attribute.name)<br />
-                    #(constraint.second.instance.class)<br />
+                    #(constraint.second.instance.className)<br />
                     #(constraint.second.instance.address)
                 </div>
             </div>
@@ -93,14 +91,16 @@
     </div>
 
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        #(constraint.description)<sup>#(constraint.footnote.marker)</sup>
+        #get(constraint.description)<sup>#(constraint.footnote.marker)</sup>
     </div>
 </div>
 }
-#loop(footnotes, "footnote") {
+#for(footnote in footnotes) {
 <p class="footnotes"><sup>#(footnote.marker)</sup> #(footnote.text)</p>
 }
 #if(permalink) {
 <a href="?constraintlog=#(permalink)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
 }
 }
+
+#embed("page")
