@@ -1,6 +1,5 @@
 import Foundation
 import Vapor
-import Core
 
 private let maximumPermalinkLength = 2000
 
@@ -15,7 +14,7 @@ extension ConstraintGroup {
     func leafNode(includePermalink: Bool = false) -> LeafNode {
         
         var permalink: String? {
-            let trimmed = raw.addingPercentEncoding(withAllowedCharacters: .alphanumerics)
+            let trimmed = raw.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
             return (trimmed?.count ?? 0) < maximumPermalinkLength ? trimmed : nil
         }
         
