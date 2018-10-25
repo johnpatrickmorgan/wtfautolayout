@@ -53,7 +53,6 @@ private extension ConstraintsParser {
         .named("autoresizing mask info")
     
     static func isClassNameCharacter(_ character: Character) -> Bool {
-        // NOTE: CharacterSet.union does not work on Linux. See https://bugs.swift.org/browse/SR-2509
-        return CharacterSet.alphanumerics.contains(character.unicodeScalar()) || "._".characters.contains(character)
+        return CharacterSet.classNameCharacters.contains(character.unicodeScalar())
     }
 }
