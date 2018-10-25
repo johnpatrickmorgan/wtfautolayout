@@ -33,6 +33,6 @@ extension ConstraintsParser {
             example2,
             example3
         ]
-        return examples.randomElement()!
+        return examples.random!
     }
 }
