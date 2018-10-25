@@ -5,7 +5,8 @@ import XCTest
 
 XCTMain([
     testCase(ParserTests.allTests),
-    testCase(ViewTests.allTests)
+    testCase(ViewTests.allTests),
+    testCase(ColorTests.allTests)
 ])
 
 #endif
