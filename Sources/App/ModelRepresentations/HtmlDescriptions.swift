@@ -17,7 +17,7 @@ extension Constraint {
             two,
             multiplicand,
             summand
-            ].flatMap { $0 }.joined(separator: " ") + "."
+            ].compactMap { $0 }.joined(separator: " ") + "."
     }
 }
 
@@ -85,6 +85,6 @@ extension Constant {
         let prefix: String? = value == 0.0 ? nil : value > 0.0 ? positivePrefix : "minus"
         let number = format(number: abs(value))
         
-        return [prefix, number].flatMap { $0 }.joined(separator: " ")
+        return [prefix, number].compactMap { $0 }.joined(separator: " ")
     }
 }

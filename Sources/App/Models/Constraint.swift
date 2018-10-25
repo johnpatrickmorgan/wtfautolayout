@@ -37,7 +37,7 @@ extension Constraint {
         return [
             first,
             second
-            ].flatMap { $0 }
+            ].compactMap { $0 }
     }
     
     var layoutItems: [Instance] {

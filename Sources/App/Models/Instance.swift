@@ -34,7 +34,7 @@ extension Instance {
             return shortClassName
         }
         
-        return shortClassName.substring(from: prefixToTrim.endIndex)
+        return String(shortClassName[prefixToTrim.endIndex...])
     }
     
     var prettyName: String {

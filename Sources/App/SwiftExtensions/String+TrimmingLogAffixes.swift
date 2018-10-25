@@ -24,7 +24,7 @@ extension String {
             return self
         }
         
-        return substring(from: range.upperBound)
+        return String(self[range.upperBound...])
     }
     
     func trimmingLogSuffix() -> String {
@@ -35,6 +35,6 @@ extension String {
             return self
         }
         
-        return substring(to: range.lowerBound)
+        return String(self[...range.lowerBound])
     }
 }

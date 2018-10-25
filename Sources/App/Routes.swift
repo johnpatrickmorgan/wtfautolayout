@@ -53,7 +53,7 @@ private func outputView(req: Request, for input: String, includePermalink: Bool 
     
     do {
         let group = try ConstraintsParser.parse(input: trimmedInput)
-        var node = try group.leafNode(includePermalink: includePermalink)
+        let node = group.leafNode(includePermalink: includePermalink)
 //        node["page"] = "output" // TODO
         
         return try req.view().render("output", node)

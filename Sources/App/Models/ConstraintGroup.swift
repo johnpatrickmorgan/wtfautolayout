@@ -53,6 +53,6 @@ extension ConstraintGroup {
     }
     
     var footnotes: Set<Footnote> {
-        return Set(constraints.flatMap { $0.footnote })
+        return Set(constraints.compactMap { $0.footnote })
     }
 }
