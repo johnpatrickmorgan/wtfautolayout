@@ -3,6 +3,10 @@ import XCTest
 
 class ColorTests: XCTestCase {
     
+    static let allTests = [
+        ("testHexConversion", testHexConversion)
+    ]
+    
     func testHexConversion() {
         
         typealias Expectation = (input: Int, output: String)

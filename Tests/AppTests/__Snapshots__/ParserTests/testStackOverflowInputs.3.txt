@@ -1,0 +1,564 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "55"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">ImageView<\/code>'s height should equal 55.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd55110",
+          "className" : "UIImageView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048e9c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "value" : "25"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s height should equal 25.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5a1d0",
+          "className" : "UIButton",
+          "color" : "rgb(26,188,156)",
+          "identifier" : "0",
+          "initial" : "0",
+          "name" : "0",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048b680",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "value" : "308"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s height should equal 308.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5cf60",
+          "className" : "UIStackView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048ee70",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">ImageView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s top edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd55110",
+          "className" : "UIImageView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048f550",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd543b0",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">This is a test of the pos...<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">ImageView<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16d8ff000",
+          "className" : "UITextView",
+          "color" : "rgb(39,174,96)",
+          "identifier" : "This is a test of the pos...",
+          "initial" : "T",
+          "name" : "This is a test of the pos...",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048f640",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd55110",
+          "className" : "UIImageView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">This is a test of the pos...<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5cf60",
+          "className" : "UIStackView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048f780",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16d8ff000",
+          "className" : "UITextView",
+          "color" : "rgb(39,174,96)",
+          "identifier" : "This is a test of the pos...",
+          "initial" : "T",
+          "name" : "This is a test of the pos...",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5a1d0",
+          "className" : "UIButton",
+          "color" : "rgb(26,188,156)",
+          "identifier" : "0",
+          "initial" : "0",
+          "name" : "0",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048f8c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5cf60",
+          "className" : "UIStackView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd543b0",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048f910",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5a1d0",
+          "className" : "UIButton",
+          "color" : "rgb(26,188,156)",
+          "identifier" : "0",
+          "initial" : "0",
+          "name" : "0",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd543b0",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048fb90",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd53650",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5a1d0",
+          "className" : "UIButton",
+          "color" : "rgb(26,188,156)",
+          "identifier" : "0",
+          "initial" : "0",
+          "name" : "0",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048f8c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5cf60",
+          "className" : "UIStackView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd543b0",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048f910",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd5a1d0",
+          "className" : "UIButton",
+          "color" : "rgb(26,188,156)",
+          "identifier" : "0",
+          "initial" : "0",
+          "name" : "0",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd543b0",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048fb90",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd53650",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s bottom edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd53650",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60400048fc30",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd543b0",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "50"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 50.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fe16cd53650",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x600000499460",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Height",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Height"
+      },
+      "relation" : "=="
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}

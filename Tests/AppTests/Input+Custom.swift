@@ -1,6 +1,6 @@
 import Foundation
 
-extension ParserTests {
+enum Input {
     
     static let custom1 = """
         (

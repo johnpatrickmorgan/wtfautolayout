@@ -1,6 +1,6 @@
 import Foundation
 
-extension ParserTests {
+extension Input {
     
     /// https://github.com/johnpatrickmorgan/wtfautolayout/issues/1
     static let issue1 = """

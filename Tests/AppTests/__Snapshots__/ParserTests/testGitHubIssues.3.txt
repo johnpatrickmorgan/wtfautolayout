@@ -1,0 +1,297 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "44"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s height should be at least 44.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec1f0",
+          "className" : "NSKVONotifying_LQRoundedCornerView",
+          "color" : "rgb(245,215,110)",
+          "initial" : "N",
+          "name" : "NSKVONotifying_LQRoundedCornerView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6000002b2660",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : ">="
+    },
+    {
+      "constant" : {
+        "value" : "1"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">View2<\/code>'s height should equal 1.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec3c0",
+          "className" : "UIView",
+          "color" : "rgb(22,160,133)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "2"
+        }
+      },
+      "identity" : {
+        "address" : "0x6000004ad800",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View3<\/code>'s height should equal <code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">View2<\/code>'s height.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec560",
+          "className" : "UIView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "3"
+        }
+      },
+      "identity" : {
+        "address" : "0x6000006ae880",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec3c0",
+          "className" : "UIView",
+          "color" : "rgb(22,160,133)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "2"
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View3<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerY"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec560",
+          "className" : "UIView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "3"
+        }
+      },
+      "identity" : {
+        "address" : "0x6000006aa0e0",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec1f0",
+          "className" : "NSKVONotifying_LQRoundedCornerView",
+          "color" : "rgb(245,215,110)",
+          "initial" : "N",
+          "name" : "NSKVONotifying_LQRoundedCornerView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7ff92e29e6f0",
+          "className" : "UIView",
+          "color" : "rgb(230,126,34)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      },
+      "identity" : {
+        "address" : "0x6080006ad4a0",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec1f0",
+          "className" : "NSKVONotifying_LQRoundedCornerView",
+          "color" : "rgb(245,215,110)",
+          "initial" : "N",
+          "name" : "NSKVONotifying_LQRoundedCornerView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View3<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7ff92e29e6f0",
+          "className" : "UIView",
+          "color" : "rgb(230,126,34)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      },
+      "identity" : {
+        "address" : "0x6080004a6e40",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7ff92c7ec560",
+          "className" : "UIView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "3"
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">Label<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s top margin.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7ff92c74c9e0",
+          "className" : "UILabel",
+          "color" : "rgb(41,128,185)",
+          "initial" : "L",
+          "name" : "Label",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6080002b2fc0",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : true,
+          "name" : "topMargin"
+        },
+        "instance" : {
+          "address" : "0x7ff92e29e6f0",
+          "className" : "UIView",
+          "color" : "rgb(230,126,34)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">Label<\/code>'s first line of text's baseline should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s bottom margin.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "firstBaseline"
+        },
+        "instance" : {
+          "address" : "0x7ff92c74c9e0",
+          "className" : "UILabel",
+          "color" : "rgb(41,128,185)",
+          "initial" : "L",
+          "name" : "Label",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6080008a2a60",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : true,
+          "name" : "bottomMargin"
+        },
+        "instance" : {
+          "address" : "0x7ff92e29e6f0",
+          "className" : "UIView",
+          "color" : "rgb(230,126,34)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

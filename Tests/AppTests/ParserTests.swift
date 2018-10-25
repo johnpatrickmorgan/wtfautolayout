@@ -1,94 +1,65 @@
 import XCTest
 @testable import App
 import Sparse
+import SnapshotTesting
 
-class ParserTests: XCTestCase {
+class ParserTests: SnapshotTestCase {
     
     static let allTests = [
         ("testCustomInputs", testCustomInputs),
-        ("testStackOverflowInputs", testStackOverflowInputs),
-        ("testNumberParser", testNumberParser),
-        ("testInfoParser", testInfoParser),
-        ("testAttributeParser", testAttributeParser)
+        ("testStackOverflowInputs", testStackOverflowInputs)
     ]
     
-    func testCustomInputs() {
+    func testCustomInputs() throws {
         
         let inputs = [
-            ParserTests.custom1,
-            ParserTests.custom2,
-            ParserTests.custom3,
-            ParserTests.custom4,
-            ParserTests.custom5,
-            ParserTests.custom6,
-            ParserTests.custom7
+            Input.custom1,
+            Input.custom2,
+            Input.custom3,
+            Input.custom4,
+            Input.custom5,
+            Input.custom6,
+            Input.custom7
         ]
         
         for input in inputs {
-            shouldNotThrow {
-                try ConstraintsParser.parse(input: input)
-            }
+            let parsed = try ConstraintsParser.parse(input: input)
+            assertSnapshot(matching: parsed.leafNode())
         }
     }
     
-    func testGitHubIssues() {
+    func testGitHubIssues() throws {
         
         let inputs = [
-            ParserTests.issue1,
-            ParserTests.issue2,
-            ParserTests.issue4,
-            ParserTests.issue5
+            Input.issue1,
+            Input.issue2,
+            Input.issue4,
+            Input.issue5
         ]
         
         for input in inputs {
-            shouldNotThrow {
-                try ConstraintsParser.parse(input: input)
-            }
+            let parsed = try ConstraintsParser.parse(input: input)
+            assertSnapshot(matching: parsed.leafNode())
         }
     }
     
-    func testStackOverflowInputs() {
+    func testStackOverflowInputs() throws {
         
         let inputs = [
-            ParserTests.so45163786,
-            ParserTests.so45452294,
-            ParserTests.so45474345,
-            ParserTests.so45487045
+            Input.so45163786,
+            Input.so45452294,
+            Input.so45474345,
+            Input.so45487045
         ]
         
         for input in inputs {
-            shouldNotThrow {
-                try ConstraintsParser.parse(input: input)
-            }
+            let parsed = try ConstraintsParser.parse(input: input)
+            assertSnapshot(matching: parsed.leafNode())
         }
     }
+}
+
+extension ConstraintGroup.LeafNode: DefaultDiffable {
     
-    func testNumberParser() {
-        
-        let parser = ConstraintsParser.number
-        let exponential = "3.2e3"
-        let output = try? parser._run(Stream(exponential))
-        XCTAssertEqual(output, 3200.0)
-    }
-    
-    func testInfoParser() {
-        
-        let parser = ConstraintsParser.optionalInfo
-        let input = "(active, names: LoansListViewOptionsLabel...:0x7fa4d60764b0, '|':UIView:0x7fa4d6079490 )"
-        guard let output = shouldNotThrow({ try parser._run(Stream(input)) }) else { return }
-        let expected = [
-            "LoansListViewOptionsLabel...": Instance(className: "LoansListViewOptionsLabel...", address: "0x7fa4d60764b0", identifier: nil),
-            "|": Instance(className: "UIView", address: "0x7fa4d6079490", identifier: nil)
-        ]
-        XCTAssertEqual(expected, output)
-    }
-    
-    func testAttributeParser() {
-        
-        let parser = ConstraintsParser.attribute
-        let width = "width"
-        guard let output = shouldNotThrow({ try parser._run(Stream(width)) }) else { return }
-        let expected = Attribute.width
-        XCTAssertEqual(expected, output)
-    }
+    public static var defaultStrategy: Strategy<ConstraintGroup.LeafNode, String> { return .json }
 }

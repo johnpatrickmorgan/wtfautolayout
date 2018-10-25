@@ -1,0 +1,157 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "24"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">StackView<\/code>'s height should equal 24.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0dece70",
+          "className" : "UIStackView",
+          "color" : "rgb(231,76,60)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6080004835c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "21"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">StackView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">HeaderView<\/code>'s top edge plus 21.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0dece70",
+          "className" : "UIStackView",
+          "color" : "rgb(231,76,60)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000687440",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0df1370",
+          "className" : "Proto.HeaderView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "H",
+          "name" : "HeaderView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "9"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">HeaderView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 9.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0df1370",
+          "className" : "Proto.HeaderView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "H",
+          "name" : "HeaderView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000890860",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0dece70",
+          "className" : "UIStackView",
+          "color" : "rgb(231,76,60)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">HeaderView<\/code>'s height should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0df1370",
+          "className" : "Proto.HeaderView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "H",
+          "name" : "HeaderView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x600000a85d70",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Height",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Height"
+      },
+      "relation" : "=="
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}

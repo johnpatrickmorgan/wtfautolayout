@@ -1,0 +1,199 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "3"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View1<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">VeryLargeLabelWithBorder<\/code>'s bottom edge plus 3.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa4d6079490",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      },
+      "identity" : {
+        "address" : "0x608000880dc0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa4d60764b0",
+          "className" : "VeryLargeLabelWithBorder...",
+          "color" : "rgb(241,196,15)",
+          "initial" : "V",
+          "name" : "VeryLargeLabelWithBorder",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "3"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">VeryLargeLabelWithBorder<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View1<\/code>'s top edge plus 3.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa4d60764b0",
+          "className" : "VeryLargeLabelWithBorder...",
+          "color" : "rgb(241,196,15)",
+          "initial" : "V",
+          "name" : "VeryLargeLabelWithBorder",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x60800068f000",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa4d6079490",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">View2<\/code>'s height should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fa4d6079060",
+          "className" : "UIView",
+          "color" : "rgb(231,76,60)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "2"
+        }
+      },
+      "identity" : {
+        "address" : "0x608000695130",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">View2<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View1<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa4d6079060",
+          "className" : "UIView",
+          "color" : "rgb(231,76,60)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "2"
+        }
+      },
+      "identity" : {
+        "address" : "0x608000887620",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fa4d6079490",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View1<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">View2<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa4d6079490",
+          "className" : "UIView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "1"
+        }
+      },
+      "identity" : {
+        "address" : "0x608000699be0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fa4d6079060",
+          "className" : "UIView",
+          "color" : "rgb(231,76,60)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : "2"
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "234"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">AWPProductOnMapView<\/code>'s height should equal 234.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x4dbb090",
+          "className" : "AWPProductOnMapView",
+          "color" : "rgb(41,128,185)",
+          "initial" : "A",
+          "name" : "AWPProductOnMapView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x181af7c0",
+        "className" : "NSAutoresizingMaskLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSAutoresizingMaskLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ImageView<\/code>'s width should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ImageView<\/code>'s height multiplied by 0.385.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x4db3270",
+          "className" : "UIImageView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x181cef70",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "multiplier" : "* 0.385",
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x4db3270",
+          "className" : "UIImageView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "85"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ImageView<\/code>'s width should equal 85.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x4db3270",
+          "className" : "UIImageView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x181d2d20",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "25"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ImageView<\/code>'s bottom edge plus 25.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x4db5710",
+          "className" : "UIView",
+          "color" : "rgb(192,57,43)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x4dc7b00",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x4db3270",
+          "className" : "UIImageView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "2"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ImageView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">View<\/code>'s top edge plus 2.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x4db3270",
+          "className" : "UIImageView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x4dc7bd0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x4db5710",
+          "className" : "UIView",
+          "color" : "rgb(192,57,43)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">AWPProductOnMapView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">View<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x4dbb090",
+          "className" : "AWPProductOnMapView",
+          "color" : "rgb(41,128,185)",
+          "initial" : "A",
+          "name" : "AWPProductOnMapView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x4dc85a0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x4db5710",
+          "className" : "UIView",
+          "color" : "rgb(192,57,43)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">AWPProductOnMapView<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x4db5710",
+          "className" : "UIView",
+          "color" : "rgb(192,57,43)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x4dc8630",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x4dbb090",
+          "className" : "AWPProductOnMapView",
+          "color" : "rgb(41,128,185)",
+          "initial" : "A",
+          "name" : "AWPProductOnMapView",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

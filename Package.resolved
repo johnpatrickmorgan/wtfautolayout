@@ -128,6 +128,15 @@
         }
       },
       {
+        "package": "SnapshotTesting",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing.git",
+        "state": {
+          "branch": "master",
+          "revision": "66c05addb23d4c4244e34480cc1aeb628c81463e",
+          "version": null
+        }
+      },
+      {
         "package": "TemplateKit",
         "repositoryURL": "https://github.com/vapor/template-kit.git",
         "state": {

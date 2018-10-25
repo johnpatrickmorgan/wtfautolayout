@@ -1,0 +1,348 @@
+{
+  "constraints" : [
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">ScrollView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LQScrollingStackView<\/code>'s leading edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x1241d1200",
+          "className" : "UIScrollView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "S",
+          "name" : "ScrollView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x170490e00",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x123ed1070",
+          "className" : "LingQ.LQScrollingStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "L",
+          "name" : "LQScrollingStackView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">ScrollView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LQScrollingStackView<\/code>'s trailing edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x1241d1200",
+          "className" : "UIScrollView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "S",
+          "name" : "ScrollView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x170490ea0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x123ed1070",
+          "className" : "LingQ.LQScrollingStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "L",
+          "name" : "LQScrollingStackView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LQScrollingStackView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s leading margin.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x123ed1070",
+          "className" : "LingQ.LQScrollingStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "L",
+          "name" : "LQScrollingStackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1706b8600",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : true,
+          "name" : "leadingMargin"
+        },
+        "instance" : {
+          "address" : "0x123d8da90",
+          "className" : "NSKVONotifying_LQRoundedCornerView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "N",
+          "name" : "NSKVONotifying_LQRoundedCornerView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LQScrollingStackView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s trailing margin.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x123ed1070",
+          "className" : "LingQ.LQScrollingStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "L",
+          "name" : "LQScrollingStackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1706b86c0",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : true,
+          "name" : "trailingMargin"
+        },
+        "instance" : {
+          "address" : "0x123d8da90",
+          "className" : "NSKVONotifying_LQRoundedCornerView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "N",
+          "name" : "NSKVONotifying_LQRoundedCornerView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ImageView<\/code>'s width should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s width multiplied by 0.25.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x123d8e1f0",
+          "className" : "UIImageView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1706b9260",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "multiplier" : "* 0.25",
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x123d8da90",
+          "className" : "NSKVONotifying_LQRoundedCornerView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "N",
+          "name" : "NSKVONotifying_LQRoundedCornerView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">LLBadgeView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">_UILayoutSpacer<\/code>'s trailing edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x123d8e020",
+          "className" : "LingQ.LLBadgeView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "L",
+          "name" : "LLBadgeView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1742812c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x1743a0620",
+          "className" : "_UILayoutSpacer",
+          "color" : "rgb(26,188,156)",
+          "initial" : "U",
+          "name" : "_UILayoutSpacer",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">LLBadgeView<\/code>'s horizontal center should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ImageView<\/code>'s horizontal center.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerX"
+        },
+        "instance" : {
+          "address" : "0x123d8e020",
+          "className" : "LingQ.LLBadgeView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "L",
+          "name" : "LLBadgeView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x174281450",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerX"
+        },
+        "instance" : {
+          "address" : "0x123d8e1f0",
+          "className" : "UIImageView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">LLBadgeView<\/code>'s width should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x123d8e020",
+          "className" : "LingQ.LLBadgeView",
+          "color" : "rgb(52,152,219)",
+          "initial" : "L",
+          "name" : "LLBadgeView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1704918f0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">_UILayoutSpacer<\/code>'s trailing edge should be at least <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ImageView<\/code>'s trailing edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x1743a0620",
+          "className" : "_UILayoutSpacer",
+          "color" : "rgb(26,188,156)",
+          "initial" : "U",
+          "name" : "_UILayoutSpacer",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x174281400",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : ">=",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x123d8e1f0",
+          "className" : "UIImageView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

@@ -4,8 +4,8 @@ import XCTest
 @testable import AppTests
 
 XCTMain([
-    // AppTests
-    testCase(ParserTests.allTests)
+    testCase(ParserTests.allTests),
+    testCase(ViewTests.allTests)
 ])
 
 #endif

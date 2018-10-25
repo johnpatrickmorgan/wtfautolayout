@@ -1,0 +1,423 @@
+{
+  "constraints" : [
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s width should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s height multiplied by 1.574.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7f950028efe0",
+          "className" : "ListViewImage-a...",
+          "color" : "rgb(192,57,43)",
+          "initial" : "L",
+          "name" : "ListViewImage-a",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000697bb0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "multiplier" : "* 1.574",
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7f950028efe0",
+          "className" : "ListViewImage-a...",
+          "color" : "rgb(192,57,43)",
+          "initial" : "L",
+          "name" : "ListViewImage-a",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s height should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7f950028e5b0",
+          "className" : "ListViewItemLabel...",
+          "color" : "rgb(39,174,96)",
+          "initial" : "L",
+          "name" : "ListViewItemLabel",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000696f30",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "value" : "11"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">View<\/code>'s height should equal 11.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7f95002902c0",
+          "className" : "UIView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000696bc0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "7"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 7.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7f950028e5b0",
+          "className" : "ListViewItemLabel...",
+          "color" : "rgb(39,174,96)",
+          "initial" : "L",
+          "name" : "ListViewItemLabel",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000696a30",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7f94fa4d7d10",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "7"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s bottom edge plus 7.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7f950028efe0",
+          "className" : "ListViewImage-a...",
+          "color" : "rgb(192,57,43)",
+          "initial" : "L",
+          "name" : "ListViewImage-a",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000696990",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7f950028e5b0",
+          "className" : "ListViewItemLabel...",
+          "color" : "rgb(39,174,96)",
+          "initial" : "L",
+          "name" : "ListViewItemLabel",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s width should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s width multiplied by 0.4.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7f950028efe0",
+          "className" : "ListViewImage-a...",
+          "color" : "rgb(192,57,43)",
+          "initial" : "L",
+          "name" : "ListViewImage-a",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6080006968a0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "multiplier" : "* 0.4",
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7f94fa4d7d10",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "9"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s bottom edge plus 9.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7f95002902c0",
+          "className" : "UIView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000696760",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7f950028efe0",
+          "className" : "ListViewImage-a...",
+          "color" : "rgb(192,57,43)",
+          "initial" : "L",
+          "name" : "ListViewImage-a",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "11"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LineView<\/code>'s top edge should be at least <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">View<\/code>'s bottom edge plus 11.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7f9500290110",
+          "className" : "App.LineView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "L",
+          "name" : "LineView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6080006966c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : ">=",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7f95002902c0",
+          "className" : "UIView",
+          "color" : "rgb(25,181,254)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LineView<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7f94fa4d7d10",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000696530",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7f9500290110",
+          "className" : "App.LineView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "L",
+          "name" : "LineView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "123.5"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 123.5.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7f94fa4d7d10",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x608000a99dc0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Height",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Height"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "value" : "342"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s width should equal 342.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7f94fa4d7d10",
+          "className" : "UITableViewCellContentView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "T",
+          "name" : "TableViewCellContentView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x608000a99e10",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Width",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Width"
+      },
+      "relation" : "=="
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}

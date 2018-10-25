@@ -1,0 +1,149 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "60"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">ImageView<\/code>'s height should equal 60.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fd382f50",
+          "className" : "UIImageView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x69c2f0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">ImageView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCell<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fd382f50",
+          "className" : "UIImageView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x69a8b0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7fd39b20",
+          "className" : "UITableViewCell",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TableViewCell",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCell<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">ImageView<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fd39b20",
+          "className" : "UITableViewCell",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TableViewCell",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x697ca0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7fd382f50",
+          "className" : "UIImageView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "I",
+          "name" : "ImageView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "80"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCell<\/code>'s height should equal 80.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x7fd39b20",
+          "className" : "UITableViewCell",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TableViewCell",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x697d40",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Height",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Height"
+      },
+      "relation" : "=="
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}

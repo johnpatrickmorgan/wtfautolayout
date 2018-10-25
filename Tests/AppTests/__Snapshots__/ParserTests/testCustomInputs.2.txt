@@ -1,0 +1,128 @@
+{
+  "constraints" : [
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">MyCircleView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">name_label<\/code>'s leading edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0e8b8e0",
+          "className" : "MyCircleView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "M",
+          "name" : "MyCircleView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x600000685780",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0e9e480",
+          "className" : "name_label",
+          "color" : "rgb(142,68,173)",
+          "initial" : "N",
+          "name" : "name_label",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "6"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">MyCircleView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">OverViewFactorLabel<\/code>'s leading edge plus 6.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0e8b8e0",
+          "className" : "MyCircleView",
+          "color" : "rgb(39,174,96)",
+          "initial" : "M",
+          "name" : "MyCircleView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6000006857d0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0e8b450",
+          "className" : "OverViewFactorLabel",
+          "color" : "rgb(25,181,254)",
+          "initial" : "O",
+          "name" : "OverViewFactorLabel",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">name_label<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">OverViewFactorLabel<\/code>'s leading edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0e9e480",
+          "className" : "name_label",
+          "color" : "rgb(142,68,173)",
+          "initial" : "N",
+          "name" : "name_label",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x600000482e90",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fa4d0e8b450",
+          "className" : "OverViewFactorLabel",
+          "color" : "rgb(25,181,254)",
+          "initial" : "O",
+          "name" : "OverViewFactorLabel",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

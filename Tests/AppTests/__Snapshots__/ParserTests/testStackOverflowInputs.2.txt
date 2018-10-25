@@ -1,0 +1,129 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "13"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TagView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">QuestionDetailHearderView<\/code>'s leading edge plus 13.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x103850290",
+          "className" : "ZhiMa_iOS.TagView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TagView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1740b5ae0",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x10384fed0",
+          "className" : "ZhiMa_iOS.QuestionDetailHearderView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "Q",
+          "name" : "QuestionDetailHearderView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "- ",
+        "value" : "13"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TagView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">QuestionDetailHearderView<\/code>'s trailing edge minus 13.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x103850290",
+          "className" : "ZhiMa_iOS.TagView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "T",
+          "name" : "TagView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1740b7e20",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x10384fed0",
+          "className" : "ZhiMa_iOS.QuestionDetailHearderView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "Q",
+          "name" : "QuestionDetailHearderView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">QuestionDetailHearderView<\/code>'s width should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x10384fed0",
+          "className" : "ZhiMa_iOS.QuestionDetailHearderView",
+          "color" : "rgb(142,68,173)",
+          "initial" : "Q",
+          "name" : "QuestionDetailHearderView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x17009fcc0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Width",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Width"
+      },
+      "relation" : "=="
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}

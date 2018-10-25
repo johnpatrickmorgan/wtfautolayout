@@ -1,6 +1,6 @@
 import Foundation
 
-struct ConstraintLogRequest: Decodable {
+struct ConstraintLogRequest: Codable {
     
     let constraintlog: String
 }

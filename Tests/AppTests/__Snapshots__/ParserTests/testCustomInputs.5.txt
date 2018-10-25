@@ -1,0 +1,152 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "70"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">View<\/code>'s width should equal 70.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7f95000e5ac0",
+          "className" : "UIView",
+          "color" : "rgb(155,89,182)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "*",
+        "text" : "This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints<\/code> to false on this view."
+      },
+      "identity" : {
+        "address" : "0x60000089a130",
+        "className" : "NSAutoresizingMaskLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSAutoresizingMaskLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "value" : "54"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s width should equal 54.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7f95000e5e50",
+          "className" : "DetailViewFeatureItemCell...",
+          "color" : "rgb(230,126,34)",
+          "initial" : "D",
+          "name" : "DetailViewFeatureItemCell",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6000008989c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s horizontal center should equal <code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">View<\/code>'s horizontal center.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerX"
+        },
+        "instance" : {
+          "address" : "0x7f95000e5e50",
+          "className" : "DetailViewFeatureItemCell...",
+          "color" : "rgb(230,126,34)",
+          "initial" : "D",
+          "name" : "DetailViewFeatureItemCell",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x600000898b50",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerX"
+        },
+        "instance" : {
+          "address" : "0x7f95000e5ac0",
+          "className" : "UIView",
+          "color" : "rgb(155,89,182)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "- ",
+        "value" : "2"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">View<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s trailing edge minus 2.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x7f95000e5ac0",
+          "className" : "UIView",
+          "color" : "rgb(155,89,182)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x600000898c90",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x7f95000e5e50",
+          "className" : "DetailViewFeatureItemCell...",
+          "color" : "rgb(230,126,34)",
+          "initial" : "D",
+          "name" : "DetailViewFeatureItemCell",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "*",
+      "text" : "This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints<\/code> to false on this view."
+    }
+  ]
+}

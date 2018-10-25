@@ -1,0 +1,302 @@
+HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+content-length: 14442
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WTF Auto Layout?</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/images/Icon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/Icon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/Icon_96x96.png" sizes="96x96">
+
+    <!-- App Icons -->
+    <link rel="apple-touch-icon" href="/images/Icon_120x120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/Icon_180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/Icon_152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/images/Icon_167x167.png">
+
+    <!-- OG/Twitter Metadata -->
+	<meta property="og:type" content="website" />
+    <meta property="og:title" content="WTF Auto Layout?">
+    <meta property="og:description" content="Make sense of cryptic Auto Layout error logs.">
+    <meta property="og:image" content="/images/Card.png">
+    <meta property="og:url" content="https://www.wtfautolayout.com">
+    <meta property="og:site_name" content="WTF Auto Layout?">
+    <meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@jpmmusic" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-78016335-2', 'auto');
+      ga('send', 'pageview', 'output');
+
+    </script>
+    
+</head>
+<body class="w3-theme-l5">
+    
+
+
+
+<!-- SVG Definitions -->
+
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+<path d="M6,0 L6,6 L0,3 z" fill="#000" />
+      </marker>
+      <marker id="arrowEnd" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+          <path d="M0,0 L0,6 L6,3 z" fill="#000" />
+      </marker>
+      <rect id="diagram-background" style="stroke-width:1;stroke:rgb(0,0,0);" width="100%" height="100%" />
+      <rect id="margin-rect" style="stroke-width:1;stroke-dasharray:1,2;stroke:rgb(0,0,0);fill-opacity:0" width="80%" height="80%" />
+      <polyline id="leading" class="diagram-line" points="0,0 0,50" style="stroke-width: 12%;"/>
+      <polyline id="trailing" class="diagram-line" points="50,50 50,0" style="stroke-width: 12%;"/>
+      <polyline id="top" class="diagram-line" points="0,0 50,0" style="stroke-width: 12%;"/>
+      <polyline id="bottom" class="diagram-line" points="50,50 0,50" style="stroke-width: 12%;"/>
+      <polyline id="leadingMargin" class="diagram-line" points="5,0 5,50" style="stroke-width: 12%;"/>
+      <polyline id="trailingMargin" class="diagram-line" points="45,50 45,0" style="stroke-width: 12%;"/>
+      <polyline id="topMargin" class="diagram-line" points="0,5 50,5" style="stroke-width: 12%;"/>
+      <polyline id="bottomMargin" class="diagram-line" points="50,45 0,45" style="stroke-width: 12%;"/>
+      <polyline id="firstBaseline" class="diagram-line" points="0,46 50,46" style="stroke-width: 8%;stroke-dasharray:2,6;"/>
+      <polyline id="lastBaseline" class="diagram-line" points="0,46 50,46" style="stroke-width: 8%;stroke-dasharray:2,6;"/>
+      <polyline id="centerY" class="diagram-line" points="0,25 50,25" style="stroke-width: 12%;"/>
+      <polyline id="centerX" class="diagram-line" points="25,50 25,0" style="stroke-width: 12%;"/>
+      <polyline id="centerYWithinMargins" class="diagram-line" points="0,25 50,25" style="stroke-width: 12%;"/>
+      <polyline id="centerXWithinMargins" class="diagram-line" points="25,50 25,0" style="stroke-width: 12%;"/>
+      <polyline id="width" class="diagram-line" points="15,25 35,25" style="stroke-width: 12%;" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+      <polyline id="height" class="diagram-line" points="25,35 25,15" style="stroke-width: 12%;" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+    </defs>
+</svg>
+
+
+<!-- Navbar -->
+
+<div class="w3-top">
+    <div class="w3-bar w3-theme-dark w3-left-align w3-large">
+        <a href="/" class="tab w3-bar-item w3-button w3-theme-l1 w3-hover-dark-grey">Home</a>
+        <a href="/about" class="tab w3-bar-item w3-button w3-hover-dark-grey">About</a>
+    </div>
+</div>
+
+<div style="height:20px;"></div>
+
+<!-- Main content -->
+
+<div class="w3-main main">
+    <div class="w3-content w3-container w3-padding-32">
+        
+
+<!-- Constraints -->
+
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(26,188,156)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">I</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#height" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>ImageView</strong>.height<br />
+                    UIImageView<br />
+                    0x7fd382f50
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+
+
+            <div class="constant w3-padding-small w3-cell w3-cell-middle">
+                60
+            </div>
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;">ImageView</code>'s height should equal 60.<sup></sup>
+    </div>
+</div>
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(26,188,156)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">I</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#top" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>ImageView</strong>.top<br />
+                    UIImageView<br />
+                    0x7fd382f50
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+            <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(211,84,0)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">T</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#top" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>TableViewCell</strong>.top<br />
+                    UITableViewCell<br />
+                    0x7fd39b20
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;">ImageView</code>'s top edge should equal <code style="box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;">TableViewCell</code>'s top edge.<sup></sup>
+    </div>
+</div>
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(211,84,0)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">T</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#bottom" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>TableViewCell</strong>.bottom<br />
+                    UITableViewCell<br />
+                    0x7fd39b20
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+            <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(26,188,156)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">I</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#bottom" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>ImageView</strong>.bottom<br />
+                    UIImageView<br />
+                    0x7fd382f50
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;">TableViewCell</code>'s bottom edge should equal <code style="box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;">ImageView</code>'s bottom edge.<sup></sup>
+    </div>
+</div>
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(211,84,0)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">T</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#height" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>TableViewCell</strong>.height<br />
+                    UITableViewCell<br />
+                    0x7fd39b20
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+
+
+            <div class="constant w3-padding-small w3-cell w3-cell-middle">
+                80
+            </div>
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;">TableViewCell</code>'s height should equal 80.<sup>â </sup>
+    </div>
+</div>
+
+
+<p class="footnotes"><sup>â </sup> This constraint was added by a table or collection view to enforce its cell size.</p>
+
+
+
+    </div>
+</div>
+
+<!-- Footer -->
+
+<div style="height:64px;"></div>
+
+<footer>
+    <div class="w3-bar w3-theme-l1 w3-small w3-hide-small">
+        <div class="w3-bar-item w3-left" style="color:white">Built using <a href="https://swift.org/">Swift</a>, <a href="https://vapor.codes">Vapor</a>, <a href="https://github.com/johnpatrickmorgan/Sparse">Sparse</a> and <a href="https://www.w3schools.com/w3css/">W3.CSS</a>
+        </div>
+    </div>
+    <div class="w3-bar w3-theme-dark w3-small">
+        <div class="w3-bar-item w3-left">View source on <a href="https://www.github.com/johnpatrickmorgan/wtfautolayout" target="_blank">GitHub</a>
+        </div>
+        <a href="https://www.github.com/johnpatrickmorgan" class="w3-bar-item w3-hover-opacity w3-small w3-right" target="_blank">johnpatrickmorgan</a>
+    </div>
+</footer>
+
+</body>
+</html>
+
+

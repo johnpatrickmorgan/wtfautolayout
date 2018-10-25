@@ -1,0 +1,35 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "5"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;\">progress background<\/code>'s height should equal 5.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x1089a5290",
+          "className" : "progress background",
+          "color" : "rgb(46,204,113)",
+          "initial" : "P",
+          "name" : "progress background",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x17468b860",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

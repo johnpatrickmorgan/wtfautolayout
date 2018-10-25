@@ -91,7 +91,6 @@
 }
         </div>
     </div>
-
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
         #get(constraint.description)<sup>#(constraint.footnote.marker)</sup>
     </div>

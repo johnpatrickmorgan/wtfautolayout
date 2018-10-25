@@ -1,6 +1,6 @@
 import Foundation
 
-extension ParserTests {
+extension Input {
     
     static let so45163786 = """
         (

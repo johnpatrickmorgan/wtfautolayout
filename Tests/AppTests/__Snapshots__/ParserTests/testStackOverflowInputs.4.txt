@@ -1,0 +1,125 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s width should be at most 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7fb573cebf90",
+          "className" : "_UIButtonBarStackView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "U",
+          "name" : "_UIButtonBarStackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x610000099cd0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "<="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "15"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s leading edge plus 15.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x61000038ce60",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x610000098ec0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-leftMargin-guide-constraint",
+        "initial" : "U",
+        "name" : "UIView-leftMargin-guide-constraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fb573cebf90",
+          "className" : "_UIButtonBarStackView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "U",
+          "name" : "_UIButtonBarStackView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "15"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s trailing edge plus 15.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x7fb573cebf90",
+          "className" : "_UIButtonBarStackView",
+          "color" : "rgb(241,196,15)",
+          "initial" : "U",
+          "name" : "_UIButtonBarStackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x610000099000",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-rightMargin-guide-constraint",
+        "initial" : "U",
+        "name" : "UIView-rightMargin-guide-constraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x61000038ce60",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">_UILayoutGuide<\/code>'s height should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x1271a5500",
+          "className" : "_UILayoutGuide",
+          "color" : "rgb(25,181,254)",
+          "initial" : "U",
+          "name" : "_UILayoutGuide",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1272e5820",
+        "className" : "_UILayoutSupportConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "U",
+        "name" : "_UILayoutSupportConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">_UILayoutGuide<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">View<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x1271a5500",
+          "className" : "_UILayoutGuide",
+          "color" : "rgb(25,181,254)",
+          "initial" : "U",
+          "name" : "_UILayoutGuide",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x1272cd510",
+        "className" : "_UILayoutSupportConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "U",
+        "name" : "_UILayoutSupportConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x128321830",
+          "className" : "UIView",
+          "color" : "rgb(192,57,43)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "230"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">CollectionView<\/code>'s height should equal 230.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x126963e00",
+          "className" : "UICollectionView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "C",
+          "name" : "CollectionView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x127225340",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "87"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">_UILayoutGuide<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">CollectionView<\/code>'s bottom edge plus 87.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x1271a5500",
+          "className" : "_UILayoutGuide",
+          "color" : "rgb(25,181,254)",
+          "initial" : "U",
+          "name" : "_UILayoutGuide",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x128325fd0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x126963e00",
+          "className" : "UICollectionView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "C",
+          "name" : "CollectionView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "568"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">View<\/code>'s height should equal 568.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x128321830",
+          "className" : "UIView",
+          "color" : "rgb(192,57,43)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x1272e51f0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Height",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Height"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">CollectionView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">View<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x126963e00",
+          "className" : "UICollectionView",
+          "color" : "rgb(243,156,18)",
+          "initial" : "C",
+          "name" : "CollectionView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "*",
+        "text" : "This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints<\/code> to false on this view."
+      },
+      "identity" : {
+        "address" : "0x1272ed5f0",
+        "className" : "NSAutoresizingMaskLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Top",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Top"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x128321830",
+          "className" : "UIView",
+          "color" : "rgb(192,57,43)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "*",
+      "text" : "This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints<\/code> to false on this view."
+    },
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}
