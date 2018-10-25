@@ -9,12 +9,16 @@ extension ConstraintsParser {
     static let equationConstraint = layoutItemAttribute.thenSkip(wss).then(relation)
         .thenSkip(wss).then(preMultiplier).then(optional(layoutItemAttribute))
         .thenSkip(wss).then(postMultiplier).then(constant).then(optionalInfo)
-        .map { try AnonymousConstraint(first: $0.0.0.0.0.0,
-                                       relation: $0.0.0.0.0.1,
-                                       multiplier: $0.0.0.0.1 ?? $0.0.1 ?? Multiplier(),
-                                       second: $0.0.0.1,
-                                       constant: $0.1,
-                                       names: $1) }
+        .map {
+            try AnonymousConstraint(
+                first: $0.0.0.0.0.0,
+                relation: $0.0.0.0.0.1,
+                multiplier: $0.0.0.0.1 ?? $0.0.1 ?? Multiplier(),
+                second: $0.0.0.1,
+                constant: $0.1,
+                names: $1
+            )
+        }
 }
 
 private extension ConstraintsParser {

@@ -15,13 +15,15 @@ extension AnonymousConstraint {
         
         let instance1 = try first.partialInstance.getInstance(names: names)
         
-        self.init(first: LayoutItemAttribute(layoutItem: instance1,
-                                             attribute: first.attribute),
-                  second: try second.map { LayoutItemAttribute(layoutItem: try $0.partialInstance.getInstance(names: names),
-                                                           attribute: $0.attribute) },
-                  relation: relation,
-                  constant: constant,
-                  multiplier: multiplier)
+        self.init(
+            first: LayoutItemAttribute(layoutItem: instance1,
+                                       attribute: first.attribute),
+            second: try second.map { LayoutItemAttribute(layoutItem: try $0.partialInstance.getInstance(names: names),
+                                                         attribute: $0.attribute) },
+            relation: relation,
+            constant: constant,
+            multiplier: multiplier
+        )
     }
     
     
@@ -57,13 +59,15 @@ extension AnonymousConstraint {
         
         let instance = try partialInstance.getInstance(names: names)
         let attribute = try Attribute(axis: axis, pinPoint: .extent)
+        let first = LayoutItemAttribute(layoutItem: instance, attribute: attribute)
         
-        self.init(first: LayoutItemAttribute(layoutItem: instance,
-                                             attribute: attribute),
-                  second: nil,
-                  relation: comparison.relation,
-                  constant: Constant(comparison.amount),
-                  multiplier: Multiplier())
+        self.init(
+            first: first,
+            second: nil,
+            relation: comparison.relation,
+            constant: Constant(comparison.amount),
+            multiplier: Multiplier()
+        )
     }
 }
 
@@ -82,12 +86,14 @@ extension AnonymousConstraint {
             origin = .user
         }
         
-        return Constraint(identity: instance,
-                          first: first,
-                          second: second,
-                          relation: relation,
-                          constant: constant,
-                          multiplier: multiplier,
-                          origin: origin)
+        return Constraint(
+            identity: instance,
+            first: first,
+            second: second,
+            relation: relation,
+            constant: constant,
+            multiplier: multiplier,
+            origin: origin
+        )
     }
 }
