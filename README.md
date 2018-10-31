@@ -5,7 +5,7 @@
 WTF Auto Layout?
 ================
 
-![Swift](https://img.shields.io/badge/Swift-3.1-green.svg?style=flat) ![Vapor](https://img.shields.io/badge/Vapor-2.0-green.svg?style=flat)
+![Swift](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat) ![Vapor](https://img.shields.io/badge/Vapor-3.0-green.svg?style=flat)
 
 This is the code driving [www.wtfautolayout.com](https://www.wtfautolayout.com), which parses error logs from Auto Layout on iOS and macOS and provides more intuitive visual descriptions of the conflicting constraints. It was built using [Swift](https://swift.org/), [Vapor](https://vapor.codes) and [Sparse](https://github.com/johnpatrickmorgan/Sparse).
 
