@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 19769
+content-length: 19757
 
 
 
@@ -356,7 +356,7 @@ content-length: 19769
 </div>
 
 
-<p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting &lt;code&gt;translatesAutoresizingMaskIntoConstraints&lt;/code&gt; to false on this view.</p>
+<p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints</code> to false on this view.</p>
 
 <p class="footnotes"><sup>â </sup> This constraint was added by a table or collection view to enforce its cell size.</p>
 

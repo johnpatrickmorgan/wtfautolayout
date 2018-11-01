@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 15638
+content-length: 15626
 
 
 
@@ -277,7 +277,7 @@ content-length: 15638
 </div>
 
 
-<p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting &lt;code&gt;translatesAutoresizingMaskIntoConstraints&lt;/code&gt; to false on this view.</p>
+<p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints</code> to false on this view.</p>
 
 
 <a href="?constraintlog=(%0A%22%3CNSAutoresizingMaskLayoutConstraint:0x60000089a130%20h=--&amp;%20v=--&amp;%20UIView:0x7f95000e5ac0.width%20==%2070%20%20%20(active)%3E%22,%0A%22%3CNSLayoutConstraint:0x6000008989c0%20DetailViewFeatureItemCell....width%20==%2054%20%20%20(active,%20names:%20DetailViewFeatureItemCell...:0x7f95000e5e50%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x600000898b50%20DetailViewFeatureItemCell....centerX%20==%20UIView:0x7f95000e5ac0.centerX%20%20%20(active,%20names:%20DetailViewFeatureItemCell...:0x7f95000e5e50%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x600000898c90%20H:%5BDetailViewFeatureItemCell...%5D-(-2)-%7C%20%20%20(active,%20names:%20DetailViewFeatureItemCell...:0x7f95000e5e50,%20&#39;%7C&#39;:UIView:0x7f95000e5ac0%20)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
