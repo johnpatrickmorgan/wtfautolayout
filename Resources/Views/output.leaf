@@ -97,7 +97,7 @@
 </div>
 }
 #for(footnote in footnotes) {
-<p class="footnotes"><sup>#(footnote.marker)</sup> #(footnote.text)</p>
+<p class="footnotes"><sup>#(footnote.marker)</sup> #get(footnote.text)</p>
 }
 #if(permalink) {
 <a href="?constraintlog=#(permalink)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
