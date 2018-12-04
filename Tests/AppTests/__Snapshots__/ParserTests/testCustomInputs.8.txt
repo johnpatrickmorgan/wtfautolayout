@@ -1,0 +1,50 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "7"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s bottom edge plus 7.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x7f950028e5b0",
+          "className" : "ListViewItemLabel...",
+          "color" : "rgb(230,126,34)",
+          "initial" : "L",
+          "name" : "ListViewItemLabel",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x608000696990",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x7f950028e5b0",
+          "className" : "ListViewItemLabel...",
+          "color" : "rgb(230,126,34)",
+          "initial" : "L",
+          "name" : "ListViewItemLabel",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}
