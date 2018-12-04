@@ -20,7 +20,7 @@ extension ConstraintsParser {
     static let keyValuePair = infoInstance.map { ($0.className, $0) }.otherwise((quotableKey.thenSkip(character(":")).then(infoInstance)))
         .named("key value pair")
     static let commaSeparator = string(", ")
-    static let keyValuePairs = many(keyValuePair, separator: commaSeparator).map { Dictionary(uniqueKeysWithValues: $0) }
+    static let keyValuePairs = many(keyValuePair, separator: commaSeparator).map { Dictionary($0, uniquingKeysWith: { $1 }) }
     static let namesDictionary = names.skipThen(wss).skipThen(keyValuePairs).thenSkip(wss)
     static let emptyInfo = character("(").skipThen(active).thenSkip(character(")")).map { _ in return [String: Instance]() }
     static let nonEmptyInfo = character("(").skipThen(optional(active.then(commaSeparator))).skipThen(namesDictionary).thenSkip(wss).thenSkip(character(")"))

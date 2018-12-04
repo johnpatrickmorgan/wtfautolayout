@@ -1,0 +1,128 @@
+HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+content-length: 4749
+  
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WTF Auto Layout?</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/images/Icon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/Icon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/Icon_96x96.png" sizes="96x96">
+
+    <!-- App Icons -->
+    <link rel="apple-touch-icon" href="/images/Icon_120x120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/Icon_180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/Icon_152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/images/Icon_167x167.png">
+
+    <!-- OG/Twitter Metadata -->
+	<meta property="og:type" content="website" />
+    <meta property="og:title" content="WTF Auto Layout?">
+    <meta property="og:description" content="Make sense of cryptic Auto Layout error logs.">
+    <meta property="og:image" content="/images/Card.png">
+    <meta property="og:url" content="https://www.wtfautolayout.com">
+    <meta property="og:site_name" content="WTF Auto Layout?">
+    <meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@jpmmusic" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-78016335-2', 'auto');
+      ga('send', 'pageview', 'error');
+
+    </script>
+    
+</head>
+<body class="w3-theme-l5">
+    
+
+
+
+<!-- Navbar -->
+
+<div class="w3-top">
+    <div class="w3-bar w3-theme-dark w3-left-align w3-large">
+        <a href="/" class="tab w3-bar-item w3-button w3-theme-l1 w3-hover-dark-grey">Home</a>
+        <a href="/about" class="tab w3-bar-item w3-button w3-hover-dark-grey">About</a>
+    </div>
+</div>
+
+<div style="height:20px;"></div>
+
+<!-- Main content -->
+
+<div class="w3-main main">
+    <div class="w3-content w3-container w3-padding-32">
+        
+    <!-- Hero -->
+
+<div class="hero flex-container w3-padding-16">
+  <img class="logo w3-padding-small" width="80" src="images/wtf-logo.svg" alt="WTF Auto Layout logo"/>
+  <div class="w3-padding-small">
+    <h2>Why The Failure,<br /><strong>Auto Layout</strong>?</h2>
+  </div>
+</div>
+
+
+    <!-- Form -->
+
+    <div class="w3-container">
+        <form action="/" class="w3-container" method="post">
+            <label class="w3-label">Paste your constraint error log here:</label>
+            <textarea class="mono w3-input w3-border w3-round w3-hover-light-gray" wrap="off" rows="10" name="constraintlog" required="required" placeholder="Paste your constraint error logs: just the part surrounded by ( and )" autofocus>(
+&quot;&lt;NSLayoutConstraint:0x608000696990 V:[ListViewItemLabel...]-(7)-[ListViewImage-a...]   (active, names: ListViewItemLabel...:0x7f950028efe0, ListViewItemLabel...:0x7f950028e5b0 )&gt;&quot;,
+)</textarea>
+            <a href="/?example=true" class="w3-button w3-round-large w3-green w3-margin-top">Example</a>
+            <button class="w3-button w3-right w3-round-large w3-blue w3-margin-top">Go!</button>
+        </form>
+
+ <div class="alert mono w3-panel w3-margin w3-pale-red"><pre>INVALID CONSTRAINT:
+Missing info for ListViewImage-a....</pre></div> 
+    </div>
+
+
+    </div>
+</div>
+
+<!-- Footer -->
+
+<div style="height:64px;"></div>
+
+<footer>
+    <div class="w3-bar w3-theme-l1 w3-small w3-hide-small">
+        <div class="w3-bar-item w3-left" style="color:white">Built using <a href="https://swift.org/">Swift</a>, <a href="https://vapor.codes">Vapor</a>, <a href="https://github.com/johnpatrickmorgan/Sparse">Sparse</a> and <a href="https://www.w3schools.com/w3css/">W3.CSS</a>
+        </div>
+    </div>
+    <div class="w3-bar w3-theme-dark w3-small">
+        <div class="w3-bar-item w3-left">View source on <a href="https://www.github.com/johnpatrickmorgan/wtfautolayout" target="_blank">GitHub</a>
+        </div>
+        <a href="https://www.github.com/johnpatrickmorgan" class="w3-bar-item w3-hover-opacity w3-small w3-right" target="_blank">johnpatrickmorgan</a>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
