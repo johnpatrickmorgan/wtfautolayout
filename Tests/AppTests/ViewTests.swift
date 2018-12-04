@@ -30,7 +30,8 @@ class ViewTests: SnapshotTestCase {
     
     func testPostError() throws {
         let inputs = [
-            Input.error1
+            Input.invalidHexitError,
+            Input.duplicateKeyError
         ]
         
         for input in inputs {
@@ -50,7 +51,8 @@ class ViewTests: SnapshotTestCase {
             Input.custom4,
             Input.custom5,
             Input.custom6,
-            Input.custom7
+            Input.custom7,
+            Input.custom8
         ]
         
         for input in inputs {
@@ -70,7 +72,8 @@ class ViewTests: SnapshotTestCase {
             Input.custom4,
             Input.custom5,
             Input.custom6,
-            Input.custom7
+            Input.custom7,
+            Input.custom8
         ]
         
         for input in inputs {

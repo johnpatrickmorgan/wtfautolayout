@@ -19,7 +19,8 @@ class ParserTests: SnapshotTestCase {
             Input.custom4,
             Input.custom5,
             Input.custom6,
-            Input.custom7
+            Input.custom7,
+            Input.custom8
         ]
         
         for input in inputs {
