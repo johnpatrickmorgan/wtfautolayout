@@ -13,6 +13,12 @@ extension ConstraintsParser {
         .map(flatten).map(AnonymousConstraint.init)
     
     static let vflConstraint = vflExtentConstraint.otherwise(vflSpaceConstraint)
+    
+    static let unbracketedNSSpace = string("NSSpace")
+        .otherwise(string("NSLayoutAnchorConstraintSpace"))
+        .skipThen(vflExtent)
+    
+    static let nsSpacer = character("(").skipThen(unbracketedNSSpace).thenSkip(character(")"))
 }
 
 // MARK: - Private
@@ -30,6 +36,5 @@ private extension ConstraintsParser {
     static let vflEntity = instance.map({ PartialInstance.instance($0) }).otherwise(vflIdentifier.map({ PartialInstance.identifier($0) }))
     static let vflBoundedEntity = character("[").skipThen(vflEntity).thenSkip(character("]")).otherwise(string("|").map({ _ in PartialInstance.superview }))
     static let vflDirection = optional(string("(LTR)").otherwise(string("(RTL)")))
-    static let nsSpacer = character("(").skipThen(string("NSSpace").otherwise(string("NSLayoutAnchorConstraintSpace"))).skipThen(vflExtent).thenSkip(character(")"))
     static let spacer = vflExtent.otherwise(nsSpacer)
 }

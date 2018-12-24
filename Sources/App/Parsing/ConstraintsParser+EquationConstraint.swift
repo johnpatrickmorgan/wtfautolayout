@@ -8,7 +8,7 @@ extension ConstraintsParser {
     
     static let equationConstraint = layoutItemAttribute.thenSkip(wss).then(relation)
         .thenSkip(wss).then(preMultiplier).then(optional(layoutItemAttribute))
-        .thenSkip(wss).then(postMultiplier).then(constant).then(optionalInfo)
+        .thenSkip(wss).then(postMultiplier).then(anyConstant).then(optionalInfo)
         .map {
             try AnonymousConstraint(
                 first: $0.0.0.0.0.0,
@@ -24,7 +24,9 @@ extension ConstraintsParser {
 private extension ConstraintsParser {
     
     static let layoutItemAttribute = partialInstance.then(dotAttribute)
+    static let anyConstant = nsSpaceConstant.otherwise(constant)
     static let constant = number.map(Constant.init).otherwise(pure(Constant()))
+    static let nsSpaceConstant = unbracketedNSSpace.map { Constant($0.1) }
     static let preMultiplier = optional(number.thenSkip(string("*")).map(Multiplier.init))
         .named("prefixed multiplier")
     static let postMultiplier = optional(string("*").skipThen(wss).skipThen(number).map(Multiplier.init))

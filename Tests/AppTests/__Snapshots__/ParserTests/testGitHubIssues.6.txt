@@ -1,0 +1,197 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "value" : "86"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">View<\/code>'s height should equal 86.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x10f754f20",
+          "className" : "UIView",
+          "color" : "rgb(22,160,133)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "*",
+        "text" : "This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints<\/code> to false on this view."
+      },
+      "identity" : {
+        "address" : "0x283c8f570",
+        "className" : "NSAutoresizingMaskLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSAutoresizingMaskLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">Cancel<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x10f755100",
+          "className" : "UIButton",
+          "color" : "rgb(41,128,185)",
+          "identifier" : "Cancel",
+          "initial" : "C",
+          "name" : "Cancel",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x283c8c820",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x10f754f20",
+          "className" : "UIView",
+          "color" : "rgb(22,160,133)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "52"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">Cancel<\/code>'s height should equal 52.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x10f755100",
+          "className" : "UIButton",
+          "color" : "rgb(41,128,185)",
+          "identifier" : "Cancel",
+          "initial" : "C",
+          "name" : "Cancel",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x283c8c870",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "=="
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">Cancel<\/code>'s bottom edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x2826f9880",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(243,156,18)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x283c8c8c0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x10f755100",
+          "className" : "UIButton",
+          "color" : "rgb(41,128,185)",
+          "identifier" : "Cancel",
+          "initial" : "C",
+          "name" : "Cancel",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "42"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge plus 42.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x10f754f20",
+          "className" : "UIView",
+          "color" : "rgb(22,160,133)",
+          "initial" : "V",
+          "name" : "View",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x283c8c730",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-bottomMargin-guide-constraint",
+        "initial" : "U",
+        "name" : "UIView-bottomMargin-guide-constraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "bottom"
+        },
+        "instance" : {
+          "address" : "0x2826f9880",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(243,156,18)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "*",
+      "text" : "This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints<\/code> to false on this view."
+    }
+  ]
+}
