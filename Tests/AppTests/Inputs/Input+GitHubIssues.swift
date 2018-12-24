@@ -71,4 +71,12 @@ extension Input {
         "<NSLayoutConstraint:0x60000346dd10 'UIView-topMargin-guide-constraint' V:|-(8)-[UILayoutGuide:0x600002e401c0'UIViewLayoutMarginsGuide']   (active, names: '|':UITableViewCellContentView:0x7fa67350b050 )>"
     )
     """
+    
+    static let issue13 = """
+        "<NSAutoresizingMaskLayoutConstraint:0x283c8f570 h=-&- v=&-- UIView:0x10f754f20.height == 86   (active)>",
+        "<NSLayoutConstraint:0x283c8c820 V:|-(0)-[UIButton:0x10f755100'Cancel']   (active, names: '|':UIView:0x10f754f20 )>",
+        "<NSLayoutConstraint:0x283c8c870 UIButton:0x10f755100'Cancel'.height == 52   (active)>",
+        "<NSLayoutConstraint:0x283c8c8c0 UILayoutGuide:0x2826f9880'UIViewLayoutMarginsGuide'.bottom == UIButton:0x10f755100'Cancel'.bottom NSSpace(0)   (active)>",
+        "<NSLayoutConstraint:0x283c8c730 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x2826f9880'UIViewLayoutMarginsGuide']-(42)-|   (active, names: '|':UIView:0x10f754f20 )>"
+    """
 }
