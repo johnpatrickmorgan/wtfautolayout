@@ -4,7 +4,7 @@
       "constant" : {
         "value" : "86"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">View<\/code>'s height should equal 86.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s height should equal 86.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -13,7 +13,7 @@
         "instance" : {
           "address" : "0x10f754f20",
           "className" : "UIView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(39,174,96)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -33,7 +33,7 @@
       "relation" : "=="
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">Cancel<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">Cancel<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -42,7 +42,7 @@
         "instance" : {
           "address" : "0x10f755100",
           "className" : "UIButton",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(142,68,173)",
           "identifier" : "Cancel",
           "initial" : "C",
           "name" : "Cancel",
@@ -65,7 +65,7 @@
         "instance" : {
           "address" : "0x10f754f20",
           "className" : "UIView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(39,174,96)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -76,7 +76,7 @@
       "constant" : {
         "value" : "52"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">Cancel<\/code>'s height should equal 52.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">Cancel<\/code>'s height should equal 52.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -85,7 +85,7 @@
         "instance" : {
           "address" : "0x10f755100",
           "className" : "UIButton",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(142,68,173)",
           "identifier" : "Cancel",
           "initial" : "C",
           "name" : "Cancel",
@@ -102,7 +102,7 @@
       "relation" : "=="
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">Cancel<\/code>'s bottom edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">Cancel<\/code>'s bottom edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -111,7 +111,7 @@
         "instance" : {
           "address" : "0x2826f9880",
           "className" : "UILayoutGuide",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(211,84,0)",
           "identifier" : "UIViewLayoutMarginsGuide",
           "initial" : "U",
           "name" : "UIViewLayoutMarginsGuide",
@@ -134,7 +134,7 @@
         "instance" : {
           "address" : "0x10f755100",
           "className" : "UIButton",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(142,68,173)",
           "identifier" : "Cancel",
           "initial" : "C",
           "name" : "Cancel",
@@ -147,7 +147,7 @@
         "prefix" : "+ ",
         "value" : "42"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge plus 42.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge plus 42.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -156,7 +156,7 @@
         "instance" : {
           "address" : "0x10f754f20",
           "className" : "UIView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(39,174,96)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -179,7 +179,7 @@
         "instance" : {
           "address" : "0x2826f9880",
           "className" : "UILayoutGuide",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(211,84,0)",
           "identifier" : "UIViewLayoutMarginsGuide",
           "initial" : "U",
           "name" : "UIViewLayoutMarginsGuide",

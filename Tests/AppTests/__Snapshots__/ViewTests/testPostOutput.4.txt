@@ -119,7 +119,7 @@ content-length: 19760
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(22,160,133)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">U</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -144,7 +144,7 @@ content-length: 19760
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">_UILayoutGuide</code>'s height should equal 0.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;">_UILayoutGuide</code>'s height should equal 0.<sup></sup>
     </div>
 </div>
 
@@ -153,7 +153,7 @@ content-length: 19760
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(22,160,133)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">U</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -189,7 +189,7 @@ content-length: 19760
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">_UILayoutGuide</code>'s bottom edge should equal <code style="box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;">View</code>'s bottom edge.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;">_UILayoutGuide</code>'s bottom edge should equal <code style="box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;">View</code>'s bottom edge.<sup></sup>
     </div>
 </div>
 
@@ -198,7 +198,7 @@ content-length: 19760
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(22,160,133)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">C</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -223,7 +223,7 @@ content-length: 19760
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;">CollectionView</code>'s height should equal 230.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">CollectionView</code>'s height should equal 230.<sup></sup>
     </div>
 </div>
 
@@ -232,7 +232,7 @@ content-length: 19760
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(22,160,133)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">U</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -250,7 +250,7 @@ content-length: 19760
 
             <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(22,160,133)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">C</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -272,7 +272,7 @@ content-length: 19760
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">_UILayoutGuide</code>'s top edge should equal <code style="box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;">CollectionView</code>'s bottom edge plus 87.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;">_UILayoutGuide</code>'s top edge should equal <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">CollectionView</code>'s bottom edge plus 87.<sup></sup>
     </div>
 </div>
 
@@ -315,7 +315,7 @@ content-length: 19760
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(22,160,133)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">C</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -351,14 +351,14 @@ content-length: 19760
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;">CollectionView</code>'s bottom edge should equal <code style="box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;">View</code>'s bottom edge.<sup>*</sup>
+        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">CollectionView</code>'s bottom edge should equal <code style="box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;">View</code>'s bottom edge.<sup>*</sup>
     </div>
 </div>
 
 
-<p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints</code> to false on this view.</p>
-
 <p class="footnotes"><sup>â </sup> This constraint was added by a table or collection view to enforce its cell size.</p>
+
+<p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints</code> to false on this view.</p>
 
 
 <a href="?constraintlog=(%0A%22%3C_UILayoutSupportConstraint:0x1272e5820%20V:%5B_UILayoutGuide:0x1271a5500(0)%5D%3E%22,%0A%22%3C_UILayoutSupportConstraint:0x1272cd510%20_UILayoutGuide:0x1271a5500.bottom%20==%20UIView:0x128321830.bottom%3E%22,%0A%22%3CNSLayoutConstraint:0x127225340%20V:%5BUICollectionView:0x126963e00(230)%5D%3E%22,%0A%22%3CNSLayoutConstraint:0x128325fd0%20V:%5BUICollectionView:0x126963e00%5D-(87)-%5B_UILayoutGuide:0x1271a5500%5D%3E%22,%0A%22%3CNSLayoutConstraint:0x1272e51f0%20&#39;UIView-Encapsulated-Layout-Height&#39;%20V:%5BUIView:0x128321830(568)%5D%3E%22,%0A%22%3CNSAutoresizingMaskLayoutConstraint:0x1272ed5f0%20h=---%20v=---%20&#39;UIView-Encapsulated-Layout-Top&#39;%20V:%5BUIView:0x128321830%5D-(0)-%7C%20(Names:%20&#39;%7C&#39;:UICollectionView:0x126963e00)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>

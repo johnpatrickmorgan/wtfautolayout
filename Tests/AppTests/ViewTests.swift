@@ -30,8 +30,7 @@ class ViewTests: XCTestCase {
     
     func testPostError() throws {
         let inputs = [
-            Input.invalidHexitError,
-            Input.duplicateKeyError
+            Input.invalidHexitError
         ]
         
         for input in inputs {

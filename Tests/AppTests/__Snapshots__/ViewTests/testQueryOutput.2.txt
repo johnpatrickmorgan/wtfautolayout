@@ -119,7 +119,7 @@ content-length: 13879
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(231,76,60)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(241,196,15)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">M</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -137,7 +137,7 @@ content-length: 13879
 
             <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(241,196,15)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(231,76,60)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">N</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -155,7 +155,7 @@ content-length: 13879
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;">MyCircleView</code>'s leading edge should equal <code style="box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;">name_label</code>'s leading edge.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;">MyCircleView</code>'s leading edge should equal <code style="box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;">name_label</code>'s leading edge.<sup></sup>
     </div>
 </div>
 
@@ -164,7 +164,7 @@ content-length: 13879
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(231,76,60)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(241,196,15)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">M</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -204,7 +204,7 @@ content-length: 13879
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;">MyCircleView</code>'s leading edge should equal <code style="box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;">OverViewFactorLabel</code>'s leading edge plus 6.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;">MyCircleView</code>'s leading edge should equal <code style="box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;">OverViewFactorLabel</code>'s leading edge plus 6.<sup></sup>
     </div>
 </div>
 
@@ -213,7 +213,7 @@ content-length: 13879
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(241,196,15)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(231,76,60)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">N</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -249,7 +249,7 @@ content-length: 13879
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;">name_label</code>'s leading edge should equal <code style="box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;">OverViewFactorLabel</code>'s leading edge.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;">name_label</code>'s leading edge should equal <code style="box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;">OverViewFactorLabel</code>'s leading edge.<sup></sup>
     </div>
 </div>
 

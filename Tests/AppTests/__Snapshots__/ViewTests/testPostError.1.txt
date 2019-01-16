@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 4885
+content-length: 4926
   
 
 
@@ -98,15 +98,12 @@ content-length: 4885
             <button class="w3-button w3-right w3-round-large w3-blue w3-margin-top">Go!</button>
         </form>
 
- <div class="alert mono w3-panel w3-margin w3-pale-red"><pre>UNEXPECTED INPUT:
-Line 2, Column 26
+ <div class="alert mono w3-panel w3-margin w3-pale-red"><pre>Line 2, Column 26
 &quot;&lt;NSLayoutConstraint:0x61h00099cd0 _UIButtonBarStackView:0x7fb573cxbf90.width &lt;= 0   (active)&gt;&quot;
 ~~~~~~~~~~~~~~~~~~~~~~~~~^
-EXPECTED:
-&#39;@&#39; in file location
-hexit in memory address
-whitespace in constraint instance
-</pre></div> 
+Expected: hexit in constraint instance.memory address
+Expected: &#39;@&#39; in constraint instance.file location
+Expected: whitespace in constraint instance</pre></div> 
     </div>
 
 
