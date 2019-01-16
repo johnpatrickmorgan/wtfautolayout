@@ -1,5 +1,6 @@
 import Foundation
 import Vapor
+import Sparse
 
 class OutputController {
     
@@ -24,15 +25,15 @@ class OutputController {
             
             return try req.view().render("output", node)
             
-        } catch let error as ParsingError {
+        } catch let error as ParserError {
             
             let context = [
                 "prefill": trimmedInput,
-                "error": error.parsingErrorDescription
+                "error": error.description
             ]
             
             let logger = try req.make(Logger.self)
-            logger.error(["PARSING ERROR:", trimmedInput, error.parsingErrorDescription].joined(separator: "\n"))
+            logger.error(["PARSING ERROR:", trimmedInput, error.description].joined(separator: "\n"))
             
             return try req.view().render("input", context)
         }

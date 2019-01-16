@@ -8,7 +8,7 @@ enum ConstraintsParser {
     static func parse(input: String) throws -> ConstraintGroup {
         
         let stream = Stream(input)
-        let constraints = try constraintsLog._run(stream)
+        let constraints = try constraintsLog.parse(stream)
         
         return ConstraintGroup(constraints, raw: input)
     }
