@@ -4,7 +4,7 @@
       "constant" : {
         "value" : "0"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s width should be at most 0.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s width should be at most 0.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -13,7 +13,7 @@
         "instance" : {
           "address" : "0x7fb573cebf90",
           "className" : "_UIButtonBarStackView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(155,89,182)",
           "initial" : "U",
           "name" : "_UIButtonBarStackView",
           "suffix" : ""
@@ -33,7 +33,7 @@
         "prefix" : "+ ",
         "value" : "15"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s leading edge plus 15.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s leading edge plus 15.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -42,7 +42,7 @@
         "instance" : {
           "address" : "0x61000038ce60",
           "className" : "UILayoutGuide",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(230,126,34)",
           "identifier" : "UIViewLayoutMarginsGuide",
           "initial" : "U",
           "name" : "UIViewLayoutMarginsGuide",
@@ -66,7 +66,7 @@
         "instance" : {
           "address" : "0x7fb573cebf90",
           "className" : "_UIButtonBarStackView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(155,89,182)",
           "initial" : "U",
           "name" : "_UIButtonBarStackView",
           "suffix" : ""
@@ -78,7 +78,7 @@
         "prefix" : "+ ",
         "value" : "15"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s trailing edge plus 15.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">_UIButtonBarStackView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s trailing edge plus 15.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -87,7 +87,7 @@
         "instance" : {
           "address" : "0x7fb573cebf90",
           "className" : "_UIButtonBarStackView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(155,89,182)",
           "initial" : "U",
           "name" : "_UIButtonBarStackView",
           "suffix" : ""
@@ -110,7 +110,7 @@
         "instance" : {
           "address" : "0x61000038ce60",
           "className" : "UILayoutGuide",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(230,126,34)",
           "identifier" : "UIViewLayoutMarginsGuide",
           "initial" : "U",
           "name" : "UIViewLayoutMarginsGuide",

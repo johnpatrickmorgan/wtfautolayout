@@ -4,7 +4,7 @@
       "constant" : {
         "value" : "44"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s height should be at least 44.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s height should be at least 44.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -13,7 +13,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec1f0",
           "className" : "NSKVONotifying_LQRoundedCornerView",
-          "color" : "rgb(245,215,110)",
+          "color" : "rgb(26,188,156)",
           "initial" : "N",
           "name" : "NSKVONotifying_LQRoundedCornerView",
           "suffix" : ""
@@ -32,7 +32,7 @@
       "constant" : {
         "value" : "1"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">View2<\/code>'s height should equal 1.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View2<\/code>'s height should equal 1.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -41,7 +41,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec3c0",
           "className" : "UIView",
-          "color" : "rgb(22,160,133)",
+          "color" : "rgb(52,152,219)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "2"
@@ -57,7 +57,7 @@
       "relation" : "=="
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View3<\/code>'s height should equal <code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">View2<\/code>'s height.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">View3<\/code>'s height should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View2<\/code>'s height.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -66,7 +66,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec560",
           "className" : "UIView",
-          "color" : "rgb(243,156,18)",
+          "color" : "rgb(241,196,15)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "3"
@@ -88,7 +88,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec3c0",
           "className" : "UIView",
-          "color" : "rgb(22,160,133)",
+          "color" : "rgb(52,152,219)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "2"
@@ -96,7 +96,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View3<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s bottom edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">View3<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s bottom edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -105,7 +105,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec560",
           "className" : "UIView",
-          "color" : "rgb(243,156,18)",
+          "color" : "rgb(241,196,15)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "3"
@@ -127,7 +127,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec1f0",
           "className" : "NSKVONotifying_LQRoundedCornerView",
-          "color" : "rgb(245,215,110)",
+          "color" : "rgb(26,188,156)",
           "initial" : "N",
           "name" : "NSKVONotifying_LQRoundedCornerView",
           "suffix" : ""
@@ -135,7 +135,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s top edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">View1<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">NSKVONotifying_LQRoundedCornerView<\/code>'s top edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -144,7 +144,7 @@
         "instance" : {
           "address" : "0x7ff92e29e6f0",
           "className" : "UIView",
-          "color" : "rgb(230,126,34)",
+          "color" : "rgb(142,68,173)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "1"
@@ -166,7 +166,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec1f0",
           "className" : "NSKVONotifying_LQRoundedCornerView",
-          "color" : "rgb(245,215,110)",
+          "color" : "rgb(26,188,156)",
           "initial" : "N",
           "name" : "NSKVONotifying_LQRoundedCornerView",
           "suffix" : ""
@@ -174,7 +174,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View3<\/code>'s bottom edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">View1<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">View3<\/code>'s bottom edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -183,7 +183,7 @@
         "instance" : {
           "address" : "0x7ff92e29e6f0",
           "className" : "UIView",
-          "color" : "rgb(230,126,34)",
+          "color" : "rgb(142,68,173)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "1"
@@ -205,7 +205,7 @@
         "instance" : {
           "address" : "0x7ff92c7ec560",
           "className" : "UIView",
-          "color" : "rgb(243,156,18)",
+          "color" : "rgb(241,196,15)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "3"
@@ -213,7 +213,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">Label<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s top margin.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">Label<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">View1<\/code>'s top margin.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -222,7 +222,7 @@
         "instance" : {
           "address" : "0x7ff92c74c9e0",
           "className" : "UILabel",
-          "color" : "rgb(41,128,185)",
+          "color" : "rgb(211,84,0)",
           "initial" : "L",
           "name" : "Label",
           "suffix" : ""
@@ -244,7 +244,7 @@
         "instance" : {
           "address" : "0x7ff92e29e6f0",
           "className" : "UIView",
-          "color" : "rgb(230,126,34)",
+          "color" : "rgb(142,68,173)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "1"
@@ -252,7 +252,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">Label<\/code>'s first line of text's baseline should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">View1<\/code>'s bottom margin.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">Label<\/code>'s first line of text's baseline should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">View1<\/code>'s bottom margin.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -261,7 +261,7 @@
         "instance" : {
           "address" : "0x7ff92c74c9e0",
           "className" : "UILabel",
-          "color" : "rgb(41,128,185)",
+          "color" : "rgb(211,84,0)",
           "initial" : "L",
           "name" : "Label",
           "suffix" : ""
@@ -283,7 +283,7 @@
         "instance" : {
           "address" : "0x7ff92e29e6f0",
           "className" : "UIView",
-          "color" : "rgb(230,126,34)",
+          "color" : "rgb(142,68,173)",
           "initial" : "V",
           "name" : "View",
           "suffix" : "1"

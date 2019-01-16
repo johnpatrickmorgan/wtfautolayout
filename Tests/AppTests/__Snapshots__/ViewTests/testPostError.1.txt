@@ -103,8 +103,8 @@ Line 2, Column 26
 &quot;&lt;NSLayoutConstraint:0x61h00099cd0 _UIButtonBarStackView:0x7fb573cxbf90.width &lt;= 0   (active)&gt;&quot;
 ~~~~~~~~~~~~~~~~~~~~~~~~~^
 EXPECTED:
-hexit in memory address
 &#39;@&#39; in file location
+hexit in memory address
 whitespace in constraint instance
 </pre></div> 
     </div>

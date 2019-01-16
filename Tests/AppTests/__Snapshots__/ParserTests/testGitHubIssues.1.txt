@@ -4,7 +4,7 @@
       "constant" : {
         "value" : "5"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;\">progress background<\/code>'s height should equal 5.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">progress background<\/code>'s height should equal 5.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -13,7 +13,7 @@
         "instance" : {
           "address" : "0x1089a5290",
           "className" : "progress background",
-          "color" : "rgb(46,204,113)",
+          "color" : "rgb(243,156,18)",
           "initial" : "P",
           "name" : "progress background",
           "suffix" : ""

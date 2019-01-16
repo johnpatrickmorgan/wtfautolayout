@@ -29,7 +29,7 @@
       "relation" : "=="
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">TextField<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">TextField<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -60,7 +60,7 @@
         "instance" : {
           "address" : "0x7fa67350cab0",
           "className" : "UIView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(211,84,0)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -68,7 +68,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">TextField<\/code>'s bottom edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">TextField<\/code>'s bottom edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -77,7 +77,7 @@
         "instance" : {
           "address" : "0x7fa67350cab0",
           "className" : "UIView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(211,84,0)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -107,7 +107,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom margin should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s bottom edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom margin should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView2<\/code>'s bottom edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : true,
@@ -116,7 +116,7 @@
         "instance" : {
           "address" : "0x7fa67350b050",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(245,215,110)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -138,7 +138,7 @@
         "instance" : {
           "address" : "0x7fa67350c480",
           "className" : "UIStackView",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(142,68,173)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "2"
@@ -146,7 +146,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top margin.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView2<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top margin.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -155,7 +155,7 @@
         "instance" : {
           "address" : "0x7fa67350c480",
           "className" : "UIStackView",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(142,68,173)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "2"
@@ -177,7 +177,7 @@
         "instance" : {
           "address" : "0x7fa67350b050",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(245,215,110)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -185,7 +185,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">ImageView<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s vertical center.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ImageView<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">View<\/code>'s vertical center.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -194,7 +194,7 @@
         "instance" : {
           "address" : "0x7fa67350c880",
           "className" : "UIImageView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(192,57,43)",
           "initial" : "I",
           "name" : "ImageView",
           "suffix" : ""
@@ -221,7 +221,7 @@
         "instance" : {
           "address" : "0x7fa67350cab0",
           "className" : "UIView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(211,84,0)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -229,7 +229,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">UISV-alignment-spanner<\/code>'s top edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView1<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">UISV-alignment-spanner<\/code>'s top edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -238,7 +238,7 @@
         "instance" : {
           "address" : "0x7fa67350c680",
           "className" : "UIStackView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "1"
@@ -265,7 +265,7 @@
         "instance" : {
           "address" : "0x60000284c1e0",
           "className" : "_UILayoutSpacer",
-          "color" : "rgb(192,57,43)",
+          "color" : "rgb(41,128,185)",
           "identifier" : "UISV-alignment-spanner",
           "initial" : "U",
           "name" : "UISV-alignment-spanner",
@@ -274,7 +274,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">ImageView<\/code>'s vertical center.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView1<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ImageView<\/code>'s vertical center.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -283,7 +283,7 @@
         "instance" : {
           "address" : "0x7fa67350c680",
           "className" : "UIStackView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "1"
@@ -310,7 +310,7 @@
         "instance" : {
           "address" : "0x7fa67350c880",
           "className" : "UIImageView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(192,57,43)",
           "initial" : "I",
           "name" : "ImageView",
           "suffix" : ""
@@ -318,7 +318,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s top edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView2<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView1<\/code>'s top edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -327,7 +327,7 @@
         "instance" : {
           "address" : "0x7fa67350c480",
           "className" : "UIStackView",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(142,68,173)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "2"
@@ -354,7 +354,7 @@
         "instance" : {
           "address" : "0x7fa67350c680",
           "className" : "UIStackView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "1"
@@ -362,7 +362,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">StackView2<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">E-posta adresini mi unutt...<\/code>'s bottom edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView2<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">E-posta adresini mi unutt...<\/code>'s bottom edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -371,7 +371,7 @@
         "instance" : {
           "address" : "0x7fa67350c480",
           "className" : "UIStackView",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(142,68,173)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "2"
@@ -398,7 +398,7 @@
         "instance" : {
           "address" : "0x7fa67350bf50",
           "className" : "UIButton",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(22,160,133)",
           "identifier" : "E-posta adresini mi unutt...",
           "initial" : "E",
           "name" : "E-posta adresini mi unutt...",
@@ -411,7 +411,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">E-posta adresini mi unutt...<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView1<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #16A085 inset; padding-bottom: 1px;\">E-posta adresini mi unutt...<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView1<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -420,7 +420,7 @@
         "instance" : {
           "address" : "0x7fa67350bf50",
           "className" : "UIButton",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(22,160,133)",
           "identifier" : "E-posta adresini mi unutt...",
           "initial" : "E",
           "name" : "E-posta adresini mi unutt...",
@@ -448,7 +448,7 @@
         "instance" : {
           "address" : "0x7fa67350c680",
           "className" : "UIStackView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : "1"
@@ -456,7 +456,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">UISV-alignment-spanner<\/code>'s top edge should be at most <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">UISV-alignment-spanner<\/code>'s top edge should be at most <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">View<\/code>'s top edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -465,7 +465,7 @@
         "instance" : {
           "address" : "0x60000284c1e0",
           "className" : "_UILayoutSpacer",
-          "color" : "rgb(192,57,43)",
+          "color" : "rgb(41,128,185)",
           "identifier" : "UISV-alignment-spanner",
           "initial" : "U",
           "name" : "UISV-alignment-spanner",
@@ -493,7 +493,7 @@
         "instance" : {
           "address" : "0x7fa67350cab0",
           "className" : "UIView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(211,84,0)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -505,7 +505,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -514,7 +514,7 @@
         "instance" : {
           "address" : "0x7fa67350b050",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(245,215,110)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -537,7 +537,7 @@
         "instance" : {
           "address" : "0x600002e401c0",
           "className" : "UILayoutGuide",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(39,174,96)",
           "identifier" : "UIViewLayoutMarginsGuide",
           "initial" : "U",
           "name" : "UIViewLayoutMarginsGuide",
@@ -549,7 +549,7 @@
       "constant" : {
         "value" : "66"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 66.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 66.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -558,7 +558,7 @@
         "instance" : {
           "address" : "0x7fa67350b050",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(245,215,110)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -583,7 +583,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -592,7 +592,7 @@
         "instance" : {
           "address" : "0x600002e401c0",
           "className" : "UILayoutGuide",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(39,174,96)",
           "identifier" : "UIViewLayoutMarginsGuide",
           "initial" : "U",
           "name" : "UIViewLayoutMarginsGuide",
@@ -616,7 +616,7 @@
         "instance" : {
           "address" : "0x7fa67350b050",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(245,215,110)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -626,12 +626,12 @@
   ],
   "footnotes" : [
     {
-      "marker" : "†",
-      "text" : "This constraint was added by a table or collection view to enforce its cell size."
-    },
-    {
       "marker" : "‡",
       "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+    },
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
     }
   ]
 }

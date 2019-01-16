@@ -103,8 +103,8 @@ Line 2, Column 57
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
 EXPECTED:
 valid partial identifier character
-&#39;.&#39; in dot attribute
 autoresizing mask info in constraint instance
+&#39;.&#39; in dot attribute
 </pre></div> 
     </div>
 

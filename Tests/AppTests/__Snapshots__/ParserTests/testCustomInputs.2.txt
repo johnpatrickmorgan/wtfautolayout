@@ -1,7 +1,7 @@
 {
   "constraints" : [
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">MyCircleView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">name_label<\/code>'s leading edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">MyCircleView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">name_label<\/code>'s leading edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -10,7 +10,7 @@
         "instance" : {
           "address" : "0x7fa4d0e8b8e0",
           "className" : "MyCircleView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(231,76,60)",
           "initial" : "M",
           "name" : "MyCircleView",
           "suffix" : ""
@@ -32,7 +32,7 @@
         "instance" : {
           "address" : "0x7fa4d0e9e480",
           "className" : "name_label",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(241,196,15)",
           "initial" : "N",
           "name" : "name_label",
           "suffix" : ""
@@ -44,7 +44,7 @@
         "prefix" : "+ ",
         "value" : "6"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">MyCircleView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">OverViewFactorLabel<\/code>'s leading edge plus 6.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">MyCircleView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;\">OverViewFactorLabel<\/code>'s leading edge plus 6.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -53,7 +53,7 @@
         "instance" : {
           "address" : "0x7fa4d0e8b8e0",
           "className" : "MyCircleView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(231,76,60)",
           "initial" : "M",
           "name" : "MyCircleView",
           "suffix" : ""
@@ -75,7 +75,7 @@
         "instance" : {
           "address" : "0x7fa4d0e8b450",
           "className" : "OverViewFactorLabel",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(46,204,113)",
           "initial" : "O",
           "name" : "OverViewFactorLabel",
           "suffix" : ""
@@ -83,7 +83,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">name_label<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">OverViewFactorLabel<\/code>'s leading edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">name_label<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #2ECC71 inset; padding-bottom: 1px;\">OverViewFactorLabel<\/code>'s leading edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -92,7 +92,7 @@
         "instance" : {
           "address" : "0x7fa4d0e9e480",
           "className" : "name_label",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(241,196,15)",
           "initial" : "N",
           "name" : "name_label",
           "suffix" : ""
@@ -114,7 +114,7 @@
         "instance" : {
           "address" : "0x7fa4d0e8b450",
           "className" : "OverViewFactorLabel",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(46,204,113)",
           "initial" : "O",
           "name" : "OverViewFactorLabel",
           "suffix" : ""

@@ -4,7 +4,7 @@
       "constant" : {
         "value" : "55"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">ImageView<\/code>'s height should equal 55.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ImageView<\/code>'s height should equal 55.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -13,7 +13,7 @@
         "instance" : {
           "address" : "0x7fe16cd55110",
           "className" : "UIImageView",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(192,57,43)",
           "initial" : "I",
           "name" : "ImageView",
           "suffix" : ""
@@ -32,7 +32,7 @@
       "constant" : {
         "value" : "25"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s height should equal 25.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">0<\/code>'s height should equal 25.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -41,7 +41,7 @@
         "instance" : {
           "address" : "0x7fe16cd5a1d0",
           "className" : "UIButton",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(39,174,96)",
           "identifier" : "0",
           "initial" : "0",
           "name" : "0",
@@ -61,7 +61,7 @@
       "constant" : {
         "value" : "308"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s height should equal 308.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView<\/code>'s height should equal 308.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -70,7 +70,7 @@
         "instance" : {
           "address" : "0x7fe16cd5cf60",
           "className" : "UIStackView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : ""
@@ -90,7 +90,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">ImageView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s top edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ImageView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View<\/code>'s top edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -99,7 +99,7 @@
         "instance" : {
           "address" : "0x7fe16cd55110",
           "className" : "UIImageView",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(192,57,43)",
           "initial" : "I",
           "name" : "ImageView",
           "suffix" : ""
@@ -121,7 +121,7 @@
         "instance" : {
           "address" : "0x7fe16cd543b0",
           "className" : "UIView",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(243,156,18)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -133,7 +133,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">This is a test of the pos...<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">ImageView<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">This is a test of the pos...<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ImageView<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -142,7 +142,7 @@
         "instance" : {
           "address" : "0x7fe16d8ff000",
           "className" : "UITextView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(142,68,173)",
           "identifier" : "This is a test of the pos...",
           "initial" : "T",
           "name" : "This is a test of the pos...",
@@ -165,7 +165,7 @@
         "instance" : {
           "address" : "0x7fe16cd55110",
           "className" : "UIImageView",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(192,57,43)",
           "initial" : "I",
           "name" : "ImageView",
           "suffix" : ""
@@ -177,7 +177,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">This is a test of the pos...<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">This is a test of the pos...<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -186,7 +186,7 @@
         "instance" : {
           "address" : "0x7fe16cd5cf60",
           "className" : "UIStackView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : ""
@@ -208,7 +208,7 @@
         "instance" : {
           "address" : "0x7fe16d8ff000",
           "className" : "UITextView",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(142,68,173)",
           "identifier" : "This is a test of the pos...",
           "initial" : "T",
           "name" : "This is a test of the pos...",
@@ -221,7 +221,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">0<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -230,7 +230,7 @@
         "instance" : {
           "address" : "0x7fe16cd5a1d0",
           "className" : "UIButton",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(39,174,96)",
           "identifier" : "0",
           "initial" : "0",
           "name" : "0",
@@ -253,7 +253,7 @@
         "instance" : {
           "address" : "0x7fe16cd5cf60",
           "className" : "UIStackView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : ""
@@ -265,7 +265,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">0<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -274,7 +274,7 @@
         "instance" : {
           "address" : "0x7fe16cd543b0",
           "className" : "UIView",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(243,156,18)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -296,7 +296,7 @@
         "instance" : {
           "address" : "0x7fe16cd5a1d0",
           "className" : "UIButton",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(39,174,96)",
           "identifier" : "0",
           "initial" : "0",
           "name" : "0",
@@ -309,7 +309,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -318,7 +318,7 @@
         "instance" : {
           "address" : "0x7fe16cd543b0",
           "className" : "UIView",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(243,156,18)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -340,7 +340,7 @@
         "instance" : {
           "address" : "0x7fe16cd53650",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(41,128,185)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -352,7 +352,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">0<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -361,7 +361,7 @@
         "instance" : {
           "address" : "0x7fe16cd5a1d0",
           "className" : "UIButton",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(39,174,96)",
           "identifier" : "0",
           "initial" : "0",
           "name" : "0",
@@ -384,7 +384,7 @@
         "instance" : {
           "address" : "0x7fe16cd5cf60",
           "className" : "UIStackView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : ""
@@ -396,7 +396,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">0<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">0<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -405,7 +405,7 @@
         "instance" : {
           "address" : "0x7fe16cd543b0",
           "className" : "UIView",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(243,156,18)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -427,7 +427,7 @@
         "instance" : {
           "address" : "0x7fe16cd5a1d0",
           "className" : "UIButton",
-          "color" : "rgb(26,188,156)",
+          "color" : "rgb(39,174,96)",
           "identifier" : "0",
           "initial" : "0",
           "name" : "0",
@@ -440,7 +440,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -449,7 +449,7 @@
         "instance" : {
           "address" : "0x7fe16cd543b0",
           "className" : "UIView",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(243,156,18)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -471,7 +471,7 @@
         "instance" : {
           "address" : "0x7fe16cd53650",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(41,128,185)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -483,7 +483,7 @@
         "prefix" : "+ ",
         "value" : "8"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">View<\/code>'s bottom edge plus 8.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge plus 8.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -492,7 +492,7 @@
         "instance" : {
           "address" : "0x7fe16cd53650",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(41,128,185)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -514,7 +514,7 @@
         "instance" : {
           "address" : "0x7fe16cd543b0",
           "className" : "UIView",
-          "color" : "rgb(52,152,219)",
+          "color" : "rgb(243,156,18)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -525,7 +525,7 @@
       "constant" : {
         "value" : "50"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 50.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 50.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -534,7 +534,7 @@
         "instance" : {
           "address" : "0x7fe16cd53650",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(41,128,185)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""

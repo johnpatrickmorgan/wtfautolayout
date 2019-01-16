@@ -4,7 +4,7 @@
       "constant" : {
         "value" : "24"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">StackView<\/code>'s height should equal 24.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">StackView<\/code>'s height should equal 24.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -13,7 +13,7 @@
         "instance" : {
           "address" : "0x7fa4d0dece70",
           "className" : "UIStackView",
-          "color" : "rgb(231,76,60)",
+          "color" : "rgb(241,196,15)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : ""
@@ -33,7 +33,7 @@
         "prefix" : "+ ",
         "value" : "21"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">StackView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">HeaderView<\/code>'s top edge plus 21.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">StackView<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">HeaderView<\/code>'s top edge plus 21.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -42,7 +42,7 @@
         "instance" : {
           "address" : "0x7fa4d0dece70",
           "className" : "UIStackView",
-          "color" : "rgb(231,76,60)",
+          "color" : "rgb(241,196,15)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : ""
@@ -64,7 +64,7 @@
         "instance" : {
           "address" : "0x7fa4d0df1370",
           "className" : "Proto.HeaderView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(231,76,60)",
           "initial" : "H",
           "name" : "HeaderView",
           "suffix" : ""
@@ -76,7 +76,7 @@
         "prefix" : "+ ",
         "value" : "9"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">HeaderView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 9.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">HeaderView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">StackView<\/code>'s bottom edge plus 9.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -85,7 +85,7 @@
         "instance" : {
           "address" : "0x7fa4d0df1370",
           "className" : "Proto.HeaderView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(231,76,60)",
           "initial" : "H",
           "name" : "HeaderView",
           "suffix" : ""
@@ -107,7 +107,7 @@
         "instance" : {
           "address" : "0x7fa4d0dece70",
           "className" : "UIStackView",
-          "color" : "rgb(231,76,60)",
+          "color" : "rgb(241,196,15)",
           "initial" : "S",
           "name" : "StackView",
           "suffix" : ""
@@ -118,7 +118,7 @@
       "constant" : {
         "value" : "0"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">HeaderView<\/code>'s height should equal 0.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">HeaderView<\/code>'s height should equal 0.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -127,7 +127,7 @@
         "instance" : {
           "address" : "0x7fa4d0df1370",
           "className" : "Proto.HeaderView",
-          "color" : "rgb(241,196,15)",
+          "color" : "rgb(231,76,60)",
           "initial" : "H",
           "name" : "HeaderView",
           "suffix" : ""

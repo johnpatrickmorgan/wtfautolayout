@@ -4,7 +4,7 @@
       "constant" : {
         "value" : "70"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">View<\/code>'s width should equal 70.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">View<\/code>'s width should equal 70.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -13,7 +13,7 @@
         "instance" : {
           "address" : "0x7f95000e5ac0",
           "className" : "UIView",
-          "color" : "rgb(155,89,182)",
+          "color" : "rgb(41,128,185)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -36,7 +36,7 @@
       "constant" : {
         "value" : "54"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s width should equal 54.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s width should equal 54.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -45,7 +45,7 @@
         "instance" : {
           "address" : "0x7f95000e5e50",
           "className" : "DetailViewFeatureItemCell...",
-          "color" : "rgb(230,126,34)",
+          "color" : "rgb(243,156,18)",
           "initial" : "D",
           "name" : "DetailViewFeatureItemCell",
           "suffix" : ""
@@ -61,7 +61,7 @@
       "relation" : "=="
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s horizontal center should equal <code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">View<\/code>'s horizontal center.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s horizontal center should equal <code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">View<\/code>'s horizontal center.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -70,7 +70,7 @@
         "instance" : {
           "address" : "0x7f95000e5e50",
           "className" : "DetailViewFeatureItemCell...",
-          "color" : "rgb(230,126,34)",
+          "color" : "rgb(243,156,18)",
           "initial" : "D",
           "name" : "DetailViewFeatureItemCell",
           "suffix" : ""
@@ -92,7 +92,7 @@
         "instance" : {
           "address" : "0x7f95000e5ac0",
           "className" : "UIView",
-          "color" : "rgb(155,89,182)",
+          "color" : "rgb(41,128,185)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -104,7 +104,7 @@
         "prefix" : "- ",
         "value" : "2"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #9B59B6 inset; padding-bottom: 1px;\">View<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s trailing edge minus 2.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;\">View<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">DetailViewFeatureItemCell<\/code>'s trailing edge minus 2.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -113,7 +113,7 @@
         "instance" : {
           "address" : "0x7f95000e5ac0",
           "className" : "UIView",
-          "color" : "rgb(155,89,182)",
+          "color" : "rgb(41,128,185)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -135,7 +135,7 @@
         "instance" : {
           "address" : "0x7f95000e5e50",
           "className" : "DetailViewFeatureItemCell...",
-          "color" : "rgb(230,126,34)",
+          "color" : "rgb(243,156,18)",
           "initial" : "D",
           "name" : "DetailViewFeatureItemCell",
           "suffix" : ""

@@ -44,7 +44,7 @@
       "constant" : {
         "value" : "0"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s height should equal 0.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s height should equal 0.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -53,7 +53,7 @@
         "instance" : {
           "address" : "0x7f950028e5b0",
           "className" : "ListViewItemLabel...",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(243,156,18)",
           "initial" : "L",
           "name" : "ListViewItemLabel",
           "suffix" : ""
@@ -72,7 +72,7 @@
       "constant" : {
         "value" : "11"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">View<\/code>'s height should equal 11.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s height should equal 11.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -81,7 +81,7 @@
         "instance" : {
           "address" : "0x7f95002902c0",
           "className" : "UIView",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(39,174,96)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -101,7 +101,7 @@
         "prefix" : "+ ",
         "value" : "7"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 7.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s top edge plus 7.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -110,7 +110,7 @@
         "instance" : {
           "address" : "0x7f950028e5b0",
           "className" : "ListViewItemLabel...",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(243,156,18)",
           "initial" : "L",
           "name" : "ListViewItemLabel",
           "suffix" : ""
@@ -132,7 +132,7 @@
         "instance" : {
           "address" : "0x7f94fa4d7d10",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -144,7 +144,7 @@
         "prefix" : "+ ",
         "value" : "7"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s bottom edge plus 7.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">ListViewItemLabel<\/code>'s bottom edge plus 7.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -175,7 +175,7 @@
         "instance" : {
           "address" : "0x7f950028e5b0",
           "className" : "ListViewItemLabel...",
-          "color" : "rgb(39,174,96)",
+          "color" : "rgb(243,156,18)",
           "initial" : "L",
           "name" : "ListViewItemLabel",
           "suffix" : ""
@@ -183,7 +183,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s width should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s width multiplied by 0.4.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s width should equal <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s width multiplied by 0.4.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -215,7 +215,7 @@
         "instance" : {
           "address" : "0x7f94fa4d7d10",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -227,7 +227,7 @@
         "prefix" : "+ ",
         "value" : "9"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s bottom edge plus 9.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s top edge should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ListViewImage-a<\/code>'s bottom edge plus 9.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -236,7 +236,7 @@
         "instance" : {
           "address" : "0x7f95002902c0",
           "className" : "UIView",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(39,174,96)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -270,7 +270,7 @@
         "prefix" : "+ ",
         "value" : "11"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LineView<\/code>'s top edge should be at least <code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">View<\/code>'s bottom edge plus 11.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">LineView<\/code>'s top edge should be at least <code style=\"box-shadow: 0px -1px 0px #27AE60 inset; padding-bottom: 1px;\">View<\/code>'s bottom edge plus 11.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -279,7 +279,7 @@
         "instance" : {
           "address" : "0x7f9500290110",
           "className" : "App.LineView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(142,68,173)",
           "initial" : "L",
           "name" : "LineView",
           "suffix" : ""
@@ -301,7 +301,7 @@
         "instance" : {
           "address" : "0x7f95002902c0",
           "className" : "UIView",
-          "color" : "rgb(25,181,254)",
+          "color" : "rgb(39,174,96)",
           "initial" : "V",
           "name" : "View",
           "suffix" : ""
@@ -309,7 +309,7 @@
       }
     },
     {
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">LineView<\/code>'s bottom edge.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s bottom edge should equal <code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">LineView<\/code>'s bottom edge.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -318,7 +318,7 @@
         "instance" : {
           "address" : "0x7f94fa4d7d10",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -340,7 +340,7 @@
         "instance" : {
           "address" : "0x7f9500290110",
           "className" : "App.LineView",
-          "color" : "rgb(211,84,0)",
+          "color" : "rgb(142,68,173)",
           "initial" : "L",
           "name" : "LineView",
           "suffix" : ""
@@ -351,7 +351,7 @@
       "constant" : {
         "value" : "123.5"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 123.5.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s height should equal 123.5.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -360,7 +360,7 @@
         "instance" : {
           "address" : "0x7f94fa4d7d10",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""
@@ -384,7 +384,7 @@
       "constant" : {
         "value" : "342"
       },
-      "description" : "<code style=\"box-shadow: 0px -1px 0px #8E44AD inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s width should equal 342.",
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #19B5FE inset; padding-bottom: 1px;\">TableViewCellContentView<\/code>'s width should equal 342.",
       "first" : {
         "attribute" : {
           "includesMargin" : false,
@@ -393,7 +393,7 @@
         "instance" : {
           "address" : "0x7f94fa4d7d10",
           "className" : "UITableViewCellContentView",
-          "color" : "rgb(142,68,173)",
+          "color" : "rgb(25,181,254)",
           "initial" : "T",
           "name" : "TableViewCellContentView",
           "suffix" : ""

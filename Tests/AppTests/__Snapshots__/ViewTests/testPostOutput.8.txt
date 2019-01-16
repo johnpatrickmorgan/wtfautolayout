@@ -119,7 +119,7 @@ content-length: 9147
         <div class="flex-container">
             <div class="w3-container w3-padding-small icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(230,126,34)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">L</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -137,7 +137,7 @@ content-length: 9147
 
             <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
                 <svg class="w3-card" style="overflow:visible;" width="50" height="50">
-                    <use xlink:href="#diagram-background" style="fill:rgb(230,126,34)" x="0" y="0" />
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
 
                     <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">L</text>
                     <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
@@ -159,7 +159,7 @@ content-length: 9147
         </div>
     </div>
     <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
-        <code style="box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;">ListViewItemLabel</code>'s top edge should equal <code style="box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;">ListViewItemLabel</code>'s bottom edge plus 7.<sup></sup>
+        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">ListViewItemLabel</code>'s top edge should equal <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">ListViewItemLabel</code>'s bottom edge plus 7.<sup></sup>
     </div>
 </div>
 
