@@ -1,6 +1,7 @@
 import Foundation
+import Sparse
 
-struct InvalidConstraintError: Error, CustomStringConvertible {
+struct InvalidConstraintError: ContextDescribableError, CustomStringConvertible {
     
     let message: String
     
