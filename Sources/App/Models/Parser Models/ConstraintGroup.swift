@@ -26,7 +26,7 @@ struct ConstraintGroup {
         for (i, item) in layoutItems.enumerated() {
             // Adding a seed value ensures the color scheme can differ per input while
             // remaining deterministic.
-            let color = Color.flatColor(index: i + abs(seed))
+            let color = Color.flatColor(index: i + seed)
             
             let requiresUniquing = (counts[item.prettyName] ?? 0) > 1
             let uniquingSuffix = requiresUniquing ? uniquingSuffixes[i] : ""
@@ -41,7 +41,7 @@ struct ConstraintGroup {
         
         self.raw = raw
         self.constraints = constraints
-        let layoutItems = Set(constraints.flatMap { $0.layoutItems })
+        let layoutItems = constraints.flatMap { $0.layoutItems }.removingDuplicates()
         self.annotations = ConstraintGroup.annotations(for: Array(layoutItems), seed: raw.count)
     }
 }
@@ -52,7 +52,22 @@ extension ConstraintGroup {
         return constraints.contains(where: { $0.origin == .autoresizingMask })
     }
     
-    var footnotes: Set<Footnote> {
-        return Set(constraints.compactMap { $0.footnote })
+    var footnotes: [Footnote] {
+        return constraints.compactMap { $0.footnote }.removingDuplicates()
     }
 }
+
+private extension Collection where Element: Hashable {
+    
+    func removingDuplicates() -> [Element] {
+        var seen: Set<Element> = []
+        var uniques: [Element] = []
+        for element in self {
+            guard !seen.contains(element) else { continue }
+            seen.insert(element)
+            uniques.append(element)
+        }
+        return uniques
+    }
+}
+

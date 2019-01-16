@@ -63,7 +63,7 @@ extension Color {
             wysteria,
             pumpkin,
         ]
-        return colors[index % colors.count]
+        return colors[abs(index) % colors.count]
     }
     
     static let defaultColor = turquoise
