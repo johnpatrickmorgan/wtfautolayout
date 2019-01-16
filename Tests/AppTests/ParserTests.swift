@@ -3,7 +3,7 @@ import XCTest
 import Sparse
 import SnapshotTesting
 
-class ParserTests: SnapshotTestCase {
+class ParserTests: XCTestCase {
     
     static let allTests = [
         ("testCustomInputs", testCustomInputs),
@@ -25,7 +25,7 @@ class ParserTests: SnapshotTestCase {
         
         for input in inputs {
             let parsed = try ConstraintsParser.parse(input: input)
-            assertSnapshot(matching: parsed.leafNode())
+            assertSnapshot(matching: parsed.leafNode(), as: .json)
         }
     }
     
@@ -42,7 +42,7 @@ class ParserTests: SnapshotTestCase {
         
         for input in inputs {
             let parsed = try ConstraintsParser.parse(input: input)
-            assertSnapshot(matching: parsed.leafNode())
+            assertSnapshot(matching: parsed.leafNode(), as: .json)
         }
     }
     
@@ -57,12 +57,7 @@ class ParserTests: SnapshotTestCase {
         
         for input in inputs {
             let parsed = try ConstraintsParser.parse(input: input)
-            assertSnapshot(matching: parsed.leafNode())
+            assertSnapshot(matching: parsed.leafNode(), as: .json)
         }
     }
-}
-
-extension ConstraintGroup.LeafNode: DefaultDiffable {
-    
-    public static var defaultStrategy: Strategy<ConstraintGroup.LeafNode, String> { return .json }
 }

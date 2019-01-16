@@ -3,7 +3,7 @@ import XCTest
 import Vapor
 import SnapshotTesting
 
-class ViewTests: SnapshotTestCase {
+class ViewTests: XCTestCase {
     
     static let allTests = [
         ("testHome", testHome),
@@ -17,7 +17,7 @@ class ViewTests: SnapshotTestCase {
         let app = try App.app(.testing)
         let response = try app.get()
         
-        assertSnapshot(matching: response.description)
+        assertSnapshot(matching: response.description, as: .lines)
     }
     
     func testAbout() throws {
@@ -25,7 +25,7 @@ class ViewTests: SnapshotTestCase {
         let url = URL(string: "/about")!
         let response = try app.get(url: url)
         
-        assertSnapshot(matching: response.description)
+        assertSnapshot(matching: response.description, as: .lines)
     }
     
     func testPostError() throws {
@@ -39,7 +39,7 @@ class ViewTests: SnapshotTestCase {
             let body = ConstraintLogRequest(constraintlog: input)
             let response = try app.postJSON(body: body)
             
-            assertSnapshot(matching: response.description)
+            assertSnapshot(matching: response.description, as: .lines)
         }
     }
     
@@ -60,7 +60,7 @@ class ViewTests: SnapshotTestCase {
             let body = ConstraintLogRequest(constraintlog: input)
             let response = try app.postJSON(body: body)
             
-            assertSnapshot(matching: response.description)
+            assertSnapshot(matching: response.description, as: .lines)
         }
     }
     
@@ -82,7 +82,7 @@ class ViewTests: SnapshotTestCase {
             let url = URL(string: "/?constraintlog=\(log)")!
             let response = try app.get(url: url)
             
-            assertSnapshot(matching: response.description)
+            assertSnapshot(matching: response.description, as: .lines)
         }
     }
 }
