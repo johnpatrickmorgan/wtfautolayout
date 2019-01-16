@@ -6,7 +6,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
         .package(url: "https://github.com/vapor/leaf.git", from: "3.0.0"),
-        .package(url: "https://github.com/johnpatrickmorgan/sparse.git", from: "0.2.0"),
+        .package(url: "https://github.com/johnpatrickmorgan/sparse.git", .branch("master")),
         .package(url: "https://github.com/pointfreeco/swift-snapshot-testing.git", .branch("master"))
     ],
     targets: [
