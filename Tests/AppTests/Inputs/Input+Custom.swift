@@ -79,4 +79,31 @@ enum Input {
         "<NSLayoutConstraint:0x608000696990 V:[ListViewItemLabel...]-(7)-[ListViewItemLabel...]   (active, names: ListViewItemLabel...:0x7f950028efe0, ListViewItemLabel...:0x7f950028e5b0 )>"
         )
         """
+    
+    static let custom9 = """
+        Unable to simultaneously satisfy constraints.
+        Probably at least one of the constraints in the following list is one you don't want.
+        Try this:
+        (1) look at each constraint and try to figure out which you don't expect;
+        (2) find the code that added the unwanted constraint or constraints and fix it.
+        (
+        "<NSLayoutConstraint:0x7f83b9a05b10 UIImageView:0x7f83b8171210.width == 40   (active)>",
+        "<NSLayoutConstraint:0x7f83b9a08d40 UIImageView:0x7f83b9a08580.width == 60   (active)>",
+        "<NSLayoutConstraint:0x7f83b9a099d0 H:|-(15)-[UIImageView:0x7f83b8171210]   (active, names: '|':UITableViewCellContentView:0x7f83b8171010 )>",
+        "<NSLayoutConstraint:0x7f83b9a09b50 H:[UIImageView:0x7f83b8171210]-(8)-[UIStackView:0x7f83b9a05c70]   (active)>",
+        "<NSLayoutConstraint:0x7f83b9a0a1b0 H:[UIImageView:0x7f83b9a08580]-(5)-|   (active, names: '|':UITableViewCellContentView:0x7f83b8171010 )>",
+        "<NSLayoutConstraint:0x7f83b9a0a330 H:[UIStackView:0x7f83b9a05c70]-(8)-[UIImageView:0x7f83b9a08580]   (active)>",
+        "<NSLayoutConstraint:0x7f83b8174e70 'UISV-alignment' UILabel:0x7f83b9a05e80'Set lunch'.leading == UILabel:0x7f83b9a06c70'Added at 10:26'.leading   (active)>",
+        "<NSLayoutConstraint:0x7f83b85cf8e0 'UISV-alignment' UILabel:0x7f83b9a05e80'Set lunch'.trailing == UILabel:0x7f83b9a06c70'Added at 10:26'.trailing   (active)>",
+        "<NSLayoutConstraint:0x7f83b83fafa0 'UISV-canvas-connection' UIStackView:0x7f83b9a05c70.leading == UILabel:0x7f83b9a05e80'Set lunch'.leading   (active)>",
+        "<NSLayoutConstraint:0x7f83b9b005c0 'UISV-canvas-connection' H:[UILabel:0x7f83b9a05e80'Set lunch']-(0)-|   (active, names: '|':UIStackView:0x7f83b9a05c70 )>",
+        "<NSLayoutConstraint:0x7f83b9a127e0 'UIView-Encapsulated-Layout-Width' UITableViewCellContentView:0x7f83b8171010.width == 94.3333   (active)>"
+        )
+
+        Will attempt to recover by breaking constraint
+        <NSLayoutConstraint:0x7f83b85cf8e0 'UISV-alignment' UILabel:0x7f83b9a05e80'Set lunch'.trailing == UILabel:0x7f83b9a06c70'Added at 10:26'.trailing   (active)>
+
+        Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+        The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+        """
 }

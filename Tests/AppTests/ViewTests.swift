@@ -51,7 +51,8 @@ class ViewTests: XCTestCase {
             Input.custom5,
             Input.custom6,
             Input.custom7,
-            Input.custom8
+            Input.custom8,
+            Input.custom9
         ]
         
         for input in inputs {

@@ -67,6 +67,6 @@ private extension String {
             return self
         }
         
-        return String(self[...range.lowerBound])
+        return String(self[..<range.lowerBound])
     }
 }
