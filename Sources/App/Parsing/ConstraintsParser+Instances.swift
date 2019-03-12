@@ -35,7 +35,7 @@ private extension ConstraintsParser {
         .named("memory address")
     static let identifier = many(identifierCharacter.butNot(sqm), boundedBy: sqm).asString()
         .named("identifier")
-    static let fileLocation = character("@").skipThen(many(character(condition: isClassNameCharacter), untilSkipping: character("#")).asString()).then(integer)
+    static let fileLocation = character("@").skipThen(many(anyCharacter(), untilSkipping: character("#")).asString()).then(integer)
         .named("file location")
 
     static let partialIdentifierCharacter = characterNot(in: "[]|()<>\":")

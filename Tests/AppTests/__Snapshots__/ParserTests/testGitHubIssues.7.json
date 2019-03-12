@@ -1,0 +1,50 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "10"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E67E22 inset; padding-bottom: 1px;\">StackView<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #F5D76E inset; padding-bottom: 1px;\">LayoutGuide<\/code>'s leading edge plus 10.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7feb4e8d58b0",
+          "className" : "App_Debug.StackView",
+          "color" : "rgb(230,126,34)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x7feb4e8fa260",
+        "className" : "SnapKit.LayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "L",
+        "name" : "LayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7feb50d2aa70",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(245,215,110)",
+          "initial" : "L",
+          "name" : "LayoutGuide",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+
+  ]
+}

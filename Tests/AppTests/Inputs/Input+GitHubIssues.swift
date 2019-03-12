@@ -79,4 +79,8 @@ extension Input {
         "<NSLayoutConstraint:0x283c8c8c0 UILayoutGuide:0x2826f9880'UIViewLayoutMarginsGuide'.bottom == UIButton:0x10f755100'Cancel'.bottom NSSpace(0)   (active)>",
         "<NSLayoutConstraint:0x283c8c730 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x2826f9880'UIViewLayoutMarginsGuide']-(42)-|   (active, names: '|':UIView:0x10f754f20 )>"
     """
+    
+    static let issue16 = """
+        "<SnapKit.LayoutConstraint:0x7feb4e8fa260@PViewController+Ext.swift#21 App_Debug.StackView:0x7feb4e8d58b0.leading == UILayoutGuide:0x7feb50d2aa70.leading + 10.0>"
+    """
 }
