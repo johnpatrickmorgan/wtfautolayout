@@ -1,0 +1,358 @@
+{
+  "constraints" : [
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView<\/code>'s width should equal <code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">ScrollView<\/code>'s width.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7fed434775c0",
+          "className" : "UIStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x600001707c50",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7fed24024000",
+          "className" : "UIScrollView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "S",
+          "name" : "ScrollView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">Please keep this key in a...<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_<\/code>'s leading edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fed2355f060",
+          "className" : "UILabel",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "Please keep this key in a...",
+          "initial" : "P",
+          "name" : "Please keep this key in a...",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x6000017e8e60",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-alignment",
+        "initial" : "U",
+        "name" : "UISV-alignment"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fed43476280",
+          "className" : "_TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_",
+          "color" : "rgb(241,196,15)",
+          "initial" : "T",
+          "name" : "_TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">Please keep this key in a...<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #F1C40F inset; padding-bottom: 1px;\">_TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_<\/code>'s trailing edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x7fed2355f060",
+          "className" : "UILabel",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "Please keep this key in a...",
+          "initial" : "P",
+          "name" : "Please keep this key in a...",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x6000017e8ff0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-alignment",
+        "initial" : "U",
+        "name" : "UISV-alignment"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x7fed43476280",
+          "className" : "_TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_",
+          "color" : "rgb(241,196,15)",
+          "initial" : "T",
+          "name" : "_TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">Please keep this key in a...<\/code>'s trailing edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x600000d7ea00",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(231,76,60)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x6000017e8dc0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-canvas-connection",
+        "initial" : "U",
+        "name" : "UISV-canvas-connection"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x7fed2355f060",
+          "className" : "UILabel",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "Please keep this key in a...",
+          "initial" : "P",
+          "name" : "Please keep this key in a...",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #3498DB inset; padding-bottom: 1px;\">Please keep this key in a...<\/code>'s leading edge.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x600000d7ea00",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(231,76,60)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "‡",
+        "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+      },
+      "identity" : {
+        "address" : "0x6000017e8be0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UISV-canvas-connection",
+        "initial" : "U",
+        "name" : "UISV-canvas-connection"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fed2355f060",
+          "className" : "UILabel",
+          "color" : "rgb(52,152,219)",
+          "identifier" : "Please keep this key in a...",
+          "initial" : "P",
+          "name" : "Please keep this key in a...",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #1ABC9C inset; padding-bottom: 1px;\">ScrollView<\/code>'s width should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "width"
+        },
+        "instance" : {
+          "address" : "0x7fed24024000",
+          "className" : "UIScrollView",
+          "color" : "rgb(26,188,156)",
+          "initial" : "S",
+          "name" : "ScrollView",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x6000017e9130",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Width",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Width"
+      },
+      "relation" : "=="
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "22"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s leading edge should equal <code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView<\/code>'s leading edge plus 22.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x600000d7ea00",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(231,76,60)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6000017e8a00",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-leftMargin-guide-constraint",
+        "initial" : "U",
+        "name" : "UIView-leftMargin-guide-constraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "leading"
+        },
+        "instance" : {
+          "address" : "0x7fed434775c0",
+          "className" : "UIStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "22"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #D35400 inset; padding-bottom: 1px;\">StackView<\/code>'s trailing edge should equal <code style=\"box-shadow: 0px -1px 0px #E74C3C inset; padding-bottom: 1px;\">UIViewLayoutMarginsGuide<\/code>'s trailing edge plus 22.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x7fed434775c0",
+          "className" : "UIStackView",
+          "color" : "rgb(211,84,0)",
+          "initial" : "S",
+          "name" : "StackView",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x6000017e8aa0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-rightMargin-guide-constraint",
+        "initial" : "U",
+        "name" : "UIView-rightMargin-guide-constraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "trailing"
+        },
+        "instance" : {
+          "address" : "0x600000d7ea00",
+          "className" : "UILayoutGuide",
+          "color" : "rgb(231,76,60)",
+          "identifier" : "UIViewLayoutMarginsGuide",
+          "initial" : "U",
+          "name" : "UIViewLayoutMarginsGuide",
+          "suffix" : ""
+        }
+      }
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "‡",
+      "text" : "This constraint was added by a stack view to enforce its spacing, distribution or alignment."
+    },
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}
