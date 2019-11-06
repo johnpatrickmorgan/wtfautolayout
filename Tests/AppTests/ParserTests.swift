@@ -38,7 +38,8 @@ class ParserTests: XCTestCase {
             Input.issue5,
             Input.issue10,
             Input.issue13,
-            Input.issue16
+            Input.issue16,
+            Input.issue18
         ]
         
         for input in inputs {

@@ -83,4 +83,15 @@ extension Input {
     static let issue16 = """
         "<SnapKit.LayoutConstraint:0x7feb4e8fa260@PViewController+Ext.swift#21 App_Debug.StackView:0x7feb4e8d58b0.leading == UILayoutGuide:0x7feb50d2aa70.leading + 10.0>"
     """
+    
+    static let issue18 = """
+        "<NSLayoutConstraint:0x600001707c50 UIStackView:0x7fed434775c0.width == UIScrollView:0x7fed24024000.width   (active)>",
+        "<NSLayoutConstraint:0x6000017e8e60 'UISV-alignment' UILabel:0x7fed2355f060'Please keep this key in a...'.leading == _TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_:0x7fed43476280.leading   (active)>",
+        "<NSLayoutConstraint:0x6000017e8ff0 'UISV-alignment' UILabel:0x7fed2355f060'Please keep this key in a...'.trailing == _TtGC8MyAppXYZ8CardViewCS_P10$10582914415RecoveryKeyView_:0x7fed43476280.trailing   (active)>",
+        "<NSLayoutConstraint:0x6000017e8dc0 'UISV-canvas-connection' UILayoutGuide:0x600000d7ea00'UIViewLayoutMarginsGuide'.trailing == UILabel:0x7fed2355f060'Please keep this key in a...'.trailing   (active)>",
+        "<NSLayoutConstraint:0x6000017e8be0 'UISV-canvas-connection' UILayoutGuide:0x600000d7ea00'UIViewLayoutMarginsGuide'.leading == UILabel:0x7fed2355f060'Please keep this key in a...'.leading   (active)>",
+        "<NSLayoutConstraint:0x6000017e9130 'UIView-Encapsulated-Layout-Width' UIScrollView:0x7fed24024000.width == 0   (active)>",
+        "<NSLayoutConstraint:0x6000017e8a00 'UIView-leftMargin-guide-constraint' H:|-(22)-[UILayoutGuide:0x600000d7ea00'UIViewLayoutMarginsGuide'](LTR)   (active, names: '|':UIStackView:0x7fed434775c0 )>",
+        "<NSLayoutConstraint:0x6000017e8aa0 'UIView-rightMargin-guide-constraint' H:[UILayoutGuide:0x600000d7ea00'UIViewLayoutMarginsGuide']-(22)-|(LTR)   (active, names: '|':UIStackView:0x7fed434775c0 )>"
+        """
 }
