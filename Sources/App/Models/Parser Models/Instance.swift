@@ -14,9 +14,9 @@ extension Instance: Equatable, Hashable {
         return lhs.address == rhs.address
     }
     
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
         
-        return address.hashValue
+        address.hash(into: &hasher)
     }
 }
 
