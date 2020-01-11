@@ -14,7 +14,7 @@ extension ConstraintGroup {
     func leafNode(includePermalink: Bool = false) -> LeafNode {
         
         var permalink: String? {
-            let trimmed = raw.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+            let trimmed = raw.addingPercentEncoding(withAllowedCharacters: .urlQueryArgumentAllowed)
             return (trimmed?.count ?? 0) < maximumPermalinkLength ? trimmed : nil
         }
         

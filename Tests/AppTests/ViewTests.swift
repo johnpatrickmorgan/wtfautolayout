@@ -78,7 +78,7 @@ class ViewTests: XCTestCase {
         
         for input in inputs {
             let app = try App.app(.testing)
-            let log = input.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+            let log = input.addingPercentEncoding(withAllowedCharacters: .urlQueryArgumentAllowed)!
             let url = URL(string: "/?constraintlog=\(log)")!
             let response = try app.get(url: url)
             
