@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 19760
+content-length: 19768
 
 
 
@@ -361,7 +361,7 @@ content-length: 19760
 <p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints</code> to false on this view.</p>
 
 
-<a href="?constraintlog=(%0A%22%3C_UILayoutSupportConstraint:0x1272e5820%20V:%5B_UILayoutGuide:0x1271a5500(0)%5D%3E%22,%0A%22%3C_UILayoutSupportConstraint:0x1272cd510%20_UILayoutGuide:0x1271a5500.bottom%20==%20UIView:0x128321830.bottom%3E%22,%0A%22%3CNSLayoutConstraint:0x127225340%20V:%5BUICollectionView:0x126963e00(230)%5D%3E%22,%0A%22%3CNSLayoutConstraint:0x128325fd0%20V:%5BUICollectionView:0x126963e00%5D-(87)-%5B_UILayoutGuide:0x1271a5500%5D%3E%22,%0A%22%3CNSLayoutConstraint:0x1272e51f0%20&#39;UIView-Encapsulated-Layout-Height&#39;%20V:%5BUIView:0x128321830(568)%5D%3E%22,%0A%22%3CNSAutoresizingMaskLayoutConstraint:0x1272ed5f0%20h=---%20v=---%20&#39;UIView-Encapsulated-Layout-Top&#39;%20V:%5BUIView:0x128321830%5D-(0)-%7C%20(Names:%20&#39;%7C&#39;:UICollectionView:0x126963e00)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
+<a href="?constraintlog=(%0A%22%3C_UILayoutSupportConstraint:0x1272e5820%20V:%5B_UILayoutGuide:0x1271a5500(0)%5D%3E%22,%0A%22%3C_UILayoutSupportConstraint:0x1272cd510%20_UILayoutGuide:0x1271a5500.bottom%20%3D%3D%20UIView:0x128321830.bottom%3E%22,%0A%22%3CNSLayoutConstraint:0x127225340%20V:%5BUICollectionView:0x126963e00(230)%5D%3E%22,%0A%22%3CNSLayoutConstraint:0x128325fd0%20V:%5BUICollectionView:0x126963e00%5D-(87)-%5B_UILayoutGuide:0x1271a5500%5D%3E%22,%0A%22%3CNSLayoutConstraint:0x1272e51f0%20&#39;UIView-Encapsulated-Layout-Height&#39;%20V:%5BUIView:0x128321830(568)%5D%3E%22,%0A%22%3CNSAutoresizingMaskLayoutConstraint:0x1272ed5f0%20h%3D---%20v%3D---%20&#39;UIView-Encapsulated-Layout-Top&#39;%20V:%5BUIView:0x128321830%5D-(0)-%7C%20(Names:%20&#39;%7C&#39;:UICollectionView:0x126963e00)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
 
 
     </div>

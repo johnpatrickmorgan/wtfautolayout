@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 18913
+content-length: 18917
 
 
 
@@ -338,7 +338,7 @@ content-length: 18913
 
 
 
-<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x608000880dc0%20V:%5BVeryLargeLabelWithBorder...%5D-(3)-%7C%20%20%20(active,%20names:%20VeryLargeLabelWithBorder...:0x7fa4d60764b0,%20&#39;%7C&#39;:UIView:0x7fa4d6079490%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x60800068f000%20V:%7C-(3)-%5BVeryLargeLabelWithBorder...%5D%20%20%20(active,%20names:%20VeryLargeLabelWithBorder...:0x7fa4d60764b0,%20&#39;%7C&#39;:UIView:0x7fa4d6079490%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000695130%20UIView:0x7fa4d6079060.height%20==%200%20%20%20(active)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000887620%20V:%5BUIView:0x7fa4d6079490%5D-(0)-%7C%20%20%20(active,%20names:%20&#39;%7C&#39;:UIView:0x7fa4d6079060%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000699be0%20V:%7C-(0)-%5BUIView:0x7fa4d6079490%5D%20%20%20(active,%20names:%20&#39;%7C&#39;:UIView:0x7fa4d6079060%20)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
+<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x608000880dc0%20V:%5BVeryLargeLabelWithBorder...%5D-(3)-%7C%20%20%20(active,%20names:%20VeryLargeLabelWithBorder...:0x7fa4d60764b0,%20&#39;%7C&#39;:UIView:0x7fa4d6079490%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x60800068f000%20V:%7C-(3)-%5BVeryLargeLabelWithBorder...%5D%20%20%20(active,%20names:%20VeryLargeLabelWithBorder...:0x7fa4d60764b0,%20&#39;%7C&#39;:UIView:0x7fa4d6079490%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000695130%20UIView:0x7fa4d6079060.height%20%3D%3D%200%20%20%20(active)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000887620%20V:%5BUIView:0x7fa4d6079490%5D-(0)-%7C%20%20%20(active,%20names:%20&#39;%7C&#39;:UIView:0x7fa4d6079060%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000699be0%20V:%7C-(0)-%5BUIView:0x7fa4d6079490%5D%20%20%20(active,%20names:%20&#39;%7C&#39;:UIView:0x7fa4d6079060%20)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
 
 
     </div>

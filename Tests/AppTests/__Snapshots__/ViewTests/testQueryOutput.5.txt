@@ -1,7 +1,9 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 4838
-  
+content-length: 14786
+
+
+
 
 
 
@@ -50,7 +52,7 @@ content-length: 4838
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-78016335-2', 'auto');
-      ga('send', 'pageview', 'error');
+      ga('send', 'pageview', 'output');
 
     </script>
     
@@ -58,6 +60,38 @@ content-length: 4838
 <body class="w3-theme-l5">
     
 
+
+
+<!-- SVG Definitions -->
+
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+<path d="M6,0 L6,6 L0,3 z" fill="#000" />
+      </marker>
+      <marker id="arrowEnd" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+          <path d="M0,0 L0,6 L6,3 z" fill="#000" />
+      </marker>
+      <rect id="diagram-background" style="stroke-width:1;stroke:rgb(0,0,0);" width="100%" height="100%" />
+      <rect id="margin-rect" style="stroke-width:1;stroke-dasharray:1,2;stroke:rgb(0,0,0);fill-opacity:0" width="80%" height="80%" />
+      <polyline id="leading" class="diagram-line" points="0,0 0,50" style="stroke-width: 12%;"/>
+      <polyline id="trailing" class="diagram-line" points="50,50 50,0" style="stroke-width: 12%;"/>
+      <polyline id="top" class="diagram-line" points="0,0 50,0" style="stroke-width: 12%;"/>
+      <polyline id="bottom" class="diagram-line" points="50,50 0,50" style="stroke-width: 12%;"/>
+      <polyline id="leadingMargin" class="diagram-line" points="5,0 5,50" style="stroke-width: 12%;"/>
+      <polyline id="trailingMargin" class="diagram-line" points="45,50 45,0" style="stroke-width: 12%;"/>
+      <polyline id="topMargin" class="diagram-line" points="0,5 50,5" style="stroke-width: 12%;"/>
+      <polyline id="bottomMargin" class="diagram-line" points="50,45 0,45" style="stroke-width: 12%;"/>
+      <polyline id="firstBaseline" class="diagram-line" points="0,46 50,46" style="stroke-width: 8%;stroke-dasharray:2,6;"/>
+      <polyline id="lastBaseline" class="diagram-line" points="0,46 50,46" style="stroke-width: 8%;stroke-dasharray:2,6;"/>
+      <polyline id="centerY" class="diagram-line" points="0,25 50,25" style="stroke-width: 12%;"/>
+      <polyline id="centerX" class="diagram-line" points="25,50 25,0" style="stroke-width: 12%;"/>
+      <polyline id="centerYWithinMargins" class="diagram-line" points="0,25 50,25" style="stroke-width: 12%;"/>
+      <polyline id="centerXWithinMargins" class="diagram-line" points="25,50 25,0" style="stroke-width: 12%;"/>
+      <polyline id="width" class="diagram-line" points="15,25 35,25" style="stroke-width: 12%;" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+      <polyline id="height" class="diagram-line" points="25,35 25,15" style="stroke-width: 12%;" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+    </defs>
+</svg>
 
 
 <!-- Navbar -->
@@ -76,34 +110,175 @@ content-length: 4838
 <div class="w3-main main">
     <div class="w3-content w3-container w3-padding-32">
         
-    <!-- Hero -->
 
-<div class="hero flex-container w3-padding-16">
-  <img class="logo w3-padding-small" width="80" src="images/wtf-logo.svg" alt="WTF Auto Layout logo"/>
-  <div class="w3-padding-small">
-    <h2>Why The Failure,<br /><strong>Auto Layout</strong>?</h2>
-  </div>
+<!-- Constraints -->
+
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(41,128,185)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">V</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#width" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>View</strong>.width<br />
+                    UIView<br />
+                    0x7f95000e5ac0
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+
+
+            <div class="constant w3-padding-small w3-cell w3-cell-middle">
+                70
+            </div>
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;">View</code>'s width should equal 70.<sup>*</sup>
+    </div>
+</div>
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">D</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#width" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>DetailViewFeatureItemCell</strong>.width<br />
+                    DetailViewFeatureItemCell...<br />
+                    0x7f95000e5e50
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+
+
+            <div class="constant w3-padding-small w3-cell w3-cell-middle">
+                54
+            </div>
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">DetailViewFeatureItemCell</code>'s width should equal 54.<sup></sup>
+    </div>
+</div>
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">D</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#centerX" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>DetailViewFeatureItemCell</strong>.centerX<br />
+                    DetailViewFeatureItemCell...<br />
+                    0x7f95000e5e50
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+            <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(41,128,185)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">V</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#centerX" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>View</strong>.centerX<br />
+                    UIView<br />
+                    0x7f95000e5ac0
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">DetailViewFeatureItemCell</code>'s horizontal center should equal <code style="box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;">View</code>'s horizontal center.<sup></sup>
+    </div>
+</div>
+
+<div class="row flex-container w3-white w3-hover-shadow w3-section w3-border">
+    <div class="pictorial w3-dark-grey" style="margin:auto;">
+        <div class="flex-container">
+            <div class="w3-container w3-padding-small icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(41,128,185)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">V</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#trailing" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>View</strong>.trailing<br />
+                    UIView<br />
+                    0x7f95000e5ac0
+                </div>
+            </div>
+            <div class="relationship w3-padding-small w3-cell w3-cell-middle">
+                ==
+            </div>
+
+            <div class="w3-container w3-padding-small w3-cell w3-cell-middle icon w3-tooltip">
+                <svg class="w3-card" style="overflow:visible;" width="50" height="50">
+                    <use xlink:href="#diagram-background" style="fill:rgb(243,156,18)" x="0" y="0" />
+
+                    <text class="initial w3-opacity-max" x="50%" y="50%" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" fill="white">D</text>
+                    <text class="suffix w3-opacity-max" x="95%" y="95%" text-anchor="end" fill="white"></text>
+                    <use xlink:href="#trailing" x="0" y="0" />
+                </svg>
+                <div class="tooltip w3-text w3-card w3-white w3-round w3-animate-opacity w3-padding">
+                    <strong>DetailViewFeatureItemCell</strong>.trailing<br />
+                    DetailViewFeatureItemCell...<br />
+                    0x7f95000e5e50
+                </div>
+            </div>
+
+
+
+            <div class="constant w3-padding-small w3-cell w3-cell-middle">
+                - 2
+            </div>
+
+        </div>
+    </div>
+    <div class="description w3-padding-small w3-mobile w3-cell w3-cell-middle">
+        <code style="box-shadow: 0px -1px 0px #2980B9 inset; padding-bottom: 1px;">View</code>'s trailing edge should equal <code style="box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;">DetailViewFeatureItemCell</code>'s trailing edge minus 2.<sup></sup>
+    </div>
 </div>
 
 
-    <!-- Form -->
+<p class="footnotes"><sup>*</sup> This constraint was translated from an autoresizing mask. If this was not intended, try setting <code>translatesAutoresizingMaskIntoConstraints</code> to false on this view.</p>
 
-    <div class="w3-container">
-        <form action="/" class="w3-container" method="post">
-            <label class="w3-label">Paste your constraint error log here:</label>
-            <textarea class="mono w3-input w3-border w3-round w3-hover-light-gray" wrap="off" rows="10" name="constraintlog" required="required" placeholder="Paste your constraint error logs: just the part surrounded by ( and )" autofocus>(
-&quot;&lt;NSAutoresizingMaskLayoutConstraint:0x60000089a130 h=--</textarea>
-            <a href="/?example=true" class="w3-button w3-round-large w3-green w3-margin-top">Example</a>
-            <button class="w3-button w3-right w3-round-large w3-blue w3-margin-top">Go!</button>
-        </form>
-
- <div class="alert mono w3-panel w3-margin w3-pale-red"><pre>Line 2, Column 57
-&quot;&lt;NSAutoresizingMaskLayoutConstraint:0x60000089a130 h=--
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-Expected: autoresizing mask info in constraint instance
-Expected: &#39;.&#39; in dot attribute
-Expected: valid partial identifier character</pre></div> 
-    </div>
 
 
     </div>

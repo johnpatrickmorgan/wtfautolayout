@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 15006
+content-length: 15022
 
 
 
@@ -276,7 +276,7 @@ content-length: 15006
 <p class="footnotes"><sup>â </sup> This constraint was added by a table or collection view to enforce its cell size.</p>
 
 
-<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x69c2f0%20UIImageView:0x7fd382f50.height%20==%2060%3E%22,%0A%22%3CNSLayoutConstraint:0x69a8b0%20UIImageView:0x7fd382f50.top%20==%20UITableViewCell:0x7fd39b20.top%3E%22,%0A%22%3CNSLayoutConstraint:0x697ca0%20UITableViewCell:0x7fd39b20.bottom%20==%20UIImageView:0x7fd382f50.bottom%3E%22,%0A%22%3CNSLayoutConstraint:0x697d40%20&#39;UIView-Encapsulated-Layout-Height&#39;%20UITableViewCell:0x7fd39b20.height%20==%2080%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
+<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x69c2f0%20UIImageView:0x7fd382f50.height%20%3D%3D%2060%3E%22,%0A%22%3CNSLayoutConstraint:0x69a8b0%20UIImageView:0x7fd382f50.top%20%3D%3D%20UITableViewCell:0x7fd39b20.top%3E%22,%0A%22%3CNSLayoutConstraint:0x697ca0%20UITableViewCell:0x7fd39b20.bottom%20%3D%3D%20UIImageView:0x7fd382f50.bottom%3E%22,%0A%22%3CNSLayoutConstraint:0x697d40%20&#39;UIView-Encapsulated-Layout-Height&#39;%20UITableViewCell:0x7fd39b20.height%20%3D%3D%2080%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
 
 
     </div>

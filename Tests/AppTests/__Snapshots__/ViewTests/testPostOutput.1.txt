@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 15434
+content-length: 15442
 
 
 
@@ -284,7 +284,7 @@ content-length: 15434
 <p class="footnotes"><sup>â </sup> This constraint was added by a table or collection view to enforce its cell size.</p>
 
 
-<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x6080004835c0%20UIStackView:0x7fa4d0dece70.height%20==%2024%20%20%20(active)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000687440%20V:%7C-(21)-%5BUIStackView:0x7fa4d0dece70%5D%20%20%20(active,%20names:%20&#39;%7C&#39;:Proto.HeaderView:0x7fa4d0df1370%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000890860%20V:%5BUIStackView:0x7fa4d0dece70%5D-(9)-%7C%20%20%20(active,%20names:%20&#39;%7C&#39;:Proto.HeaderView:0x7fa4d0df1370%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x600000a85d70%20&#39;UIView-Encapsulated-Layout-Height&#39;%20Proto.HeaderView:0x7fa4d0df1370.height%20==%202.22507e-308%20%20%20(active)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
+<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x6080004835c0%20UIStackView:0x7fa4d0dece70.height%20%3D%3D%2024%20%20%20(active)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000687440%20V:%7C-(21)-%5BUIStackView:0x7fa4d0dece70%5D%20%20%20(active,%20names:%20&#39;%7C&#39;:Proto.HeaderView:0x7fa4d0df1370%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x608000890860%20V:%5BUIStackView:0x7fa4d0dece70%5D-(9)-%7C%20%20%20(active,%20names:%20&#39;%7C&#39;:Proto.HeaderView:0x7fa4d0df1370%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x600000a85d70%20&#39;UIView-Encapsulated-Layout-Height&#39;%20Proto.HeaderView:0x7fa4d0df1370.height%20%3D%3D%202.22507e-308%20%20%20(active)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
 
 
     </div>

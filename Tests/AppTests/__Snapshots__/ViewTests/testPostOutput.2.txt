@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 content-type: text/html; charset=utf-8
-content-length: 14614
+content-length: 14618
 
 
 
@@ -255,7 +255,7 @@ content-length: 14614
 
 
 
-<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x600000685780%20MyCircleView:0x7fa4d0e8b8e0.leading%20==%20name_label:0x7fa4d0e9e480.leading%20%20%20(active,%20names:%20name_label:0x7fa4d0e9e480%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x6000006857d0%20H:%7C-(6)-%5BMyCircleView:0x7fa4d0e8b8e0%5D%20%20%20(active,%20names:%20OverViewFactorLabel:0x7fa4d0e8b450,%20&#39;%7C&#39;:OverViewFactorLabel:0x7fa4d0e8b450%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x600000482e90%20H:%7C-(0)-%5Bname_label%5D%20%20%20(active,%20names:%20name_label:0x7fa4d0e9e480,%20OverViewFactorLabel:0x7fa4d0e8b450,%20&#39;%7C&#39;:OverViewFactorLabel:0x7fa4d0e8b450%20)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
+<a href="?constraintlog=(%0A%22%3CNSLayoutConstraint:0x600000685780%20MyCircleView:0x7fa4d0e8b8e0.leading%20%3D%3D%20name_label:0x7fa4d0e9e480.leading%20%20%20(active,%20names:%20name_label:0x7fa4d0e9e480%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x6000006857d0%20H:%7C-(6)-%5BMyCircleView:0x7fa4d0e8b8e0%5D%20%20%20(active,%20names:%20OverViewFactorLabel:0x7fa4d0e8b450,%20&#39;%7C&#39;:OverViewFactorLabel:0x7fa4d0e8b450%20)%3E%22,%0A%22%3CNSLayoutConstraint:0x600000482e90%20H:%7C-(0)-%5Bname_label%5D%20%20%20(active,%20names:%20name_label:0x7fa4d0e9e480,%20OverViewFactorLabel:0x7fa4d0e8b450,%20&#39;%7C&#39;:OverViewFactorLabel:0x7fa4d0e8b450%20)%3E%22%0A)" class="w3-button w3-right w3-blue w3-round-large w3-margin-top">Permalink</a>
 
 
     </div>
