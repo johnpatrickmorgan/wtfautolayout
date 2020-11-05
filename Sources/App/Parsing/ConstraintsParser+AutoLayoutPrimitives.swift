@@ -23,6 +23,12 @@ extension ConstraintsParser {
     
     static let number = numberString.map(parseDouble)
         .named("number")
+    
+    static let spacing = number.otherwise(spacedNumber)
+    
+    static let defaultedRelation = optional(relation).map { $0 ?? .equal }
+    
+    static let extent = defaultedRelation.then(spacing)
 }
 
 private extension ConstraintsParser {
@@ -34,6 +40,10 @@ private extension ConstraintsParser {
     static let postDecimal = character(".").then(integer).map { "\($0)\($1)" }
     static let decimal = signedInteger.then(optional(postDecimal)).map { "\($0)\($1 ?? "")" }
     static let numberString = decimal.then(optional(exponent)).map { "\($0)\($1 ?? "")" }
+    
+    static let spacingTerm = string("NSSpace")
+        .otherwise(string("NSLayoutAnchorConstraintSpace"))
+    static let spacedNumber = spacingTerm.skipThen(string("(")).skipThen(number).thenSkip(")")
     
     static func parserForAttribute(_ attribute: Attribute) -> Parser<Attribute> {
         let attributeParser = attribute.labels.reduce(pureError(), { string($1).otherwise($0) })

@@ -1,0 +1,125 @@
+{
+  "constraints" : [
+    {
+      "constant" : {
+        "prefix" : "+ ",
+        "value" : "8"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">Label<\/code>'s top edge should be at least <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ClassName<\/code>'s top edge plus 8.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x111b35c20",
+          "className" : "UILabel",
+          "color" : "rgb(243,156,18)",
+          "initial" : "L",
+          "name" : "Label",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x2828051d0",
+        "className" : "_UISystemBaselineConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "U",
+        "name" : "_UISystemBaselineConstraint"
+      },
+      "relation" : ">=",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "top"
+        },
+        "instance" : {
+          "address" : "0x111b35a60",
+          "className" : "ModuleName.ClassName",
+          "color" : "rgb(192,57,43)",
+          "initial" : "C",
+          "name" : "ClassName",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #F39C12 inset; padding-bottom: 1px;\">Label<\/code>'s vertical center should equal <code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ClassName<\/code>'s vertical center.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerY"
+        },
+        "instance" : {
+          "address" : "0x111b35c20",
+          "className" : "UILabel",
+          "color" : "rgb(243,156,18)",
+          "initial" : "L",
+          "name" : "Label",
+          "suffix" : ""
+        }
+      },
+      "identity" : {
+        "address" : "0x282805130",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "initial" : "N",
+        "name" : "NSLayoutConstraint"
+      },
+      "relation" : "==",
+      "second" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "centerY"
+        },
+        "instance" : {
+          "address" : "0x111b35a60",
+          "className" : "ModuleName.ClassName",
+          "color" : "rgb(192,57,43)",
+          "initial" : "C",
+          "name" : "ClassName",
+          "suffix" : ""
+        }
+      }
+    },
+    {
+      "constant" : {
+        "value" : "0"
+      },
+      "description" : "<code style=\"box-shadow: 0px -1px 0px #C0392B inset; padding-bottom: 1px;\">ClassName<\/code>'s height should equal 0.",
+      "first" : {
+        "attribute" : {
+          "includesMargin" : false,
+          "name" : "height"
+        },
+        "instance" : {
+          "address" : "0x111b35a60",
+          "className" : "ModuleName.ClassName",
+          "color" : "rgb(192,57,43)",
+          "initial" : "C",
+          "name" : "ClassName",
+          "suffix" : ""
+        }
+      },
+      "footnote" : {
+        "marker" : "†",
+        "text" : "This constraint was added by a table or collection view to enforce its cell size."
+      },
+      "identity" : {
+        "address" : "0x282803ed0",
+        "className" : "NSLayoutConstraint",
+        "color" : "rgb(26,188,156)",
+        "identifier" : "UIView-Encapsulated-Layout-Height",
+        "initial" : "U",
+        "name" : "UIView-Encapsulated-Layout-Height"
+      },
+      "relation" : "=="
+    }
+  ],
+  "footnotes" : [
+    {
+      "marker" : "†",
+      "text" : "This constraint was added by a table or collection view to enforce its cell size."
+    }
+  ]
+}
