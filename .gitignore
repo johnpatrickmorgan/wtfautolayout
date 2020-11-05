@@ -1,15 +1,16 @@
 
-# Created by https://www.gitignore.io/api/vapor
+## MacOS ##
+.DS_Store
+
+## Xcode ##
+DerivedData/
+xcuserdata
+*.xcodeproj
+
+## Swift Package Manager ##
+Packages
+.swiftpm
+.build
 
 ### Vapor ###
 Config/secrets
-
-### Vapor Patch ###
-Packages
-.build
-xcuserdata
-*.xcodeproj
-DerivedData/
-.DS_Store
-
-# End of https://www.gitignore.io/api/vapor
