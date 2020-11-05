@@ -5,6 +5,10 @@ import SnapshotTesting
 
 class ViewTests: XCTestCase {
     
+    override static func setUp() {
+//        SnapshotTesting.record = true
+    }
+    
     static let allTests = [
         ("testHome", testHome),
         ("testAbout", testAbout),

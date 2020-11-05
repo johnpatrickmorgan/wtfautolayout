@@ -94,4 +94,12 @@ extension Input {
         "<NSLayoutConstraint:0x6000017e8a00 'UIView-leftMargin-guide-constraint' H:|-(22)-[UILayoutGuide:0x600000d7ea00'UIViewLayoutMarginsGuide'](LTR)   (active, names: '|':UIStackView:0x7fed434775c0 )>",
         "<NSLayoutConstraint:0x6000017e8aa0 'UIView-rightMargin-guide-constraint' H:[UILayoutGuide:0x600000d7ea00'UIViewLayoutMarginsGuide']-(22)-|(LTR)   (active, names: '|':UIStackView:0x7fed434775c0 )>"
         """
+    
+    static let issue20 = """
+    (
+        "<_UISystemBaselineConstraint:0x2828051d0 V:|-(>=NSLayoutAnchorConstraintSpace(8))-[UILabel:0x111b35c20]   (active, names: '|':ModuleName.ClassName:0x111b35a60 )>",
+        "<NSLayoutConstraint:0x282805130 UILabel:0x111b35c20.centerY == ModuleName.ClassName:0x111b35a60.centerY   (active)>",
+        "<NSLayoutConstraint:0x282803ed0 'UIView-Encapsulated-Layout-Height' ModuleName.ClassName:0x111b35a60.height == 0   (active)>"
+    )
+    """
 }
